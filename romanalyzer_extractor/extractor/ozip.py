@@ -1,12 +1,23 @@
 from pathlib import Path
-from utils import rmf, execute
-from extractor.base import Extractor
-from extractor.archive import ArchiveExtractor
+from ..utils import rmf, execute
+from .base import Extractor
+from .archive import ArchiveExtractor
+
 
 class OZipExtractor(Extractor):
+    '''
+    Ozip - OPPO package
+    '''
 
-    tool = Path('romanalyzer_extractor/tools/oppo_ozip_decrypt/ozipdecrypt.py').absolute()
+    tool = Path(
+        'romanalyzer_extractor/tools/oppo_ozip_decrypt/ozipdecrypt.py').absolute()
+
     def extract(self):
+        '''
+        run `tools/oppo_ozip_decrypt/ozipdecrypt.py` to convert ozip -> zip, then unarchive it
+
+        return extracted path; None for err
+        '''
         self.log.debug("OZip extract target: {}".format(self.target))
         self.log.debug("\tstart extract archive.")
 
@@ -21,9 +32,10 @@ class OZipExtractor(Extractor):
         extractor = ArchiveExtractor(converted_zip)
         self.extracted = extractor.extract()
         rmf(converted_zip)
-        if self.extracted and self.extracted.exists(): 
+        if self.extracted and self.extracted.exists():
             self.log.debug("\textracted path: {}".format(self.extracted))
             return self.extracted
         else:
-            self.log.warn("\tfailed to extract {} using unzip".format(converted_zip))
+            self.log.warn(
+                "\tfailed to extract {} using unzip".format(converted_zip))
             return None

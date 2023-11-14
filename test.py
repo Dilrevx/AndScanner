@@ -114,8 +114,9 @@ def runAppAnalyzer(targetDir, reportDir):
 if __name__ == "__main__":
 
     # replace with your firmware path
-    rom_file = '/data/shennong_images_OS1.0.9.0.UNBCNXM_20231025.0000.00_14.0_cn_7962c872df.tgz'
-    rom_brand = 'huawei'  # replace with your rom's brand
+    rom_file = os.path.join(
+        '/data', 'cheetah-td1a.220804.009.a2-factory-8e7393e1.zip')
+    rom_brand = 'google'  # replace with your rom's brand
 
     rom_path = os.path.abspath(rom_file)
     apk_report = str(rom_path)+'.apk_report/'

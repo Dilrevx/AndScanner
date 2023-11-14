@@ -1,12 +1,16 @@
 from pathlib import Path
 
+
 class DirExtractor(object):
 
     def __init__(self, target):
         self.target = Path(target)
-    
+
     def extract(self):
+        '''
+        return List of files, filter paths
+        '''
         if not self.target.exists() or \
-            not self.target.is_dir():
+                not self.target.is_dir():
             return []
         return [file for file in self.target.rglob('*') if not file.is_dir()]

@@ -35,14 +35,14 @@ LOGCFG = {
             'class': 'logging.FileHandler',
             'filename': 'romanalyzer_extractor/log/analyze.log',
             'mode': 'w',
-        }, 
+        },
         'staticlog': {
             'level': 'DEBUG',
             'formatter': 'default',
             'class': 'logging.FileHandler',
             'filename': 'romanalyzer_extractor/log/static.log',
             'mode': 'w',
-        }, 
+        },
         'downloadlog': {
             'level': 'DEBUG',
             'formatter': 'default',
@@ -140,17 +140,22 @@ LOGCFG = {
 logging.config.dictConfig(LOGCFG)
 log = logging.getLogger('debug')
 
+
 def readcfg(filepath, section='', field=''):
     conf = ConfigParser()
     conf.read(filepath)
-    if not section: 
+    if not section:
         return conf
-    elif section and not field: 
+    elif section and not field:
         return conf[section]
-    else: 
+    else:
         return conf[section][field]
 
+
 def rmf(f):
+    '''
+    wrapper for os.remove
+    '''
     f = Path(f)
     if not f.exists():
         log.warn(u"Failed to remove: {} not exists".format(f.name))
@@ -160,26 +165,33 @@ def rmf(f):
         os.remove(f.absolute())
         log.debug(u"Success removed: {}".format(f.name))
     except Exception as e:
-        log.exception(u"Failed to remove: exception happened. {}".format(f.name))
-    
+        log.exception(
+            u"Failed to remove: exception happened. {}".format(f.name))
+
+
 def rmdir(d):
     d = Path(d)
     if not d.exists():
         log.warn(u"Failed to remove: {} not exists".format(d.name))
         return
-        
+
     try:
         shutil.rmtree(d, ignore_errors=True)
         log.debug(u"Success removed: {}".format(d.name))
     except Exception as e:
         log.exception(e)
 
-def execute(cmd, showlog=True):
+
+def execute(cmd, showlog=True) -> str:
+    '''
+    execute the shell `cmd` and return stdout
+    '''
     output = ''
     try:
         output = subprocess.check_output(cmd, shell=True, encoding='utf-8')
-        if showlog: log.debug(u"Success execute: {}".format(cmd))
+        if showlog:
+            log.debug(u"Success execute: {}".format(cmd))
     except Exception as e:
         log.exception(e)
-        
+
     return output
