@@ -1,5 +1,7 @@
-from utils import execute
-from extractor.base import Extractor
+from ..utils import execute
+from .base import Extractor
+
+
 class BinwalkExtractor(Extractor):
 
     def extract(self):
@@ -12,7 +14,7 @@ class BinwalkExtractor(Extractor):
         execute(cmd)
 
         extracted = '_' + self.target.name + '.extracted'
-        self.extracted =  dirname / extracted
+        self.extracted = dirname / extracted
         if not self.extracted.exists():
             self.log.warn("\textracted 0 files: {}".format(self.target))
             return None
