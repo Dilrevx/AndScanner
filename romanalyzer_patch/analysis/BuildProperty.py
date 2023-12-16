@@ -14,7 +14,11 @@ AndroidVersionSDK = {
     "5.0": "21",
 }
 
+
 def loadBuildProperties(filePath):
+    '''
+    parse `build.prop`, return at least a dict()
+    '''
     buildProperties = dict()
     if not filePath:
         return buildProperties
@@ -37,11 +41,12 @@ class BuildProperty(object):
     def __init__(self, filePath):
         self.buildProperties = loadBuildProperties(filePath)
 
-    def checkBuildProperty(self, buildProperty, expectedValue):
+    def checkBuildProperty(self, buildProperty, expectedValue) -> bool:
         return self.buildProperties.get(buildProperty) == expectedValue
 
     def getChipVendor(self):
-        platform = self.buildProperties.get("ro.board.platform", "UNKNOWN").upper()
+        platform = self.buildProperties.get(
+            "ro.board.platform", "UNKNOWN").upper()
         if platform.startswith("MSM"):
             return "QUALCOMM"
         elif platform.startswith("MT"):
@@ -58,7 +63,8 @@ class BuildProperty(object):
     def getAndroidVersion(self):
         version = self.buildProperties.get("ro.build.version.release")
         if not version:
-            version = self.buildProperties.get("ro.system.build.version.release")
+            version = self.buildProperties.get(
+                "ro.system.build.version.release")
         return version
 
     def getBuildDateUtc(self):
@@ -81,6 +87,9 @@ class BuildProperty(object):
             return result
 
     def isPatchDateClaimed(self, patchReleaseDate):
+        '''
+        return claimDate >= requestDate
+        '''
         patchLevelDate = self.getPatchlevelDate()
 
         if patchLevelDate == None:

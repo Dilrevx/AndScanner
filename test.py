@@ -63,6 +63,11 @@ def rom_extractor(file_path: str, rom_brand: str = None):
 
 
 def path_change(targetFirmware):
+    '''
+    1. `find` build.prop
+
+    2. return `dir/` s.t. dir/build.prop. Rename the last dir to system
+    '''
     path_input = os.popen(
         f'find {targetFirmware} -name "build.prop" -size +1k').read()
 
@@ -114,13 +119,22 @@ def runAppAnalyzer(targetDir, reportDir):
 if __name__ == "__main__":
 
     # replace with your firmware path
-    rom_file = os.path.join(
-        '/data', 'cheetah-td1a.220804.009.a2-factory-8e7393e1.zip')
+    # rom_file = os.path.join(
+    # '/data', 'cheetah-td1a.220804.009.a2-factory-8e7393e1.zip')
+
+    rom_file = '/data/blueline-pd1a.180720.030-factory-d6fefe86.zip'
+
     rom_brand = 'google'  # replace with your rom's brand
 
     rom_path = os.path.abspath(rom_file)
     apk_report = str(rom_path)+'.apk_report/'
 
-    extracted_path = rom_extractor(rom_path, rom_brand)
+    # extracted_path = rom_extractor(rom_path, rom_brand)
+
+    '''
+    Previously manually extracted.
+    '''
+    extracted_path = '/data/blueline-pd1a.180720.030-factory-d6fefe86.zip.extracted/'
+
     runVulnLogic(extracted_path)
     runAppAnalyzer(extracted_path, apk_report)

@@ -1,31 +1,31 @@
+from typing import Tuple, Union, Dict
 import zipfile
 import base64
 import re
 import os
 from pathlib import Path
 
-from rich import print as rich_print
-from rich.progress import track
-
 import lzma
 import json
 from loguru import logger
 import multiprocessing
 
-from analysis.BuildProperty import BuildProperty
-from analysis.signatures.MaskSignature import MaskSignature
-from analysis.signatures.RollingSignature import RollingSignature
-from analysis.signatures.MultiSignatureScanner import MultiSignatureScanner
-from analysis import ProcessHelper
+from .BuildProperty import BuildProperty
+from .signatures.MaskSignature import MaskSignature
+from .signatures.RollingSignature import RollingSignature
+from .signatures.MultiSignatureScanner import MultiSignatureScanner
+from . import ProcessHelper
 
 
 def validateFilename(filename):
     if not filename.startswith("/system"):
-        logger.exception("Filename {}  doesn't start with '/system/".format(filename))
+        logger.exception(
+            "Filename {}  doesn't start with '/system/".format(filename))
         return False
 
     if "/../" in filename:
-        logger.exception("Filename {} contains directory traversal".format(filename))
+        logger.exception(
+            "Filename {} contains directory traversal".format(filename))
         return False
 
     return True
@@ -33,19 +33,25 @@ def validateFilename(filename):
 
 class TestEngine(object):
     def __init__(self, localFirmwareRoot, buildProperty=None):
+        '''
+        1. parse `build.prop` and set ._buildProperties
+        2. init databases
+        3. Load SnoopSnitch TestSuites.
+        '''
         self._localFirmwareRoot = Path(localFirmwareRoot)
         if not buildProperty:
             buildProperty = self.searchBuildProperty()
 
         self._buildProperties = BuildProperty(buildProperty)
 
-        self._buildtest_database = dict()
-        self._vulnerabiliies_databse = dict()
-        self._basicTestResultCache = dict()
+        self._buildtest_database: Dict[str, Dict] = dict()
+        self._vulnerabiliies_databse: Dict[str, Dict] = dict()
+        self._basicTestResultCache: Dict[str, Union[bool, None]] = dict()
         self.loadTestSuites()
 
     def searchBuildProperty(self):
-        outputs = os.popen(f'find {self._localFirmwareRoot} -name "build.prop"').read()
+        outputs = os.popen(
+            f'find {self._localFirmwareRoot} -name "build.prop"').read()
         outputs = outputs.splitlines()
         if not outputs:
             return None
@@ -77,10 +83,20 @@ class TestEngine(object):
                 self._vulnerabiliies_databse.update(data["vulnerabilities"])
 
     def loadTestSuites(self):
-        allTestSuites = json.load(open("romanalyzer_patch/assets/allTestSuites.json"))
+        '''
+        *The `chunk`s have been fetched locally already.*
+
+        get chunk filenames from `allTestSuites.json` and then 
+        load the corresponding `assets/chunks/{filenamae}.json`
+
+        The json data is stored into
+        - ._buildtest_database
+        - ._vulnerabiliies_databse
+        '''
+        allTestSuites = json.load(
+            open("romanalyzer_patch/assets/allTestSuites.json"))
         apiVersion = self._buildProperties.getAndroidAPIVersion()
-        
-        
+
         logger.debug("API Version: {}".format(apiVersion))
         if apiVersion not in allTestSuites:
             logger.exception(
@@ -89,12 +105,14 @@ class TestEngine(object):
             return
         testSuite = allTestSuites[apiVersion]
         basicTestChunks = [
-            "romanalyzer_patch/" + url.replace("https://snoopsnitch-api.srlabs.de", "assets")
+            "romanalyzer_patch/" +
+            url.replace("https://snoopsnitch-api.srlabs.de", "assets")
             for url in testSuite["basicTestUrls"]
         ]
         self.loadChunks(basicTestChunks)
         vulnChunks = [
-            "romanalyzer_patch/" + url.replace("https://snoopsnitch-api.srlabs.de", "assets")
+            "romanalyzer_patch/" +
+            url.replace("https://snoopsnitch-api.srlabs.de", "assets")
             for url in testSuite["vulnerabilitiesUrls"]
         ]
         self.loadChunks(vulnChunks)
@@ -106,10 +124,26 @@ class TestEngine(object):
         return self._vulnerabiliies_databse.get(cve)
 
     def getBasicTestResultByUUID(self, uuid):
+        '''
+        uuid => testType => istestFound
+        '''
         test = self.getBasicTestByUUID(uuid)
         return self.executeBasicTest(test) if test else None
 
     def show_results(self, reports):
+        '''
+        return summary dict object of the form
+
+        {
+            "Summary": {
+                "Patched": TCnt,
+                "Missing": FCnt,
+                "Claimed": DCnt,
+                "Inconclusive": _Cnt,
+                "NotAffected": NCnt,
+            }
+        }
+        '''
         if not reports:
             return dict()
 
@@ -126,8 +160,8 @@ class TestEngine(object):
         print("Inconclusive: {}".format(_Cnt))
         print("NotAffected: {}".format(NCnt))
 
-        #line = ""
-        #for i, res in enumerate(reports):
+        # line = ""
+        # for i, res in enumerate(reports):
         #    if i % 24 == 0:
         #       rich_print(line)
         #       #rich_print()
@@ -143,8 +177,8 @@ class TestEngine(object):
         #       line += "[blue on blue]_[/blue on blue]"
         #   elif res == "D":
         #       line += "[yellow on yellow]D[/yellow on yellow]"
-        #rich_print(line)
-        
+        # rich_print(line)
+
         return {
             "Summary": {
                 "Patched": TCnt,
@@ -155,7 +189,15 @@ class TestEngine(object):
             }
         }
 
-    def testWorker(self, testArgs):
+    def testWorker(self, testArgs: Tuple[str, Dict]):
+        '''
+        return `{#CVE, N | _ | T}`, where 
+        - N: Not affected
+        - _: error(testType unknown | meanwhile fixed and vulnerable)
+        - T: Fixed
+        - D: vulnerable and true patch claim date
+        - F: vulnerable and fake patch claim date
+        '''
         cve, vulnObject = testArgs
         isNotAffected = self.runVulnLogicTest(vulnObject["testNotAffected"])
 
@@ -170,7 +212,8 @@ class TestEngine(object):
         elif isFixed and not isVulnerable:
             return {cve: "T"}
         elif not isFixed and isVulnerable:
-            refPatchlevelDate = vulnObject.get("patchlevelDate") or vulnObject.get("category")
+            refPatchlevelDate = vulnObject.get(
+                "patchlevelDate") or vulnObject.get("category")
             if refPatchlevelDate and not self._buildProperties.isPatchDateClaimed(
                 refPatchlevelDate
             ):
@@ -180,14 +223,14 @@ class TestEngine(object):
         else:
             return {cve: "_"}
 
-    def runAllVulnLogicTest(self):
+    def runAllVulnLogicTest(self) -> Dict[str, Union[str, Dict]]:
         reports = dict()
         totalTasks = len(self._vulnerabiliies_databse)
         logger.debug("Total number of testcase: {}".format(totalTasks))
 
         # pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
         pool = multiprocessing.Pool(processes=8)
-        
+
         taskArgs = (
             [cve, vulnObject]
             for cve, vulnObject in self._vulnerabiliies_databse.items()
@@ -198,7 +241,7 @@ class TestEngine(object):
         #     total=totalTasks,
         #     description="Runing vulnerability testing...",
         # ):
-        
+
         for testResult in pool.imap_unordered(self.testWorker, taskArgs):
             reports.update(testResult)
 
@@ -208,7 +251,15 @@ class TestEngine(object):
         reports.update(summary)
         return reports
 
-    def runVulnLogicTest(self, testObject):
+    def runVulnLogicTest(self, testObject: Union[str, Dict]):
+        '''
+        Recursively run all subtests with parsed boolean logic.
+
+        `testObject` can be one of: UUID, parsed JSON object
+
+        return `None` for no `testType`(AND, XOR, ...) or unknown `testType`
+        return `isTestTargetFound` otherwise
+        '''
         if isinstance(testObject, str):
             result = self.executeBasicTestByUUID(testObject)
             # logger.debug(f"UUID: {testObject} Result: {result}")
@@ -294,6 +345,9 @@ class TestEngine(object):
         queue.put(result)
 
     def executeBasicTestByUUID(self, uuid):
+        '''
+        Execute one basic Test and result if test target is found. Result might be cached
+        '''
         if uuid.startswith("!"):
             subtestResult = self.executeBasicTestByUUID(uuid[1:])
             if subtestResult == None:
@@ -309,9 +363,13 @@ class TestEngine(object):
             return self._basicTestResultCache[uuid]
 
     def executeBasicTest(self, test):
+        '''
+        `in`: parsed test object, containing `testType` field
+        '''
         testType = test.get("testType")
         if not testType:
-            logger.exception("basic test has no testtype information: {}".format(test))
+            logger.exception(
+                "basic test has no testtype information: {}".format(test))
             return None
 
         if testType == "CHIPSET_VENDOR":
@@ -362,14 +420,14 @@ class TestEngine(object):
         
     """
 
-    def runChipsetVendorTest(self, test):
+    def runChipsetVendorTest(self, test) -> bool:
         return self._buildProperties.getChipVendor() == test["VENDOR"]
 
-    def runChipsetVendorOrUnknownTest(self, test):
+    def runChipsetVendorOrUnknownTest(self, test) -> bool:
         vendor = self._buildProperties.getChipVendor()
         return any([vendor == "UNKNOWN", vendor == test["VENDOR"]])
 
-    def runAndroidVersionEqualsTest(self, test):
+    def runAndroidVersionEqualsTest(self, test) -> Union[bool, None]:
         currentAndroidVersion = self._buildProperties.getAndroidVersion()
         return (
             currentAndroidVersion == test["androidVersion"]
@@ -442,6 +500,9 @@ class TestEngine(object):
         return needle in data
 
     def runZipContainsSubstringTest(self, test):
+        '''
+        open `zipFile` and test whether `zipItem` in namelist
+        '''
         filename = test["zipFile"]
         zipitem = test["zipItem"]
         needle = b""
@@ -546,7 +607,8 @@ class TestEngine(object):
                 return ProcessHelper.getSymbolTableEntry(objdumpLines, symbol) != None
             else:
                 return (
-                    ProcessHelper.getSymbolTableEntry(str(filePath.absolute()), symbol)
+                    ProcessHelper.getSymbolTableEntry(
+                        str(filePath.absolute()), symbol)
                     != None
                 )
         except Exception as e:
@@ -590,7 +652,7 @@ class TestEngine(object):
             logger.exception(e)
             return None
 
-    def runDisasFunctionMatchesRegexTest(self, test, objdumpLines=None):
+    def runDisasFunctionMatchesRegexTest(self, test, objdumpLines=None) -> None:
         filename = test["filename"]
         filepath = self.localize(filename)
         symbol = test["symbol"]
@@ -650,7 +712,8 @@ class TestEngine(object):
 
         if not symbolTable:
             logger.exception(
-                "Error: creating symbol table failed for file: {}".format(filepath)
+                "Error: creating symbol table failed for file: {}".format(
+                    filepath)
             )
             return None
 

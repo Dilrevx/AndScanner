@@ -4,7 +4,7 @@ import math
 from hashlib import sha256
 import tempfile
 import os
-from analysis.ProcessHelper import getSigToolCalcOutput
+from ..ProcessHelper import getSigToolCalcOutput
 
 
 class RollingSignature(Signature):
@@ -66,7 +66,8 @@ class RollingSignature(Signature):
         try:
             tempFn = tempfile.NamedTemporaryFile(delete=False)
             tempFn.write(code)
-            logger.debug("Created and wrote to temporary file: {}".format(tempFn.name))
+            logger.debug(
+                "Created and wrote to temporary file: {}".format(tempFn.name))
         except Exception as e:
             logger.exception(
                 "Error while creating or writing temporary file: {}".format(e)
@@ -109,7 +110,8 @@ class RollingSignature(Signature):
         self.checksumOffset = int(signatureData[2:8], 16)
         sigsBin = bytearray.fromhex(parts[2])
         if len(sigsBin) != 16:
-            logger.exception("Malformated signatureString: sigsBin.length != 16")
+            logger.exception(
+                "Malformated signatureString: sigsBin.length != 16")
             return None
         self.checksum1 = sigsBin[:8]
         self.checksum2 = sigsBin[8:]

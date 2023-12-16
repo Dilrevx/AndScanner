@@ -1,10 +1,10 @@
 from loguru import logger
 from pathlib import Path
-from analysis.signatures.MaskSignature import MaskSignature
-from analysis.signatures.RollingSignature import RollingSignature
-from analysis.signatures.Signature import Signature
-from analysis.signatures.SymbolInformation import SymbolInformation
-from analysis import ProcessHelper
+from .MaskSignature import MaskSignature
+from .RollingSignature import RollingSignature
+from .Signature import Signature
+from .SymbolInformation import SymbolInformation
+from .. import ProcessHelper
 
 
 def getSignatureInstance(signatureString):
@@ -32,7 +32,8 @@ class MultiSignatureScanner(object):
             checker = getSignatureInstance(signatureStringOrChecker)
             self.signatureChecker.add(checker)
         else:
-            logger.exception("Error: arguments must be of RollingSignature or str")
+            logger.exception(
+                "Error: arguments must be of RollingSignature or str")
 
     def scanFile(self, filePath):
         # TODO
@@ -69,36 +70,41 @@ class MultiSignatureScanner(object):
 
         if self.isPermissionDeniedError(result):
             logger.debug(
-                "Got 'permission denied error' when accessing file: {}".format(filePath)
+                "Got 'permission denied error' when accessing file: {}".format(
+                    filePath)
             )
             logger.exception(
-                "Error when scanning file: {} - Permission denied.".format(filePath)
+                "Error when scanning file: {} - Permission denied.".format(
+                    filePath)
             )
             return None
 
         result_length = len(result)
         if (result_length % 16) != 0:
             logger.exception(
-                "Output length not a multiple of 16 bytes: {}".format(result_length)
+                "Output length not a multiple of 16 bytes: {}".format(
+                    result_length)
             )
 
         checksumsFound = dict()
         try:
             for i in range(0, len(result), 16):
-                position = Signature.unpack(result[i : i + 4])
-                checksumLen = int(Signature.unpack(result[i + 4 : i + 8]))
+                position = Signature.unpack(result[i: i + 4])
+                checksumLen = int(Signature.unpack(result[i + 4: i + 8]))
                 if position > fileSize:
-                    logger.exception("Parsed symbol position exceeds file size.")
+                    logger.exception(
+                        "Parsed symbol position exceeds file size.")
                     return None
                 if checksumLen >= 1000000:
                     logger.exception("Length of checksum is too big (>= 1e6)")
                     return None
 
-                checksum = result[i + 8 : i + 16]
+                checksum = result[i + 8: i + 16]
                 if checksumLen not in checksumsFound:
                     checksumsFound[checksumLen] = dict()
                 if checksum not in checksumsFound[checksumLen]:
-                    checksumsFound[checksumLen][Signature.bytesToHex(checksum)] = set()
+                    checksumsFound[checksumLen][Signature.bytesToHex(
+                        checksum)] = set()
                 checksumsFound[checksumLen][Signature.bytesToHex(checksum)].add(
                     position
                 )
@@ -126,7 +132,8 @@ class MultiSignatureScanner(object):
                         Signature.bytesToHex(checker.getChecksum2())
                     ):
                         foundItems.add(
-                            SymbolInformation(checker.toString(), pos=found1pos)
+                            SymbolInformation(
+                                checker.toString(), pos=found1pos)
                         )
 
         return foundItems

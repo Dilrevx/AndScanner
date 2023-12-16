@@ -1,4 +1,4 @@
-from analysis.signatures.Signature import Signature
+from ..signatures.Signature import Signature
 from loguru import logger
 from hashlib import sha256
 from collections import namedtuple
@@ -67,7 +67,7 @@ class MaskSignature(Signature):
         maskedCode = bytearray()
         maskPos = 0
         for i in range(0, len(code), 4):
-            instBytes = code[i : i + 4]
+            instBytes = code[i: i + 4]
             if maskPos < len(self.maskList) and self.maskList[maskPos].position == i:
                 inst = Signature.unpack(instBytes)
                 inst = inst & self.maskList[maskPos].mask

@@ -5,7 +5,7 @@ from pathlib import Path
 from loguru import logger
 from collections import namedtuple
 
-from analysis.signatures.SymbolInformation import SymbolInformation
+from .signatures.SymbolInformation import SymbolInformation
 
 OBJDUMP_PATH = "romanalyzer_patch/assets/objdump"
 # OBJDUMP_PATH = "objdump"
@@ -46,7 +46,8 @@ def getFileArchitecture(filepath):
 
 
 def stripSymbolsFromObjFile(filepath, tempFilePath):
-    exitValue = execProcessAndGetExitValue(["strip", "-o", tempFilePath, filepath])
+    exitValue = execProcessAndGetExitValue(
+        ["strip", "-o", tempFilePath, filepath])
     return exitValue == 0
 
 
@@ -128,7 +129,8 @@ def readSymbolTable(filePath):
             return None
         addr = int(addrHex, 16)
         length = int(lenHex, 16)
-        symtable[symbolName] = SymbolInformation(symbolName, addr=addr, length=length)
+        symtable[symbolName] = SymbolInformation(
+            symbolName, addr=addr, length=length)
     sections = list()
     for line in getObjDumpHW(filePath):
         line = line.decode("utf-8").strip()
@@ -155,7 +157,7 @@ def readSymbolTable(filePath):
                 continue
             components = patternWhitespaces.split(line)
             for i in range(len(components)):
-                symbolName = components[i][len(".text.") :]
+                symbolName = components[i][len(".text."):]
                 codeLen = int(components[i + 1], 16)
                 pos = int(components[i + 4], 16)
                 symbolInformation = SymbolInformation(
