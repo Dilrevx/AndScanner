@@ -2,6 +2,7 @@ import subprocess as sp
 import re
 import os
 from pathlib import Path
+from typing import Dict, List
 from loguru import logger
 from collections import namedtuple
 
@@ -16,6 +17,9 @@ Section = namedtuple("Section", ["size", "vma", "fileOffset"])
 
 
 def execProcessAndGetStdout(cmd):
+    '''
+    subprocess.checkoutput.splitlines
+    '''
     return runCommand(cmd)
 
 
@@ -26,14 +30,23 @@ def execProcessAndGetExitValue(cmd):
 
 
 def getObjDumptTOutput(filepath):
+    '''
+    符号表 / 节表
+    '''
     return execProcessAndGetStdout("{} -tT {}".format(OBJDUMP_PATH, filepath))
 
 
 def getObjDumpHW(filepath):
+    '''
+    header
+    '''
     return execProcessAndGetStdout("{} -h -w {}".format(OBJDUMP_PATH, filepath))
 
 
 def getObjDumpHWwithCheck(filepath):
+    '''
+    just @getObjDumpHW
+    '''
     return getObjDumpHW(filepath)
 
 
@@ -46,6 +59,9 @@ def getFileArchitecture(filepath):
 
 
 def stripSymbolsFromObjFile(filepath, tempFilePath):
+    '''
+    remove debug symbol table
+    '''
     exitValue = execProcessAndGetExitValue(
         ["strip", "-o", tempFilePath, filepath])
     return exitValue == 0
@@ -56,6 +72,9 @@ def runObjdumpCommand(params):
 
 
 def runCommand(cmd):
+    '''
+    Return split lines
+    '''
     try:
         outputs = sp.check_output(cmd, shell=True)
         # outputs = os.popen(cmd, shell)
@@ -66,6 +85,11 @@ def runCommand(cmd):
 
 
 def getSymbolTableEntry(fileOrLines, symbol):
+    '''
+    examine the symbol table using `objdump -tT`
+
+    returns {addr, len}
+    '''
     objdumpLines = None
     if isinstance(fileOrLines, list):
         objdumpLines = fileOrLines
@@ -102,7 +126,7 @@ def getSymbolTableEntry(fileOrLines, symbol):
 
 
 def readSymbolTable(filePath):
-    symtable = dict()
+    symtable: Dict[str, SymbolInformation] = dict()
     if not filePath:
         logger.exception("filePath argument == null!")
         return None
@@ -131,7 +155,7 @@ def readSymbolTable(filePath):
         length = int(lenHex, 16)
         symtable[symbolName] = SymbolInformation(
             symbolName, addr=addr, length=length)
-    sections = list()
+    sections: List[Section] = list()
     for line in getObjDumpHW(filePath):
         line = line.decode("utf-8").strip()
         if not line:
@@ -142,6 +166,10 @@ def readSymbolTable(filePath):
             vma = int(items[3], 16)
             fileOffset = int(items[5], 16)
             sections.append(Section(size, vma, fileOffset))
+
+    '''
+    convert vmaddr to fileoffset
+    '''
     for symbolInformation in symtable.values():
         addr = symbolInformation.addr
         pos = addr

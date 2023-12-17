@@ -1,5 +1,3 @@
-from abc import ABC
-
 from loguru import logger
 from analysis import ProcessHelper
 
@@ -34,7 +32,7 @@ class Signature(object):
         self.symTable = self.readSymbolTable(self.filePath)
         symbolPos = self.symTable[self.symbol].position
         symbolLength = self.symTable[self.symbol].length
-        
+
         file = open(self.filePath, "rb")
         file.seek(symbolPos)
         codeBuf = file.read(symbolLength)

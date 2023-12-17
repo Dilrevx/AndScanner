@@ -8,6 +8,12 @@ from ..ProcessHelper import getSigToolCalcOutput
 
 
 class RollingSignature(Signature):
+    '''
+    A typical Rolling Signature is a hash for stream.
+
+    The hash updates each time for a new chunk, instead of recompute from 0
+    '''
+
     def __init__(self):
         super().__init__()
         self.SIGNATURE_TYPES = ["R_AARCH64_V1", "R_AARCH64_V2"]
@@ -97,6 +103,11 @@ class RollingSignature(Signature):
         return True
 
     def parse(self, signatureString):
+        '''
+        `signatureString`: of the form <SIG_TYPE>:<part0>:<part1>
+
+        returns self, parse internal checksums
+        '''
         if not signatureString:
             return None
 

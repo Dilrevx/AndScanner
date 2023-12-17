@@ -1,3 +1,4 @@
+from typing import Set, Union
 from loguru import logger
 from pathlib import Path
 from .MaskSignature import MaskSignature
@@ -22,10 +23,16 @@ def getSignatureInstance(signatureString):
 
 
 class MultiSignatureScanner(object):
-    def __init__(self):
-        self.signatureChecker = set()
+    '''
+    member: 
 
-    def addSignatureChecker(self, signatureStringOrChecker):
+    signatureChecker: set[RollingSignature | str]
+    '''
+
+    def __init__(self):
+        self.signatureChecker: Set[RollingSignature, str] = set()
+
+    def addSignatureChecker(self, signatureStringOrChecker: Union[RollingSignature, str]):
         if isinstance(signatureStringOrChecker, RollingSignature):
             self.signatureChecker.add(signatureStringOrChecker)
         elif isinstance(signatureStringOrChecker, str):

@@ -733,6 +733,11 @@ class TestEngine(object):
         return signatureChecker.checkCodeBuf(codeBuf)
 
     def getRollingSignatureForTest(self, test):
+        '''
+        For ROLLING_SIGNATURE and COMBINED_SIGNATURE
+
+        returns a `RollingSignature` object 
+        '''
         try:
             testType = test["testType"]
             if test != None and (
