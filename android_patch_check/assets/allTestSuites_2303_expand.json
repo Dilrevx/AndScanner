@@ -1,0 +1,132 @@
+{
+  "21": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API21.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_21.json"
+    ]
+  },
+  "22": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API22.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_22.json"
+    ]
+  },
+  "23": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API23.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_23.json"
+    ]
+  },
+  "24": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API24.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_24.json"
+    ]
+  },
+  "25": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API25.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_25.json"
+    ]
+  },
+  "26": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API26.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_26.json"
+    ]
+  },
+  "27": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API27.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_27.json"
+    ]
+  },
+  "28": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API28.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_28.json"
+    ]
+  },
+  "29": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API29.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_29.json"
+    ]
+  },
+  "30": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API30.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_30.json"
+    ]
+  },
+  "31": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API31.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_31.json"
+    ]
+  },
+  "32": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API32.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_32.json"
+    ]
+  },
+  "33": {
+    "basicTestUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/allBasicTests_API33.json"
+    ],
+    "minAppVersion": 10,
+    "version": "2023-02-14.1",
+    "vulnerabilitiesUrls": [
+      "https://snoopsnitch-api.srlabs.de/chunks/API_33.json"
+    ]
+  }
+}

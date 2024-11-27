@@ -1,0 +1,1956 @@
+{
+    "CVE-2016-3823": {
+        "category": "2016-08",
+        "cve": "CVE-2016-3823",
+        "maxApiLevel": 23,
+        "minApiLevel": 21,
+        "patchlevelDate": "2016-08-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libOmxVenc.so",
+            "/system/lib64/libOmxVenc.so"
+        ]
+    },
+    "CVE-2016-3824": {
+        "category": "2016-08",
+        "cve": "CVE-2016-3824",
+        "maxApiLevel": 23,
+        "patchlevelDate": "2016-08-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": " Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    },
+    "CVE-2016-2464": {
+        "category": "2016-06",
+        "cve": "CVE-2016-2464",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-06-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote Code Execution Vulnerabilities in libwebm",
+        "testFileList": [
+            "/system/vendor/lib/libdrmmtkutil.so",
+            "/system/lib/libdrmmtkutil.so",
+            "/system/lib64/libstagefright.so",
+            "/system/lib64/libdrmmtkutil.so",
+            "/system/lib/libstagefright.so",
+            "/system/vendor/lib64/libdrmmtkutil.so"
+        ]
+    },
+    "CVE-2015-6626": {
+        "category": "2015-12",
+        "cve": "CVE-2015-6626",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2015-12-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information Disclosure Vulnerabilities in libstagefright",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    },
+    "CVE-2017-0836": {
+        "category": "2017-11",
+        "cve": "CVE-2017-0836",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-11-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0840": {
+        "category": "2017-11",
+        "cve": "CVE-2017-0840",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-11-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information Disclosure in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    },
+    "CVE-2017-13078": {
+        "category": "2017-11",
+        "cve": "CVE-2017-13078",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-11-06",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privileges in System",
+        "testFileList": [
+            "/system/bin/wpa_supplicant",
+            "/system/vendor/bin/wpa_supplicant",
+            "/system/vendor/bin/hw/wpa_supplicant"
+        ]
+    },
+    "CVE-2017-13080": {
+        "category": "2017-11",
+        "cve": "CVE-2017-13080",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-11-06",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privileges in System",
+        "testFileList": [
+            "/system/bin/wpa_supplicant",
+            "/system/vendor/bin/wpa_supplicant",
+            "/system/vendor/bin/hw/wpa_supplicant"
+        ]
+    },
+    "CVE-2017-13081": {
+        "category": "2017-11",
+        "cve": "CVE-2017-13081",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-11-06",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privileges in System",
+        "testFileList": [
+            "/system/bin/wpa_supplicant",
+            "/system/vendor/bin/wpa_supplicant",
+            "/system/vendor/bin/hw/wpa_supplicant"
+        ]
+    },
+    "CVE-2017-13086": {
+        "category": "2017-11",
+        "cve": "CVE-2017-13086",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-11-06",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privileges in System",
+        "testFileList": [
+            "/system/bin/wpa_supplicant",
+            "/system/vendor/bin/wpa_supplicant",
+            "/system/vendor/bin/hw/wpa_supplicant"
+        ]
+    },
+    "CVE-2017-0540": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0540",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0668": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0668",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure vulnerability in download manager",
+        "testFileList": [
+            "/system/priv-app/SecDownloadProvider/arm/SecDownloadProvider.odex",
+            "/system/priv-app/SecDownloadProvider/oat/arm/SecDownloadProvider.odex.xz",
+            "/system/priv-app/DownloadProvider/oat/arm/DownloadProvider.odex",
+            "/system/priv-app/DownloadMgr_ZTE/oat/arm64/DownloadMgr_ZTE.odex",
+            "/system/priv-app/DownloadMgr/arm64/DownloadMgr.odex",
+            "/system/priv-app/DownloadProvider/arm/DownloadProvider.odex",
+            "/system/priv-app/DownloadMgr/oat/arm/DownloadMgr.odex",
+            "/system/priv-app/LGDownloadProvider/oat/arm/LGDownloadProvider.odex",
+            "/system/priv-app/SecDownloadProvider/oat/arm/SecDownloadProvider.odex",
+            "/system/priv-app/DownloadProvider/arm64/DownloadProvider.odex",
+            "/system/priv-app/SecDownloadProvider/arm/SecDownloadProvider.odex.xz",
+            "/system/priv-app/LGDownloadProvider/oat/arm64/LGDownloadProvider.odex",
+            "/system/priv-app/DownloadMgr/arm/DownloadMgr.odex",
+            "/system/priv-app/DownloadProvider/arm64/DownloadProvider.dex",
+            "/system/priv-app/SecDownloadProvider/oat/arm64/SecDownloadProvider.odex",
+            "/system/priv-app/DownloadProvider/oat/arm64/DownloadProvider.odex",
+            "/system/priv-app/SecDownloadProvider/SecDownloadProvider.apk",
+            "/system/priv-app/DownloadProvider/DownloadProvider.apk"
+        ]
+    },
+    "CVE-2017-0676": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0676",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0689": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0689",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0690": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0690",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0692": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0692",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libsonivox.so",
+            "/system/lib/libsonivox.so"
+        ]
+    },
+    "CVE-2017-0694": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0694",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libsonivox.so",
+            "/system/lib/libsonivox.so"
+        ]
+    },
+    "CVE-2017-0695": {
+        "category": "2017-07",
+        "cve": "CVE-2017-0695",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-3544": {
+        "category": "2017-07",
+        "cve": "CVE-2017-3544",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-07-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote Code Execution Vulnerability in Runtime",
+        "testFileList": [
+            "/system/framework/arm/boot.vdex",
+            "/system/framework/arm64/boot.oat",
+            "/system/framework/arm/boot-core-oj.oat",
+            "/system/framework/arm/boot.oat",
+            "/system/framework/arm64/boot-core-oj.oat",
+            "/system/framework/arm64/boot.vdex"
+        ]
+    },
+    "CVE-2015-3878": {
+        "category": "2015-10",
+        "cve": "CVE-2015-3878",
+        "maxApiLevel": 23,
+        "minApiLevel": 21,
+        "patchlevelDate": "2015-10-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege Vulnerability in Media Projection",
+        "testFileList": [
+            "/system/priv-app/SystemUI/arm64/SystemUI.odex",
+            "/system/priv-app/SystemUI/arm/SystemUI.odex",
+            "/system/priv-app/SystemUI/oat/arm64/SystemUI.odex",
+            "/system/priv-app/SystemUI/oat/arm/SystemUI.odex.xz",
+            "/system/priv-app/LGSystemUI/oat/arm/LGSystemUI.odex",
+            "/system/priv-app/SystemUI_ZTE/oat/arm/SystemUI_ZTE.odex",
+            "/system/priv-app/SystemUI/oat/arm/SystemUI.odex",
+            "/system/priv-app/SystemUI_ZTE/oat/arm64/SystemUI_ZTE.odex",
+            "/system/priv-app/SystemUI/arm/SystemUI.odex.xz",
+            "/system/priv-app/MiuiSystemUI/oat/arm64/MiuiSystemUI.odex",
+            "/system/priv-app/MiuiSystemUI/oat/arm/MiuiSystemUI.odex",
+            "/system/priv-app/SystemUI/SystemUI.apk"
+        ]
+    },
+    "CVE-2017-0381": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0381",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libopus.so",
+            "/system/lib64/libopus.so"
+        ]
+    },
+    "CVE-2017-0385": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0385",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Audioserver",
+        "testFileList": [
+            "/system/lib/soundfx/libqcompostprocbundle.so",
+            "/system/lib64/soundfx/libqcompostprocbundle.so"
+        ]
+    },
+    "CVE-2017-0386": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0386",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Elevation of privilege vulnerability in libnl",
+        "testFileList": [
+            "/system/lib64/libnl.so"
+        ]
+    },
+    "CVE-2017-0392": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0392",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0393": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0393",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_vpxdec.so"
+        ]
+    },
+    "CVE-2017-0394": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0394",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Telephony",
+        "testFileList": [
+            "/system/priv-app/LGTeleService/oat/arm64/LGTeleService.odex",
+            "/system/priv-app/TeleService/arm/TeleService.odex.xz",
+            "/system/priv-app/TeleService_ZTE/oat/arm64/TeleService_ZTE.odex",
+            "/system/priv-app/TeleService/oat/arm64/TeleService.odex",
+            "/system/priv-app/TeleService_ESS/arm/TeleService_ESS.odex.xz",
+            "/system/priv-app/TeleService/arm64/TeleService.odex",
+            "/system/priv-app/TeleService/oat/arm64/TeleService.dex",
+            "/system/priv-app/TeleService/TeleService.apk",
+            "/system/priv-app/TeleService/arm/TeleService.odex",
+            "/system/priv-app/TeleService/oat/arm/TeleService.odex",
+            "/system/priv-app/LGTeleService/oat/arm/LGTeleService.odex"
+        ]
+    },
+    "CVE-2017-0396": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0396",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/soundfx/libvisualizer.so",
+            "/system/lib64/soundfx/libvisualizer.so"
+        ]
+    },
+    "CVE-2017-0397": {
+        "category": "2017-01",
+        "cve": "CVE-2017-0397",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-01-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2016-6760": {
+        "category": "2016-12",
+        "cve": "CVE-2016-6760",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2016-12-05",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Qualcomm media codecs",
+        "testFileList": [
+            "/system/lib/libOmxVdec.so",
+            "/system/lib64/libOmxVdec.so"
+        ]
+    },
+    "CVE-2016-6761": {
+        "category": "2016-12",
+        "cve": "CVE-2016-6761",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2016-12-05",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Qualcomm media codecs",
+        "testFileList": [
+            "/system/lib/libOmxVenc.so",
+            "/system/lib64/libOmxVenc.so"
+        ]
+    },
+    "CVE-2016-6763": {
+        "category": "2016-12",
+        "cve": "CVE-2016-6763",
+        "maxApiLevel": 24,
+        "minApiLevel": 21,
+        "patchlevelDate": "2016-12-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Telephony",
+        "testFileList": [
+            "/system/priv-app/LGTeleService/oat/arm64/LGTeleService.odex",
+            "/system/priv-app/TeleService/arm/TeleService.odex.xz",
+            "/system/priv-app/TeleService_ZTE/oat/arm64/TeleService_ZTE.odex",
+            "/system/priv-app/TeleService/oat/arm64/TeleService.odex",
+            "/system/priv-app/TeleService_ESS/arm/TeleService_ESS.odex.xz",
+            "/system/priv-app/TeleService/arm64/TeleService.odex",
+            "/system/priv-app/TeleService/oat/arm64/TeleService.dex",
+            "/system/priv-app/TeleService/TeleService.apk",
+            "/system/priv-app/TeleService/arm/TeleService.odex",
+            "/system/priv-app/TeleService/oat/arm/TeleService.odex",
+            "/system/priv-app/Telephony/Telephony.apk"
+        ]
+    },
+    "CVE-2016-6766": {
+        "category": "2016-12",
+        "cve": "CVE-2016-6766",
+        "maxApiLevel": 24,
+        "minApiLevel": 20,
+        "patchlevelDate": "2016-12-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2016-6770": {
+        "category": "2016-12",
+        "cve": "CVE-2016-6770",
+        "maxApiLevel": 24,
+        "minApiLevel": 20,
+        "patchlevelDate": "2016-12-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Framework APIs",
+        "testFileList": [
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2016-6772": {
+        "category": "2016-12",
+        "cve": "CVE-2016-6772",
+        "maxApiLevel": 24,
+        "minApiLevel": 21,
+        "patchlevelDate": "2016-12-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Wi-Fi",
+        "testFileList": [
+            "/system/lib/libwifi-service.so",
+            "/system/lib64/libwifi-service.so"
+        ]
+    },
+    "CVE-2016-2450": {
+        "category": "2016-05",
+        "cve": "CVE-2016-2450",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege Vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_vpxenc.so",
+            "/system/lib64/libstagefright_soft_vpxenc.so"
+        ]
+    },
+    "CVE-2016-2451": {
+        "category": "2016-05",
+        "cve": "CVE-2016-2451",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege Vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_vpxdec.so",
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so",
+            "/system/lib64/libstagefright_soft_vpxdec.so"
+        ]
+    },
+    "CVE-2016-2452": {
+        "category": "2016-05",
+        "cve": "CVE-2016-2452",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege Vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_amrdec.so",
+            "/system/lib/libstagefright_soft_amrdec.so"
+        ]
+    },
+    "CVE-2017-0752": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0752",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Framework",
+        "testFileList": [
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2017-0756": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0756",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_aacenc.so",
+            "/system/lib64/libstagefright_soft_aacenc.so"
+        ]
+    },
+    "CVE-2017-0762": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0762",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0770": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0770",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libmediaplayerservice.so",
+            "/system/lib/libmediaplayerservice.so"
+        ]
+    },
+    "CVE-2017-0774": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0774",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0777": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0777",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libsonivox.so",
+            "/system/lib/libsonivox.so"
+        ]
+    },
+    "CVE-2017-0778": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0778",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0782": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0782",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote Code Execution in Bluetooth",
+        "testFileList": [
+            "/system/lib/hw/bplus.default.so",
+            "/system/lib/hw/bluetooth.default.so",
+            "/system/lib64/hw/bplus.default.so",
+            "/system/lib64/hw/bluetooth.default.so",
+            "/system/vendor/lib/hw/bluetooth.default.so"
+        ]
+    },
+    "CVE-2017-0783": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0783",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote Code Execution in Bluetooth",
+        "testFileList": [
+            "/system/lib/hw/bplus.default.so",
+            "/system/lib/hw/bluetooth.default.so",
+            "/system/lib64/hw/bplus.default.so",
+            "/system/lib64/hw/bluetooth.default.so",
+            "/system/vendor/lib/hw/bluetooth.default.so"
+        ]
+    },
+    "CVE-2017-0784": {
+        "category": "2017-09",
+        "cve": "CVE-2017-0784",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privileges in Nfc",
+        "testFileList": [
+            "/system/app/NfcNci/arm64/NfcNci.odex",
+            "/system/app/NfcNci/oat/arm/NfcNci.odex.xz",
+            "/system/vendor/app/NQNfcNci/oat/arm/NQNfcNci.odex",
+            "/system/app/NfcNci/oat/arm64/NfcNci.odex",
+            "/system/app/NfcNci/NfcNci.apk",
+            "/system/app/LgNfc/oat/arm/LgNfc.odex",
+            "/system/app/NfcNci/arm/NfcNci.odex.xz",
+            "/system/app/NfcNci/oat/arm/NfcNci.odex",
+            "/system/app/NfcNciNxp/oat/arm64/NfcNciNxp.odex",
+            "/system/priv-app/NQNfcNci/oat/arm64/NQNfcNci.odex"
+        ]
+    },
+    "CVE-2017-6983": {
+        "category": "2017-09",
+        "cve": "CVE-2017-6983",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution in sqlite",
+        "testFileList": [
+            "/system/lib64/libsqlite.so",
+            "/system/lib/libsqlite.so"
+        ]
+    },
+    "CVE-2017-0410": {
+        "category": "2017-02",
+        "cve": "CVE-2017-0410",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-02-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Elevation of privilege vulnerability in Framework APIs",
+        "testFileList": [
+            "/system/lib64/libbinder.so"
+        ]
+    },
+    "CVE-2017-0419": {
+        "category": "2017-02",
+        "cve": "CVE-2017-0419",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-02-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Audioserver",
+        "testFileList": [
+            "/system/lib/libaudioflinger.so",
+            "/system/lib64/libaudioflinger.so"
+        ]
+    },
+    "CVE-2017-0421": {
+        "category": "2017-02",
+        "cve": "CVE-2017-0421",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-02-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure vulnerability in Framework APIs",
+        "testFileList": [
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2017-0425": {
+        "category": "2017-02",
+        "cve": "CVE-2017-0425",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-02-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Audioserver",
+        "testFileList": [
+            "/system/lib/libaudioflinger.so",
+            "/system/lib64/libaudioflinger.so"
+        ]
+    },
+    "CVE-2017-0450": {
+        "category": "2017-02",
+        "cve": "CVE-2017-0450",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-02-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Audioserver",
+        "testFileList": [
+            "/system/lib/soundfx/libnvvisualizer.so",
+            "/system/lib64/soundfx/libnvvisualizer.so"
+        ]
+    },
+    "CVE-2016-0818": {
+        "category": "2016-03",
+        "cve": "CVE-2016-0818",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-03-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege in Conscrypt",
+        "testFileList": [
+            "/system/framework/arm/boot.vdex",
+            "/system/framework/arm64/boot.oat",
+            "/system/framework/arm/boot-core-oj.oat",
+            "/system/framework/arm/boot-conscrypt.oat",
+            "/system/framework/arm/boot.oat",
+            "/system/framework/arm64/boot-conscrypt.oat",
+            "/system/framework/arm64/boot-core-oj.oat",
+            "/system/framework/arm64/boot.vdex",
+            "/system/framework/boot-conscrypt.vdex"
+        ]
+    },
+    "CVE-2016-0831": {
+        "category": "2016-03",
+        "cve": "CVE-2016-0831",
+        "maxApiLevel": 23,
+        "minApiLevel": 21,
+        "patchlevelDate": "2016-03-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information Disclosure Vulnerability in Telephony",
+        "testFileList": [
+            "/system/framework/framework.jar",
+            "/system/framework/arm64/boot.oat",
+            "/system/framework/arm/boot-framework.oat",
+            "/system/framework/arm64/boot-telephony-common.art",
+            "/system/framework/boot-telephony-common.vdex",
+            "/system/framework/arm/boot.oat",
+            "/system/framework/arm64/boot-framework.oat",
+            "/system/framework/arm/boot-telephony-common.art"
+        ]
+    },
+    "CVE-2016-2422": {
+        "category": "2016-04",
+        "cve": "CVE-2016-2422",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-04-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege Vulnerability in Wi-Fi",
+        "testFileList": [
+            "/system/app/CertInstaller/CertInstaller.apk",
+            "/system/app/CertInstaller/arm/CertInstaller.odex",
+            "/system/app/CertInstaller/arm/CertInstaller.odex.xz",
+            "/system/app/CertInstaller/arm64/CertInstaller.odex",
+            "/system/app/CertInstaller/oat/arm64/CertInstaller.odex",
+            "/system/app/CertInstaller/oat/arm/CertInstaller.odex.xz",
+            "/system/app/CertInstaller/oat/arm/CertInstaller.odex"
+        ]
+    },
+    "CVE-2016-2426": {
+        "category": "2016-04",
+        "cve": "CVE-2016-2426",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-04-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information Disclosure Vulnerability in Framework",
+        "testFileList": [
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/boot.vdex",
+            "/system/framework/arm64/boot.oat",
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/arm/boot-framework.oat",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm/boot-core-oj.oat",
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/arm/boot.oat",
+            "/system/framework/boot-framework.vdex",
+            "/system/framework/arm64/boot-framework.oat",
+            "/system/framework/oat/arm/services.vdex",
+            "/system/framework/arm64/boot-core-oj.oat",
+            "/system/framework/arm64/boot.vdex"
+        ]
+    },
+    "CVE-2017-0539": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0539",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0541": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0541",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libsonivox.so",
+            "/system/lib/libsonivox.so"
+        ]
+    },
+    "CVE-2017-0547": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0547",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Information disclosure vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libmedia.so"
+        ]
+    },
+    "CVE-2017-0554": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0554",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Framework",
+        "testFileList": [
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2017-0556": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0556",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "Moderate",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Information disclosure vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_mpeg2dec.so"
+        ]
+    },
+    "CVE-2017-0557": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0557",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "Moderate",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Information disclosure vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_mpeg2dec.so"
+        ]
+    },
+    "CVE-2017-0560": {
+        "category": "2017-04",
+        "cve": "CVE-2017-0560",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-04-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Framework",
+        "testFileList": [
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2017-0479": {
+        "category": "2017-03",
+        "cve": "CVE-2017-0479",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-03-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Audioserver",
+        "testFileList": [
+            "/system/lib/libaudioflinger.so",
+            "/system/lib64/libaudioflinger.so"
+        ]
+    },
+    "CVE-2017-0480": {
+        "category": "2017-03",
+        "cve": "CVE-2017-0480",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-03-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Audioserver",
+        "testFileList": [
+            "/system/lib/libaudioflinger.so",
+            "/system/lib64/libaudioflinger.so"
+        ]
+    },
+    "CVE-2017-0483": {
+        "category": "2017-03",
+        "cve": "CVE-2017-0483",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-03-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0489": {
+        "category": "2017-03",
+        "cve": "CVE-2017-0489",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-03-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Location Manager",
+        "testFileList": [
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2017-0494": {
+        "category": "2017-03",
+        "cve": "CVE-2017-0494",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-03-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure vulnerability in AOSP Messaging",
+        "testFileList": [
+            "/system/app/PrebuiltBugle/PrebuiltBugle.apk",
+            "/system/app/Bugle/lib/arm/libgiftranscode.so"
+        ]
+    },
+    "CVE-2017-0498": {
+        "category": "2017-03",
+        "cve": "CVE-2017-0498",
+        "maxApiLevel": 25,
+        "minApiLevel": 22,
+        "patchlevelDate": "2017-03-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Setup Wizard",
+        "testFileList": [
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.vdex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/oat/arm/services.odex.xz",
+            "/system/framework/arm/services.odex",
+            "/system/framework/arm/services.dex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2017-0809": {
+        "category": "2017-10",
+        "cve": "CVE-2017-0809",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-10-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_foundation.so"
+        ]
+    },
+    "CVE-2017-0811": {
+        "category": "2017-10",
+        "cve": "CVE-2017-0811",
+        "maxApiLevel": 26,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-10-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0588": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0588",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0589": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0589",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0590": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0590",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0594": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0594",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_aacenc.so",
+            "/system/lib64/libstagefright_soft_aacenc.so"
+        ]
+    },
+    "CVE-2017-0595": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0595",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_aacenc.so",
+            "/system/lib64/libstagefright_soft_aacenc.so"
+        ]
+    },
+    "CVE-2017-0596": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0596",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_aacenc.so",
+            "/system/lib64/libstagefright_soft_aacenc.so"
+        ]
+    },
+    "CVE-2017-0598": {
+        "category": "2017-05",
+        "cve": "CVE-2017-0598",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-05-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure vulnerability in Framework APIs",
+        "testFileList": [
+            "/system/lib64/libandroidfw.so",
+            "/system/lib/libandroidfw.so"
+        ]
+    },
+    "CVE-2015-6644": {
+        "category": "2016-01",
+        "cve": "CVE-2015-6644",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-01-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information Disclosure Vulnerability in Bouncy Castle",
+        "testFileList": [
+            "/system/framework/arm64/boot.vdex",
+            "/system/framework/arm/boot.vdex",
+            "/system/framework/arm64/boot.oat",
+            "/system/framework/arm/boot-core-oj.oat",
+            "/system/framework/arm/boot.oat",
+            "/system/framework/boot-bouncycastle.vdex",
+            "/system/framework/arm64/boot-bouncycastle.art",
+            "/system/framework/arm/boot-bouncycastle.art",
+            "/system/framework/arm64/boot-core-oj.oat",
+            "/system/framework/arm/boot-bouncycastle.oat",
+            "/system/framework/arm64/boot-bouncycastle.oat"
+        ]
+    },
+    "CVE-2016-3757": {
+        "category": "2016-07",
+        "cve": "CVE-2016-3757",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-07-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": " Elevation of privilege vulnerability in lsof",
+        "testFileList": [
+            "/system/bin/toolbox"
+        ]
+    },
+    "CVE-2016-4658": {
+        "category": "2017-06",
+        "cve": "CVE-2016-4658",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-06-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in libxml2",
+        "testFileList": [
+            "/system/lib64/libxml2.so"
+        ]
+    },
+    "CVE-2017-0637": {
+        "category": "2017-06",
+        "cve": "CVE-2017-0637",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-06-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0643": {
+        "category": "2017-06",
+        "cve": "CVE-2017-0643",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-06-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Denial of service vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-0663": {
+        "category": "2017-06",
+        "cve": "CVE-2017-0663",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-06-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in libxml2",
+        "testFileList": [
+            "/system/lib64/libxml2.so"
+        ]
+    },
+    "CVE-2017-5056": {
+        "category": "2017-06",
+        "cve": "CVE-2017-5056",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-06-01",
+        "severity": "Moderate",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in libxml2",
+        "testFileList": [
+            "/system/lib64/libxml2.so"
+        ]
+    },
+    "CVE-2017-0855": {
+        "category": "2018-01",
+        "cve": "CVE-2017-0855",
+        "maxApiLevel": 26,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in MPEG4Extractor",
+        "testFileList": [
+            "/system/lib64/libLGParserOSAL.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2017-13176": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13176",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testType": "JAVA",
+        "testVersion": 1,
+        "title": "Elevation of Privileges in URLStreamHandler",
+        "testFileList": [
+            "/system/framework/x86/boot-framework.vdex",
+            "/system/framework/boot-framework.vdex",
+            "/system/framework/arm64/boot-framework.vdex",
+            "/system/framework/arm/boot-framework.vdex"
+        ]
+    },
+    "CVE-2017-13187": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13187",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "optional": true,
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libhevc",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13191": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13191",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libhevc",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13192": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13192",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libhevc",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13193": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13193",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libhevc",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13195": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13195",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libhevc",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13196": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13196",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libhevc",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13200": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13200",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "optional": true,
+        "severity": "Moderate",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Information Disclosure in Stagefright ID3",
+        "testFileList": [
+            "/system/lib64/liboppostagefright.so",
+            "/system/lib64/liboppometadataediter_jni.so",
+            "/system/lib64/libstagefright.so",
+            "/system/lib64/libmusicsniffer.so"
+        ]
+    },
+    "CVE-2017-13210": {
+        "category": "2018-01",
+        "cve": "CVE-2017-13210",
+        "maxApiLevel": 27,
+        "minApiLevel": 21,
+        "patchlevelDate": "2018-01-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privileges in System",
+        "testFileList": [
+            "/system/vendor/lib64/libcamera_metadata.so",
+            "/system/lib64/libcamera_metadata.so",
+            "/system/vendor/lib/libcamera_metadata.so",
+            "/system/lib/libcamera_metadata.so"
+        ]
+    },
+    "CVE-2017-13254": {
+        "category": "2018-03",
+        "cve": "CVE-2017-13254",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "optional": true,
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in AACExtractor",
+        "testFileList": [
+            "/system/lib64/liboppostagefright.so",
+            "/system/lib64/libstagefright.so",
+            "/system/lib64/libsfextaac.so"
+        ]
+    },
+    "CVE-2017-0712": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0712",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privileges in WiFi",
+        "testFileList": [
+            "/system/lib/libwifi-service.so",
+            "/system/lib64/libwifi-service.so"
+        ]
+    },
+    "CVE-2017-0714": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0714",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_mpeg4dec.so",
+            "/system/lib64/libstagefright_soft_mpeg4dec.so"
+        ]
+    },
+    "CVE-2017-0720": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0720",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "Critical",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Remote Code Execution in Media Framework",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-0722": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0722",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_mpeg4dec.so",
+            "/system/lib64/libstagefright_soft_mpeg4dec.so"
+        ]
+    },
+    "CVE-2017-0737": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0737",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privileges in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    },
+    "CVE-2017-0745": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0745",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_mpeg4dec.so",
+            "/system/lib64/libstagefright_soft_mpeg4dec.so"
+        ]
+    },
+    "CVE-2017-0805": {
+        "category": "2017-08",
+        "cve": "CVE-2017-0805",
+        "maxApiLevel": 25,
+        "minApiLevel": 21,
+        "patchlevelDate": "2017-08-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privileges in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    },
+    "CVE-2016-0810": {
+        "category": "2016-02",
+        "cve": "CVE-2016-0810",
+        "maxApiLevel": 23,
+        "minApiLevel": 19,
+        "patchlevelDate": "2016-02-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libmedia.so",
+            "/system/lib/libmedia.so",
+            "/system/lib64/libsoundpool.so",
+            "/system/lib/libsoundpool.so"
+        ]
+    },
+    "CVE-2016-0813": {
+        "category": "2016-02",
+        "cve": "CVE-2016-0813",
+        "maxApiLevel": 23,
+        "minApiLevel": 22,
+        "patchlevelDate": "2016-02-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of Privilege Vulnerability in Setup Wizard",
+        "testFileList": [
+            "/system/priv-app/SystemUI/arm64/SystemUI.odex",
+            "/system/priv-app/SystemUI/arm/SystemUI.odex",
+            "/system/priv-app/SystemUI/oat/arm64/SystemUI.odex",
+            "/system/priv-app/SystemUI/oat/arm/SystemUI.odex.xz",
+            "/system/priv-app/LGSystemUI/oat/arm/LGSystemUI.odex",
+            "/system/priv-app/SystemUI/arm/SystemUI.odex.xz",
+            "/system/priv-app/SystemUI_ZTE/oat/arm/SystemUI_ZTE.odex",
+            "/system/priv-app/SystemUI/oat/arm/SystemUI.odex",
+            "/system/priv-app/SystemUI_ZTE/oat/arm64/SystemUI_ZTE.odex",
+            "/system/priv-app/MiuiSystemUI/oat/arm64/MiuiSystemUI.odex",
+            "/system/priv-app/SystemUI/SystemUI.apk"
+        ]
+    },
+    "CVE-2016-3909": {
+        "category": "2016-10",
+        "cve": "CVE-2016-3909",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-10-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_soft_mpeg4enc.so",
+            "/system/lib64/libstagefright_soft_mpeg4enc.so"
+        ]
+    },
+    "CVE-2016-3912": {
+        "category": "2016-10",
+        "cve": "CVE-2016-3912",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-10-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in framework APIs",
+        "testFileList": [
+            "/system/framework/oat/arm/services.odex",
+            "/system/framework/oat/arm64/services.odex",
+            "/system/framework/arm64/services.odex",
+            "/system/framework/arm/services.odex",
+            "/system/framework/services.jar"
+        ]
+    },
+    "CVE-2016-3913": {
+        "category": "2016-10",
+        "cve": "CVE-2016-3913",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-10-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib64/libmediaplayerservice.so",
+            "/system/lib/libmediaplayerservice.so"
+        ]
+    },
+    "CVE-2016-3915": {
+        "category": "2016-10",
+        "cve": "CVE-2016-3915",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-10-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Camera service",
+        "testFileList": [
+            "/system/lib64/libcamera_metadata.so",
+            "/system/lib/libcamera_metadata.so"
+        ]
+    },
+    "CVE-2016-3916": {
+        "category": "2016-10",
+        "cve": "CVE-2016-3916",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-10-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Camera service",
+        "testFileList": [
+            "/system/lib64/libcamera_metadata.so",
+            "/system/lib/libcamera_metadata.so"
+        ]
+    },
+    "CVE-2016-3921": {
+        "category": "2016-10",
+        "cve": "CVE-2016-3921",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-10-01",
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Framework Listener",
+        "testFileList": [
+            "/system/lib/libsysutils.so",
+            "/system/lib64/libsysutils.so"
+        ]
+    },
+    "CVE-2017-13232": {
+        "category": "2018-02",
+        "cve": "CVE-2017-13232",
+        "maxApiLevel": 27,
+        "minApiLevel": 19,
+        "patchlevelDate": "2018-02-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information disclosure in Media framework",
+        "testFileList": [
+            "/system/lib/libaudioclient.so",
+            "/system/lib/libmedia.so",
+            "/system/lib64/libaudioservice.so",
+            "/system/lib64/libaudioclient.so",
+            "/system/lib/libaudioservice.so",
+            "/system/lib64/libmedia.so"
+        ]
+    },
+    "CVE-2017-13233": {
+        "category": "2018-02",
+        "cve": "CVE-2017-13233",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-02-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Hevcdec",
+        "testFileList": [
+            "/system/lib64/libstagefright_soft_hevcdec.so"
+        ]
+    },
+    "CVE-2017-13234": {
+        "category": "2018-02",
+        "cve": "CVE-2017-13234",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "patchlevelDate": "2018-02-01",
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libsonivox",
+        "testFileList": [
+            "/system/lib64/libsonivox.so"
+        ]
+    },
+    "CVE-2017-13235": {
+        "category": "2018-02",
+        "cve": "CVE-2017-13235",
+        "maxApiLevel": 27,
+        "minApiLevel": 22,
+        "optional": true,
+        "severity": "High",
+        "testRequires64bit": true,
+        "testType": "BINARY",
+        "title": "Denial of Service in Libstagefright M3UParser",
+        "testFileList": [
+            "/system/lib64/libstagefright_httplive.so"
+        ]
+    },
+    "CVE-2017-13241": {
+        "category": "2018-02",
+        "cve": "CVE-2017-13241",
+        "maxApiLevel": 27,
+        "minApiLevel": 21,
+        "optional": true,
+        "severity": "Moderate",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Information Disclosure in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    },
+    "CVE-2016-3861": {
+        "category": "2016-09",
+        "cve": "CVE-2016-3861",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-09-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in LibUtils",
+        "testFileList": [
+            "/system/lib64/libutils.so",
+            "/system/lib/libutils.so"
+        ]
+    },
+    "CVE-2016-3862": {
+        "category": "2016-09",
+        "cve": "CVE-2016-3862",
+        "maxApiLevel": 23,
+        "patchlevelDate": "2016-09-01",
+        "severity": "Critical",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/framework/framework.jar",
+            "/system/framework/arm64/boot.oat",
+            "/system/framework/arm/boot-framework.oat",
+            "/system/framework/arm/boot.oat",
+            "/system/framework/arm64/boot-framework.oat",
+            "/system/lib/libjhead_jni.so",
+            "/system/lib64/libjhead_jni.so"
+        ]
+    },
+    "CVE-2016-3863": {
+        "category": "2016-09",
+        "cve": "CVE-2016-3863",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Remote code execution vulnerability in MediaMuxer",
+        "testFileList": [
+            "/system/lib/libstagefright.so",
+            "/system/lib64/libstagefright.so"
+        ]
+    },
+    "CVE-2016-3870": {
+        "category": "2016-09",
+        "cve": "CVE-2016-3870",
+        "maxApiLevel": 24,
+        "patchlevelDate": "2016-09-01",
+        "severity": "High",
+        "testType": "CLASSIC",
+        "testVersion": 1,
+        "title": "Elevation of privilege vulnerability in Mediaserver",
+        "testFileList": [
+            "/system/lib/libstagefright_omx.so",
+            "/system/lib64/libstagefright_omx.so"
+        ]
+    }
+}

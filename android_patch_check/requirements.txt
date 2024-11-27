@@ -1,0 +1,8 @@
+click
+pytest
+requests
+loguru
+pathlib
+beautifulsoup4
+pymongo
+boto3

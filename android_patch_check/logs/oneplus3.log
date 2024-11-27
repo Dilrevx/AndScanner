@@ -1,0 +1,152 @@
+2023-06-21 16:10:31,520 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:10:31,520 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:10:31,520 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:10:31,520 - oneplus3 - Can not find build.prop
+2023-06-21 16:11:23,054 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:11:23,054 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:11:23,054 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:11:23,054 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:11:23,054 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:12:28,490 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:12:28,490 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:12:28,490 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:12:28,490 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:12:28,490 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:12:28,494 - oneplus3 - api_level:None
+2023-06-21 16:16:17,821 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:16:17,821 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:16:17,821 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:16:17,821 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:16:17,821 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:16:17,825 - oneplus3 - api_level:None
+2023-06-21 16:16:17,825 - oneplus3 - vendor:OnePlus
+2023-06-21 16:18:43,208 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:18:43,209 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:18:43,209 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:18:43,209 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:18:43,209 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:18:43,213 - oneplus3 - api_level:None
+2023-06-21 16:18:43,213 - oneplus3 - vendor:OnePlus
+2023-06-21 16:18:43,213 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:20:48,353 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:20:48,353 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:20:48,353 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:20:48,353 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:20:48,353 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:20:48,357 - oneplus3 - api_level:None
+2023-06-21 16:20:48,357 - oneplus3 - vendor:OnePlus
+2023-06-21 16:20:48,357 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:20:48,357 - oneplus3 - prop_version:9
+2023-06-21 16:21:25,544 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:21:25,545 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:21:25,545 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:21:25,545 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:21:25,545 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:21:25,549 - oneplus3 - api_level:None
+2023-06-21 16:21:25,549 - oneplus3 - vendor:OnePlus
+2023-06-21 16:21:25,549 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:21:25,549 - oneplus3 - prop_version:9
+2023-06-21 16:21:25,549 - oneplus3 - build_date_utc:1572873395
+2023-06-21 16:21:25,549 - oneplus3 - build_date:20191104211635
+2023-06-21 16:21:25,549 - oneplus3 - patch_date_utc:1569859200
+2023-06-21 16:21:25,549 - oneplus3 - patch_date:20191001000000
+2023-06-21 16:21:25,549 - oneplus3 - delay:1
+2023-06-21 16:21:25,549 - oneplus3 - ================
+2023-06-21 16:21:25,549 - oneplus3 - system_ext_need_merge
+2023-06-21 16:21:25,549 - oneplus3 - Merge order:cp -r /data/tmp_hou/andpatchchecker/oneplus/oneplus3//* /data/tmp_hou/andpatchchecker/oneplus/oneplus3//system/system_ext/
+2023-06-21 16:21:28,453 - oneplus3 - oneplus3 merge success
+2023-06-21 16:22:42,206 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:22:42,206 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:22:42,206 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:22:42,206 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:22:42,206 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:22:42,209 - oneplus3 - api_level:28
+2023-06-21 16:22:42,210 - oneplus3 - vendor:OnePlus
+2023-06-21 16:22:42,210 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:22:42,210 - oneplus3 - prop_version:9
+2023-06-21 16:22:42,210 - oneplus3 - build_date_utc:1572873395
+2023-06-21 16:22:42,210 - oneplus3 - build_date:20191104211635
+2023-06-21 16:22:42,210 - oneplus3 - patch_date_utc:1569859200
+2023-06-21 16:22:42,210 - oneplus3 - patch_date:20191001000000
+2023-06-21 16:22:42,210 - oneplus3 - delay:1
+2023-06-21 16:22:42,210 - oneplus3 - ================
+2023-06-21 16:22:42,210 - oneplus3 - system_ext don't need merge
+2023-06-21 16:22:42,210 - oneplus3 - ================
+2023-06-21 16:22:42,701 - oneplus3 - Repaired Apks:False
+2023-06-21 16:22:42,702 - oneplus3 - Repaired Apks
+2023-06-21 16:24:24,858 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:24:24,858 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:24:24,858 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:24:24,858 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:24:24,858 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:24:24,862 - oneplus3 - api_level:28
+2023-06-21 16:24:24,862 - oneplus3 - vendor:OnePlus
+2023-06-21 16:24:24,862 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:24:24,862 - oneplus3 - prop_version:9
+2023-06-21 16:24:24,862 - oneplus3 - build_date_utc:1572873395
+2023-06-21 16:24:24,862 - oneplus3 - build_date:20191104211635
+2023-06-21 16:24:24,862 - oneplus3 - patch_date_utc:1569859200
+2023-06-21 16:24:24,862 - oneplus3 - patch_date:20191001000000
+2023-06-21 16:24:24,862 - oneplus3 - delay:1
+2023-06-21 16:24:24,862 - oneplus3 - ================
+2023-06-21 16:24:24,862 - oneplus3 - system_ext don't need merge
+2023-06-21 16:24:24,863 - oneplus3 - ================
+2023-06-21 16:24:25,362 - oneplus3 - Repaired Apks:False
+2023-06-21 16:24:25,363 - oneplus3 - Repaired Apks
+2023-06-21 16:28:50,080 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:28:50,080 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:28:50,081 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:28:50,081 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:28:50,081 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:28:50,085 - oneplus3 - api_level:28
+2023-06-21 16:28:50,085 - oneplus3 - vendor:OnePlus
+2023-06-21 16:28:50,085 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:28:50,085 - oneplus3 - prop_version:9
+2023-06-21 16:28:50,085 - oneplus3 - build_date_utc:1572873395
+2023-06-21 16:28:50,085 - oneplus3 - build_date:20191104211635
+2023-06-21 16:28:50,085 - oneplus3 - patch_date_utc:1569859200
+2023-06-21 16:28:50,085 - oneplus3 - patch_date:20191001000000
+2023-06-21 16:28:50,085 - oneplus3 - delay:1
+2023-06-21 16:28:50,085 - oneplus3 - ================
+2023-06-21 16:28:50,085 - oneplus3 - system_ext don't need merge
+2023-06-21 16:28:50,085 - oneplus3 - ================
+2023-06-21 16:28:50,577 - oneplus3 - Repaired Apks:False
+2023-06-21 16:28:50,577 - oneplus3 - Repaired Apks
+2023-06-21 16:30:46,048 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:30:46,048 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:30:46,048 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:30:46,048 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:30:46,048 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:30:46,052 - oneplus3 - api_level:28
+2023-06-21 16:30:46,052 - oneplus3 - vendor:OnePlus
+2023-06-21 16:30:46,052 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:30:46,052 - oneplus3 - prop_version:9
+2023-06-21 16:30:46,052 - oneplus3 - build_date_utc:1572873395
+2023-06-21 16:30:46,052 - oneplus3 - build_date:20191104211635
+2023-06-21 16:30:46,052 - oneplus3 - patch_date_utc:1569859200
+2023-06-21 16:30:46,052 - oneplus3 - patch_date:20191001000000
+2023-06-21 16:30:46,052 - oneplus3 - delay:1
+2023-06-21 16:30:46,052 - oneplus3 - ================
+2023-06-21 16:30:46,052 - oneplus3 - system_ext don't need merge
+2023-06-21 16:30:46,052 - oneplus3 - ================
+2023-06-21 16:30:46,559 - oneplus3 - Repaired Apks:False
+2023-06-21 16:30:46,560 - oneplus3 - Repaired Apks
+2023-06-21 16:35:32,417 - oneplus3 - Model Name:oneplus3
+2023-06-21 16:35:32,417 - oneplus3 - Model Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:35:32,417 - oneplus3 - Root Path:/data/tmp_hou/andpatchchecker/oneplus/
+2023-06-21 16:35:32,417 - oneplus3 - Check Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/
+2023-06-21 16:35:32,417 - oneplus3 - Prop Path:/data/tmp_hou/andpatchchecker/oneplus/oneplus3/system/build.prop
+2023-06-21 16:35:32,420 - oneplus3 - api_level:28
+2023-06-21 16:35:32,421 - oneplus3 - vendor:OnePlus
+2023-06-21 16:35:32,421 - oneplus3 - prop_fingerprint:OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1911042107:user/release-keys
+2023-06-21 16:35:32,421 - oneplus3 - prop_version:9
+2023-06-21 16:35:32,421 - oneplus3 - build_date_utc:1572873395
+2023-06-21 16:35:32,421 - oneplus3 - build_date:20191104211635
+2023-06-21 16:35:32,421 - oneplus3 - patch_date_utc:1569859200
+2023-06-21 16:35:32,421 - oneplus3 - patch_date:20191001000000
+2023-06-21 16:35:32,421 - oneplus3 - delay:1
+2023-06-21 16:35:32,421 - oneplus3 - ================
+2023-06-21 16:35:32,421 - oneplus3 - system_ext don't need merge
+2023-06-21 16:35:32,421 - oneplus3 - ================
+2023-06-21 16:35:32,920 - oneplus3 - Repaired Apks:False
+2023-06-21 16:35:32,921 - oneplus3 - Repaired Apks

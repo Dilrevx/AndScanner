@@ -1,0 +1,1079 @@
+{
+  "CVE-2016-3861": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3863": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3870": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3908": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3909": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2016-3912": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3913": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3915": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3916": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3921": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-3922": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-4658": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6706": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6707": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6709": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6760": {
+    "notAffected": true
+  },
+  "CVE-2016-6761": {
+    "notAffected": true
+  },
+  "CVE-2016-6763": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6766": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2016-6770": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6772": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2016-6774": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0381": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0383": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0385": {
+    "notAffected": true
+  },
+  "CVE-2017-0386": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0391": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0392": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0393": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0394": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0396": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0397": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0405": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0406": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0409": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0410": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0411": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0412": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0414": {
+    "notAffected": true
+  },
+  "CVE-2017-0419": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0421": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0425": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0450": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0466": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0467": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0468": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0469": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0470": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0472": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0473": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0479": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0480": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0483": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0484": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0485": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0486": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0487": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0488": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0489": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0493": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0494": {
+    "notAffected": true
+  },
+  "CVE-2017-0495": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0498": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0539": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0540": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0541": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0542": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0543": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0547": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0548": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0549": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0552": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0554": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0555": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0556": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0557": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0560": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0587": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0588": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0589": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0590": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0591": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0593": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0594": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0595": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0596": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0598": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0599": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0635": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0637": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0640": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0643": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0663": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0668": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0669": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0672": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0673": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0674": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0676": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0677": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0678": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0679": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0680": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0682": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0683": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0684": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0685": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0686": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0688": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0689": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0690": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0691": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0692": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0693": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0694": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0695": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0696": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0712": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0714": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0715": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0716": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0718": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0719": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0720": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0721": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0722": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0723": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0724": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0732": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0737": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0745": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0752": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0756": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0757": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0758": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0759": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0760": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0761": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0762": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0765": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0770": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0771": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0772": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0774": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0777": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0778": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0780": {
+    "notAffected": true
+  },
+  "CVE-2017-0782": {
+    "notAffected": true
+  },
+  "CVE-2017-0783": {
+    "notAffected": true
+  },
+  "CVE-2017-0784": {
+    "notAffected": true
+  },
+  "CVE-2017-0805": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0809": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0810": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0811": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0830": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0833": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0834": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0835": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0836": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0840": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0855": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-0872": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-0873": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0874": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-0880": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13078": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13080": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13081": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13086": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13148": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13151": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13178": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13179": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13181": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13186": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13187": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13189": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13190": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13191": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13192": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13193": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13195": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13196": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13197": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13200": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13203": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13204": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13205": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13210": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13228": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13232": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13233": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13234": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-13235": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13241": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13248": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13249": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13250": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13251": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13254": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13264": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13277": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13279": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13279-2": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13296": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13297": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13299": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13311": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13313": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2017-13319": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-13320": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2017-3544": {
+    "notAffected": true
+  },
+  "CVE-2017-5056": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2017-6983": {
+    "isFixed": true,
+    "isVulnerable": false
+  },
+  "CVE-2018-9338": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9340": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9341": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9345": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9346": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9349": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9350": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9352": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9353": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9412": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9423": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9433": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9436": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9437": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9444": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9451": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9454": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9470": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9483": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9485": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9493": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9497": {
+    "isFixed": false,
+    "isVulnerable": true
+  },
+  "CVE-2018-9499": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9505": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9507": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9508": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9583": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9584": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9588": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9590": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9591": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9592": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2018-9593": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-1987": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2009": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2012": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2014": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2015": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2016": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2017": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2019": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2021": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2027": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2031": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2034": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2035": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2038": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2039": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2094": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2096": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2099": {
+    "notAffected": true
+  },
+  "CVE-2019-2102": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2128": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2133": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2134": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2135": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-2136": {
+    "isFixed": false,
+    "isVulnerable": false
+  },
+  "CVE-2019-9506": {
+    "isFixed": false,
+    "isVulnerable": false
+  }
+}

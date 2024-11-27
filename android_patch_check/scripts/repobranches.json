@@ -1,0 +1,1926 @@
+{
+  "/data/android_rom/dumps/10or/e.git": [
+    "remotes/origin/E-user-8.1.0-OPM1.171019.019-10or_E_V1_0_109-release-keys"
+  ],
+  "/data/android_rom/dumps/KDDI/sov41.git": [
+    "remotes/origin/SOV41-user-9-55.0.C.1.182-3571873765-release-keys"
+  ],
+  "/data/android_rom/dumps/adt-3/adt3.git": [
+    "remotes/origin/adt3-user-11-RP1A.200521.001-6516341-release-keys"
+  ],
+  "/data/android_rom/dumps/agm/hs8939qc.git": [
+    "remotes/origin/T88Q_14-user-7.0-NRD90M-87-release-keys"
+  ],
+  "/data/android_rom/dumps/allcall/allcall_s1_x.git": [
+    "remotes/origin/full_a600w_v1_a_hxgj_ac18e_all_o-user-8.1.0-O11019-1541588879-release-keys"
+  ],
+  "/data/android_rom/dumps/allwinner/kylin-p2.git": [
+    "remotes/origin/kylin_p2-eng-5.0-LRX21V-20141229-test-keys"
+  ],
+  "/data/android_rom/dumps/alps/aqua_glam.git": [
+    "remotes/origin/full_w818e_aw_xunhu_ser-user-5.1-LMY47I-1441338257-test-keys"
+  ],
+  "/data/android_rom/dumps/alps/h55_mt8163_60_n.git": [
+    "remotes/origin/full_h55_mt8163_60_n-user-7.0-NRD90M-vWC200103-test-keys"
+  ],
+  "/data/android_rom/dumps/alps/ranger.git": [
+    "remotes/origin/ranger-user-7.1.1-2.99.J.6.46_201808312100-1535746834-test-keys"
+  ],
+  "/data/android_rom/dumps/alps/sm34.git": [
+    "remotes/origin/sm34-user-9-2.103.J.1.366_202002131816-18-dev-keys"
+  ],
+  "/data/android_rom/dumps/android/generic.git": [
+    "remotes/origin/aosp_arm64-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/aosp_arm64-user-R-RPP4.200409.015-6455311-test-keys",
+    "remotes/origin/aosp_arm64-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/aosp_x86_64-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/aosp_x86_64-user-11-RPB2.200611.009-6625208-release-keys"
+  ],
+  "/data/android_rom/dumps/android/glass_v3.git": [
+    "remotes/origin/glass_v3-user-8.1.0-OPM1.191020.002-42-release-keys",
+    "remotes/origin/glass_v3-user-8.1.0-OPM1.200625.001-eng.jbolin.20200625.175547-release-keys"
+  ],
+  "/data/android_rom/dumps/android/msm8953_64.git": [
+    "remotes/origin/msm8953_64-userdebug-8.1.0-OPM1.171019.011-342-test-keys"
+  ],
+  "/data/android_rom/dumps/asus/asus_i003_1.git": [
+    "remotes/origin/qssi-user-10-QKQ1.200419.002-17.0823.2007.25-0-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/asus_x00id.git": [
+    "remotes/origin/msm8937_64-user-7.1.1-NMF26F-14.2016.1807.237-20180813-release-keys",
+    "remotes/origin/msm8937_64-user-8.1.0-OPM1.171019.011-15.2016.1907.519-0-release-keys",
+    "remotes/origin/msm8937_64-user-9-PKQ1.181203.001-16.0200.1907.28-20190708-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/asus_x00pd.git": [
+    "remotes/origin/msm8937_64-user-10-QKQ1.191002.002-17.00.2003.23-20200401-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/asus_x00rd.git": [
+    "remotes/origin/msm8937_64-user-10-QKQ1.191002.002-17.07.2003.405-20200330-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/asus_x00td.git": [
+    "remotes/origin/sdm660_64-user-10-QKQ1-52-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1269-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1277-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1261-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-57-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1285-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1682-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-32-release-keys",
+    "remotes/origin/sdm660_64-user-8.1.0-OPM1-3343-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-43-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/asus_x01bd.git": [
+    "remotes/origin/sdm660_64-user-9-PKQ1-1684-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-41-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-59-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-17-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-34-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1244-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1162-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1287-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1272-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1280-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/msm8953_64.git": [
+    "remotes/origin/msm8953_64-user-9-WW_Phone-202001171115-58-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/x00td.git": [
+    "remotes/origin/sdm660_64-user-9-PKQ1-8-release-keys-Wed-May-6-16-51-04-CST-2020",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1632-release-keys",
+    "remotes/origin/sdm660_64-user-8.1.0-OPM1-478-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1455-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1285-release-keys",
+    "remotes/origin/sdm660_64-user-8.1.0-OPM1-596-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-14-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/x01bd.git": [
+    "remotes/origin/sdm660_64-user-9-PKQ1-1634-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1-17-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1-1457-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/z010.git": [
+    "remotes/origin/WW_Phone-user-6.0.1-MMB29P-13.8.26.110-20180110-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/z01kd_1.git": [
+    "remotes/origin/WW_Phone-user-9-PPR1.180610.009-16.0620.1910.19-0-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/z01qd_1.git": [
+    "remotes/origin/CN_Phone-user-9-PKQ1.190101.001-16.0410.1910.95-0-release-keys",
+    "remotes/origin/WW_Phone-user-9-PKQ1.190101.001-16.0410.1910.95-0-release-keys"
+  ],
+  "/data/android_rom/dumps/asus/za550kl.git": [
+    "remotes/origin/A306-user-8.0.0-OPR1.170623.032-69-release-keys",
+    "remotes/origin/A306-user-8.0.0-OPR1.170623.032-62-release-keys"
+  ],
+  "/data/android_rom/dumps/att/u202aa.git": [
+    "remotes/origin/U202AA-user-9-P00610-1592988351-release-keys"
+  ],
+  "/data/android_rom/dumps/att/u304aa.git": [
+    "remotes/origin/U304AA-user-9-P00610-1593308989-release-keys"
+  ],
+  "/data/android_rom/dumps/blackberry/bbf100.git": [
+    "remotes/origin/ABE181"
+  ],
+  "/data/android_rom/dumps/blackberry/unknown.git": [
+    "remotes/origin/bbry_sdm636_sfi-user-8-OPM1.171019.026-ACE748-release-keys",
+    "remotes/origin/bbry_qc8953_sfi-user-7-NMF26F-AAL093-release-keys"
+  ],
+  "/data/android_rom/dumps/blackshark/darklighter.git": [
+    "remotes/origin/darklighter-user-10-DLTR1912210CN00DQX-V11.0.4.0.JOYUI-release-keys"
+  ],
+  "/data/android_rom/dumps/blackshark/mobius.git": [
+    "remotes/origin/qssi-user-10-MOBS2005212CN00MP4-V11.0.4.0.JOYUI-release-keys",
+    "remotes/origin/qssi-user-10-MOBS2005121OS00MP1-V11.0.4.0.JOYUI-release-keys"
+  ],
+  "/data/android_rom/dumps/blackshark/skywalker.git": [
+    "remotes/origin/skywalker-user-10-SKYW1912210CN00DQX-V11.0.4.0.JOYUI-release-keys"
+  ],
+  "/data/android_rom/dumps/blackview/bv9600.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-PPR1.180610.011-eng.releas.20190628.224344-release-keys"
+  ],
+  "/data/android_rom/dumps/blackview/bv9900.git": [
+    "remotes/origin/full_k79v1_64-user-9-PPR1.180610.011-eng.releas.20200103.112036-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/c090p.git": [
+    "remotes/origin/C6x-user-8.1.0-O11019-1565333506-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/g0090.git": [
+    "remotes/origin/s9863a_fs171_project-user-9-PPR1.180610.011-34510-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/g0170.git": [
+    "remotes/origin/G8-user-9-PPR1.180610.011-24417-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/g0190.git": [
+    "remotes/origin/s9863a_fs171_project-user-9-PPR1.180610.011-25420-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/g0230ww.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-PPR1.180610.011-1563446938-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/m030p.git": [
+    "remotes/origin/M6-user-8.1.0-O11019-1557213970-release-keys"
+  ],
+  "/data/android_rom/dumps/blu/n0030ww.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-PPR1.180610.011-1571196448-release-keys"
+  ],
+  "/data/android_rom/dumps/bq/zangyapro_sprout.git": [
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190723.001-1192-release-keys",
+    "remotes/origin/zangyapro_bq-user-10-QKQ1.200216.002-437-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190723.001-1125-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190723.001-1064-release-keys",
+    "remotes/origin/zangyapro_bq-user-10-QKQ1.200216.002-467-release-keys",
+    "remotes/origin/zangyapro_bq-user-10-QKQ1.200216.002-666-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190723.001-1221-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190118.001-760-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190118.001-920-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190723.001-1044-release-keys",
+    "remotes/origin/zangyapro_bq-user-9-PKQ1.190723.001-1156-release-keys"
+  ],
+  "/data/android_rom/dumps/bqru/bqru-5730l.git": [
+    "remotes/origin/BQru-5730L-user-9-PPR1.180610.011-32310-release-keys"
+  ],
+  "/data/android_rom/dumps/camfone/hero_12.git": [
+    "remotes/origin/sn15k_64v8_gofu_osea-user-8.1.0-OPM2.171019.012-43517-release-keys"
+  ],
+  "/data/android_rom/dumps/camfone/hero_13.git": [
+    "remotes/origin/Hero_13-user-8.1.0-OPM2.171019.012-37112-release-keys"
+  ],
+  "/data/android_rom/dumps/camfone/hero_h5_plus.git": [
+    "remotes/origin/Hero_H5_Plus-user-8.1.0-O21019-1537320351-release-keys"
+  ],
+  "/data/android_rom/dumps/camfone/hero_h9.git": [
+    "remotes/origin/sp9832a_2h11_4mvoltesea_tee-user-7.0-NRD90M-1519743583-release-keys"
+  ],
+  "/data/android_rom/dumps/camfone/hero_se2.git": [
+    "remotes/origin/Hero_SE2-user-8.1.0-OPM2.171019.012-48210-release-keys"
+  ],
+  "/data/android_rom/dumps/condor/griffe_t5.git": [
+    "remotes/origin/Griffe_T5-user-8.1.0-OPM2.171019.012-5-release-keys"
+  ],
+  "/data/android_rom/dumps/condor/griffe_t6.git": [
+    "remotes/origin/sp9850ka_1h10_gofu_20180725_V01"
+  ],
+  "/data/android_rom/dumps/condor/griffe_t8.git": [
+    "remotes/origin/y400-user-8.1.0-OPM2.171019.012-1560326442-release-keys"
+  ],
+  "/data/android_rom/dumps/condor/griffe_t9.git": [
+    "remotes/origin/SP648_V13_20190510"
+  ],
+  "/data/android_rom/dumps/condor/griffe_t9_plus.git": [
+    "remotes/origin/SP647_V9.0_20190511"
+  ],
+  "/data/android_rom/dumps/coolpad/coolpad_1803.git": [
+    "remotes/origin/sp9850ka_1h10_gofOsea-user-8.1.0-OPM2.171019.012-49420-release-keys"
+  ],
+  "/data/android_rom/dumps/cricket/u304ac.git": [
+    "remotes/origin/U304AC-user-9-P00610-1582351073-release-keys"
+  ],
+  "/data/android_rom/dumps/cubot/kingkong_mini.git": [
+    "remotes/origin/full_d936p-user-9-PPR1.180610.011-20191014-release-keys"
+  ],
+  "/data/android_rom/dumps/cubot/r15_pro.git": [
+    "remotes/origin/full_v625p-user-9-PPR1.180610.011-20190809-release-keys"
+  ],
+  "/data/android_rom/dumps/cubot/r19.git": [
+    "remotes/origin/R19_EEA-user-9-P00610-1565594044-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/al240.git": [
+    "remotes/origin/AL240_ru-user-8.1.0-O11019-1545735012-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/b245.git": [
+    "remotes/origin/te801b_s4516e-user-8.1.0-OPM2.171019.012-41514-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/n210.git": [
+    "remotes/origin/s1072e_2g-user-8.1.0-OPM2.171019.012-43319-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/n310.git": [
+    "remotes/origin/s1072e_2g-user-8.1.0-OPM2.171019.012-44403-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/n370.git": [
+    "remotes/origin/s8637e_1g-user-8.1.0-OPM2.171019.012-52619-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/n570.git": [
+    "remotes/origin/s7182e_2g-user-8.1.0-OPM2.171019.012-22418-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/p380i.git": [
+    "remotes/origin/s8638e_1g-user-8.1.0-OPM2.171019.012-34509-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/p410.git": [
+    "remotes/origin/s8631e_1g-user-8.1.0-OPM2.171019.012-19109-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/s280.git": [
+    "remotes/origin/s8638e_1g-user-8.1.0-OPM2.171019.012-11602-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/s380.git": [
+    "remotes/origin/full_tb8321p2_bsp-user-8.1.0-O11019-1555050376-dev-keys"
+  ],
+  "/data/android_rom/dumps/dexp/va110.git": [
+    "remotes/origin/s1067e_1g-user-8.1.0-OPM2.171019.012-40410-release-keys"
+  ],
+  "/data/android_rom/dumps/dexp/va210.git": [
+    "remotes/origin/s8631e_1g-user-8.1.0-OPM2.171019.012-10115-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/cs1219pl.git": [
+    "remotes/origin/s9863a1h10__s1073ah_2g-user-9-PPR1.180610.011-38204-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/cs6062ml.git": [
+    "remotes/origin/full_k63v2_64_bsp-user-9-PPR1.180610.011-1574165271-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/cs8209mg.git": [
+    "remotes/origin/CITI_8592_3G-user-9-PPR1.180610.011-1571075924-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/ls5040pl.git": [
+    "remotes/origin/sp9850ka_1h10_oversea-user-8.1.0-OPM2.171019.012-24521-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/ls5041pl.git": [
+    "remotes/origin/sp9850ka_1h10_oversea-user-8.1.0-OPM2.171019.012-24521-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/ps8212pg.git": [
+    "remotes/origin/sp7731e_1h30__s8067e_2g-user-9-PPR1.180610.011-22016-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/ts7203mg.git": [
+    "remotes/origin/full_tb8321p2_bsp-user-8.1.0-O11019-1548326090-release-keys"
+  ],
+  "/data/android_rom/dumps/digma/ts8211pg.git": [
+    "remotes/origin/s8067e_1g-user-8.1.0-OPM2.171019.012-09315-release-keys"
+  ],
+  "/data/android_rom/dumps/doogee/s68pro.git": [
+    "remotes/origin/S68Pro_EEA-user-9-P00610-1572524041-release-keys"
+  ],
+  "/data/android_rom/dumps/doogee/x90l.git": [
+    "remotes/origin/X90L-user-9-P00610-1553768670-release-keys"
+  ],
+  "/data/android_rom/dumps/doogee/y7.git": [
+    "remotes/origin/s9863a1h10_Natv-user-8.1.0-OPM2.171019.012-20190321-release-keys"
+  ],
+  "/data/android_rom/dumps/dumpyara.git": [
+    "remotes/origin/master",
+    "remotes/origin/axel-spam"
+  ],
+  "/data/android_rom/dumps/elevate/g55_lite.git": [
+    "remotes/origin/G55-user-8.1.0-ELEVATEG55_LITE-1536140640-release-keys"
+  ],
+  "/data/android_rom/dumps/essential/mata.git": [
+    "remotes/origin/mata-user-10-QP1A.190711.148-446-release-keys",
+    "remotes/origin/mata-user-10-QP1A.190711.122-420-release-keys",
+    "remotes/origin/mata-user-9-PQ1A.190105.090-528-release-keys",
+    "remotes/origin/mata-user-10-QP1A.190711.107-405-release-keys",
+    "remotes/origin/mata-user-10-QP1A.190502.046-241-release-keys",
+    "remotes/origin/mata-user-10-QP1A.191005.014-478-release-keys",
+    "remotes/origin/mata-user-10-QQ1A.200105.032-540-release-keys",
+    "remotes/origin/mata-user-10-QQ1A.191205.017-499-release-keys",
+    "remotes/origin/mata-user-10-QP1A.190711.052-351-release-keys",
+    "remotes/origin/mata-user-P-PPR1.180412.048-69-release-keys",
+    "remotes/origin/mata-user-10-QQ1A.200105.007-515-release-keys",
+    "remotes/origin/mata-user-9-PQ1A.190105.112-550-release-keys",
+    "remotes/origin/mata-user-10-QP1A.190530.044-298-release-keys",
+    "remotes/origin/mata-user-9-PPR1.180610.091-249-release-keys"
+  ],
+  "/data/android_rom/dumps/evercoss/m55b.git": [
+    "remotes/origin/sp9850ka_1h10_go-user-8.1.0-OPM2.171019.012-11515-release-keys"
+  ],
+  "/data/android_rom/dumps/fairphone/fp3.git": [
+    "remotes/origin/FP3-user-9-8901.2.A.0110.20200109-01092024-release-keys",
+    "remotes/origin/fp3-user-10-8901.3.A.0045.20200905-09051550-release-keys",
+    "remotes/origin/fp3-user-10-8901.3.A.0054.20200929-09290922-release-keys"
+  ],
+  "/data/android_rom/dumps/fly/lifeace.git": [
+    "remotes/origin/sp7731e_1h20_native-user-8.1.0-OPM2.171019.012-20181127-release-keys"
+  ],
+  "/data/android_rom/dumps/fxtec/qx1000.git": [
+    "remotes/origin/QX1000-user-9-PKQ1.190723.001-20200825231443-release-keys",
+    "remotes/origin/QX1000-user-9-PKQ1.190723.001-20200306124530-release-keys"
+  ],
+  "/data/android_rom/dumps/gigi/gigi_u1.git": [
+    "remotes/origin/full_t961be_v1_aw_nde_m5001c_gms-user-7.0-NRD90M-1535561303-release-keys"
+  ],
+  "/data/android_rom/dumps/gionee/f10.git": [
+    "remotes/origin/F10-user-9-PPR1.180610.011-94-release-keys"
+  ],
+  "/data/android_rom/dumps/gionee/f10_plus.git": [
+    "remotes/origin/full_k63v2_64_bsp-userdebug-9-PPR1.180610.011-1575621639-release-keys"
+  ],
+  "/data/android_rom/dumps/gm/gm9plus_s.git": [
+    "remotes/origin/full_v7101o-user-9-PPR1.180610.011-P.9PL.2001.A-s-release-keys"
+  ],
+  "/data/android_rom/dumps/google/blueline.git": [
+    "remotes/origin/blueline-user-R-RPP4.200409.015-6455311-release-keys",
+    "remotes/origin/blueline-user-10-QQ2A.200405.005-6254899-release-keys",
+    "remotes/origin/blueline-user-R-RPP1.200123.016-6203814-release-keys",
+    "remotes/origin/blueline-user-10-QQ1A.200205.002-6084386-release-keys",
+    "remotes/origin/blueline-user-10-QP1A.190711.020.C3-5869620-release-keys",
+    "remotes/origin/blueline-user-10-QP1A.191105.003-5899767-release-keys",
+    "remotes/origin/blueline-user-R-RPP2.200227.014-6343719-release-keys",
+    "remotes/origin/blueline-user-11-RPB3.200720.005-6705141-release-keys",
+    "remotes/origin/blueline-user-10-QP1A.191005.007-5878874-release-keys",
+    "remotes/origin/blueline-user-10-QQ3A.200605.001-6392402-release-keys",
+    "remotes/origin/blueline-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/blueline-user-10-QQ1A.200105.002-6031801-release-keys",
+    "remotes/origin/blueline-user-10-QQ2A.200305.002-6138846-release-keys",
+    "remotes/origin/blueline-user-11-RP1A.201005.004-6782484-release-keys",
+    "remotes/origin/blueline-user-10-QQ3A.200805.001-6578210-release-keys",
+    "remotes/origin/blueline-user-10-QQ1A.200105.003-6079943-release-keys",
+    "remotes/origin/blueline-user-9-PQ3A.190801.002-5670241-release-keys",
+    "remotes/origin/blueline-user-11-RPB1.200504.018-6520161-release-keys",
+    "remotes/origin/blueline-user-9-PQ3A.190705.003-5600800-release-keys",
+    "remotes/origin/blueline-user-11-RP1A.201105.002-6869500-release-keys",
+    "remotes/origin/blueline-user-R-RPP3.200320.017-6412707-release-keys",
+    "remotes/origin/blueline-user-10-QQ3A.200705.002-6506677-release-keys",
+    "remotes/origin/blueline-user-10-QQ2A.200501.001.A3-6353761-release-keys",
+    "remotes/origin/blueline-user-10-QQ2A.200501.001.B2-6352890-release-keys",
+    "remotes/origin/blueline-user-R-RPP2.200227.009-6291673-release-keys"
+  ],
+  "/data/android_rom/dumps/google/coral.git": [
+    "remotes/origin/coral-user-10-QD1A.190821.007.A3-5891392-release-keys",
+    "remotes/origin/coral-user-10-QQ1C.200205.002-6084391-release-keys",
+    "remotes/origin/coral-user-10-QQ2A.200501.001.B2-6352890-release-keys",
+    "remotes/origin/coral-user-10-QD1A.190821.011-5849216-release-keys",
+    "remotes/origin/coral-user-11-RP1A.201005.004-6782484-release-keys",
+    "remotes/origin/coral-user-10-QD1A.190821.011.C4-5917693-release-keys",
+    "remotes/origin/coral-user-10-QD1A.190821.014-5891648-release-keys",
+    "remotes/origin/coral-user-10-QD1A.190821.007-5831595-release-keys",
+    "remotes/origin/coral-user-11-RPB1.200504.018-6520161-release-keys",
+    "remotes/origin/coral-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/coral-user-R-RPP2.200227.009-6291673-release-keys",
+    "remotes/origin/coral-user-11-RP1A.201105.002-6869500-release-keys",
+    "remotes/origin/coral-user-10-QQ2A.200405.005-6254899-release-keys",
+    "remotes/origin/coral-user-R-RPP2.200227.014-6343719-release-keys",
+    "remotes/origin/coral-user-11-RPB3.200720.005-6705141-release-keys",
+    "remotes/origin/coral-user-R-RPP1.200123.016-6203814-release-keys",
+    "remotes/origin/coral-user-10-QQ1B.200205.002-6084387-release-keys",
+    "remotes/origin/coral-user-R-RPP3.200320.017-6412707-release-keys",
+    "remotes/origin/coral-user-10-QQ1C.200105.004-6031803-release-keys",
+    "remotes/origin/coral-user-10-QQ2A.200305.003-6156912-release-keys",
+    "remotes/origin/coral-user-10-QQ3A.200805.001-6578210-release-keys",
+    "remotes/origin/coral-user-10-QQ1B.191205.011-5974828-release-keys",
+    "remotes/origin/coral-user-10-QQ1B.200105.004-6031802-release-keys",
+    "remotes/origin/coral-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/coral-user-10-QQ1B.191205.012.A1-6015823-release-keys",
+    "remotes/origin/coral-user-10-QQ1D.200105.002-6079691-release-keys",
+    "remotes/origin/coral-user-10-QQ1C.191205.016.A1-6015682-release-keys",
+    "remotes/origin/coral-user-10-QQ2A.200501.001.A3-6353761-release-keys",
+    "remotes/origin/coral-user-10-QD1A.190821.014.C2-5925854-release-keys",
+    "remotes/origin/coral-user-10-QQ3A.200605.001-6392402-release-keys",
+    "remotes/origin/coral-user-R-RPP4.200409.015-6455311-release-keys",
+    "remotes/origin/coral-user-10-QQ3A.200705.002-6506677-release-keys",
+    "remotes/origin/coral-user-10-QQ1D.200205.002-6084393-release-keys"
+  ],
+  "/data/android_rom/dumps/google/flame.git": [
+    "remotes/origin/flame-user-10-QQ1C.200205.002-6084391-release-keys",
+    "remotes/origin/flame-user-10-QQ1B.191205.012.A1-6015823-release-keys",
+    "remotes/origin/flame-user-11-RPB1.200504.018-6520161-release-keys",
+    "remotes/origin/flame-user-10-QQ1C.191205.016.A1-6015682-release-keys",
+    "remotes/origin/flame-user-10-QQ1D.200105.002-6079691-release-keys",
+    "remotes/origin/flame-user-11-RPB3.200720.005-6705141-release-keys",
+    "remotes/origin/flame-user-10-QQ2A.200405.005-6254899-release-keys",
+    "remotes/origin/flame-user-R-RPP4.200409.015-6455311-release-keys",
+    "remotes/origin/flame-user-10-QD1A.190821.014.C2-5925854-release-keys",
+    "remotes/origin/flame-user-10-QD1A.190821.011.C4-5917693-release-keys",
+    "remotes/origin/flame-user-R-RPP2.200227.014-6343719-release-keys",
+    "remotes/origin/flame-user-11-RP1A.201005.004-6782484-release-keys",
+    "remotes/origin/flame-user-10-QQ1B.200205.002-6084387-release-keys",
+    "remotes/origin/flame-user-R-RPP1.200123.016-6203814-release-keys",
+    "remotes/origin/flame-user-10-QQ1B.191205.011-5974828-release-keys",
+    "remotes/origin/flame-user-10-QQ1C.200105.004-6031803-release-keys",
+    "remotes/origin/flame-user-10-QQ2A.200305.003-6156912-release-keys",
+    "remotes/origin/flame-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/flame-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/flame-user-10-QQ1D.200205.002-6084393-release-keys",
+    "remotes/origin/flame-user-R-RPP3.200320.017-6412707-release-keys",
+    "remotes/origin/flame-user-10-QQ2A.200501.001.A3-6353761-release-keys",
+    "remotes/origin/flame-user-10-QD1A.190821.007-5831595-release-keys",
+    "remotes/origin/flame-user-10-QD1A.190821.011-5849216-release-keys",
+    "remotes/origin/flame-user-10-QD1A.190821.014-5891648-release-keys",
+    "remotes/origin/flame-user-10-QQ2A.200501.001.B2-6352890-release-keys",
+    "remotes/origin/flame-user-11-RP1A.201105.002-6869500-release-keys",
+    "remotes/origin/flame-user-10-QQ3A.200805.001-6578210-release-keys",
+    "remotes/origin/flame-user-10-QD1A.190821.007.A3-5891392-release-keys",
+    "remotes/origin/flame-user-R-RPP2.200227.009-6291673-release-keys",
+    "remotes/origin/flame-user-10-QQ1B.200105.004-6031802-release-keys",
+    "remotes/origin/flame-user-10-QQ3A.200705.002-6506677-release-keys",
+    "remotes/origin/flame-user-10-QQ3A.200605.001-6392402-release-keys"
+  ],
+  "/data/android_rom/dumps/google/fugu.git": [
+    "remotes/origin/fugu-user-8.0.0-OPR2.170623.027-4397545-release-keys"
+  ],
+  "/data/android_rom/dumps/google/generic.git": [
+    "remotes/origin/gsi_gms_x86-user-R-RPP1.200123.016.A1-6209321-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-11-RPB1.200504.019-6541053-release-keys",
+    "remotes/origin/gsi_gms_x86-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-R-RPP4.200409.015-6455311-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/gsi_gms_x86-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-R-RPP1.200123.016.A1-6209321-release-keys"
+  ],
+  "/data/android_rom/dumps/google/generic_x86_64_arm64.git": [
+    "remotes/origin/sdk_gphone_x86_64_arm64-userdebug-11-RPB1.200504.020-6557529-dev-keys",
+    "remotes/origin/10"
+  ],
+  "/data/android_rom/dumps/google/gsi_arm64.git": [
+    "remotes/origin/gsi_gms_arm64-user-R-RPP2.200227.009-6291673-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-R-RPP1.200123.020-6249540-release-keys",
+    "remotes/origin/gsi_gms_arm64-user-R-RPP1.200123.016.A1-6209321-release-keys"
+  ],
+  "/data/android_rom/dumps/google/seed.git": [
+    "remotes/origin/seed_l8150-user-7.0-NRD90M-3085278-release-keys"
+  ],
+  "/data/android_rom/dumps/google/walleye.git": [
+    "remotes/origin/walleye-user-10-QQ1A.191205.008-5974827-release-keys",
+    "remotes/origin/walleye-user-11-RP1A.201005.004-6782484-release-keys",
+    "remotes/origin/walleye-user-10-QPP5.190530.014-5691763-release-keys",
+    "remotes/origin/walleye-user-10-QQ3A.200805.001-6578210-release-keys",
+    "remotes/origin/walleye-user-R-RPP2.200227.009-6291673-release-keys",
+    "remotes/origin/walleye-user-11-RPB2.200611.009-6625208-release-keys",
+    "remotes/origin/walleye-user-10-QQ1A.200205.002-6084386-release-keys",
+    "remotes/origin/walleye-user-10-QQ2A.200405.005-6254899-release-keys",
+    "remotes/origin/walleye-user-10-QP1A.190711.019-5790879-release-keys",
+    "remotes/origin/walleye-user-9-PPP4.180612.004-4838310-release-keys",
+    "remotes/origin/walleye-user-10-QQ2A.200501.001.B3-6396602-release-keys",
+    "remotes/origin/walleye-user-R-RPP4.200409.015-6455311-release-keys",
+    "remotes/origin/walleye-user-R-RPP3.200320.017-6412707-release-keys",
+    "remotes/origin/walleye-user-9-PQ3A.190801.002-5670241-release-keys",
+    "remotes/origin/walleye-user-10-QQ3A.200705.002-6506677-release-keys",
+    "remotes/origin/walleye-user-10-QQ2A.200305.002-6138846-release-keys",
+    "remotes/origin/walleye-user-10-QQ2A.200501.001.A3-6353761-release-keys",
+    "remotes/origin/walleye-user-10-QP1A.190711.020-5800535-release-keys",
+    "remotes/origin/walleye-user-11-RPB3.200720.005-6705141-release-keys",
+    "remotes/origin/walleye-user-10-QP1A.191005.007.A1-5908163-release-keys",
+    "remotes/origin/walleye-user-10-QQ1A.200105.002-6031801-release-keys",
+    "remotes/origin/walleye-user-11-RP1A.200720.009-6720564-release-keys",
+    "remotes/origin/walleye-user-10-QP1A.191105.004-5908170-release-keys",
+    "remotes/origin/walleye-user-R-RPP1.200123.016-6203814-release-keys",
+    "remotes/origin/walleye-user-R-RPP2.200227.014-6343719-release-keys",
+    "remotes/origin/walleye-user-11-RPB1.200504.018-6520161-release-keys"
+  ],
+  "/data/android_rom/dumps/hisense/hlte202n.git": [
+    "remotes/origin/HLTE202N-user-9-PKQ1.190504.001-L1657.6.01.02-release-keys"
+  ],
+  "/data/android_rom/dumps/htc/htc_imeuhl.git": [
+    "remotes/origin/1.30.617.2-10.0_g-CL1050003-release-keys"
+  ],
+  "/data/android_rom/dumps/htc/htc_ocnwhl.git": [
+    "remotes/origin/2.33.651.10-9.0_g-CL1002308-release-keys"
+  ],
+  "/data/android_rom/dumps/htc/htc_pmeuhl.git": [
+    "remotes/origin/3.16.709.8-9.0_g-CL1012001-release-keys"
+  ],
+  "/data/android_rom/dumps/htc/ocmdugl.git": [
+    "remotes/origin/1.24.401.2-9.0_g-CL1010171-release-keys"
+  ],
+  "/data/android_rom/dumps/huawei/atlanta.git": [
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.jagent.20191101.115442-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20191211.102109-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20191021.220257-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20190729.174844-test-keys"
+  ],
+  "/data/android_rom/dumps/huawei/generic_a15.git": [
+    "remotes/origin/generic_a15-user-10-QP1A.190711.020-eng.root.20191023.231407-dev-keys",
+    "remotes/origin/generic_a15-user-10-QP1A.190711.020-eng.root.20191018.013635-dev-keys"
+  ],
+  "/data/android_rom/dumps/huawei/miami.git": [
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20191211.103712-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.jenkin.20191211.123735-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20191211.153403-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20191211.121041-test-keys"
+  ],
+  "/data/android_rom/dumps/huawei/p30.git": [
+    "remotes/origin/aeon6580_weg_l_l300-user-5.1-LMY47I-1555741941-test-keys"
+  ],
+  "/data/android_rom/dumps/iku/ix.git": [
+    "remotes/origin/sp7731e_fs280_32v4_project-user-8.1.0-OPM2.171019.012-01119-release-keys"
+  ],
+  "/data/android_rom/dumps/infinix/infinix-x650.git": [
+    "remotes/origin/full_x650_h8029-user-8.1.0-O11019-1565806766-release-keys"
+  ],
+  "/data/android_rom/dumps/infinix/infinix-x650d.git": [
+    "remotes/origin/full_x650d_h6113-user-9-PPR1.180610.011-57150-release-keys"
+  ],
+  "/data/android_rom/dumps/infinix/infinix-x655f.git": [
+    "remotes/origin/full_x655f_h6211-user-10-QP1A.190711.020-3471-release-keys"
+  ],
+  "/data/android_rom/dumps/infinix/x604.git": [
+    "remotes/origin/full_X604_H633-user-8.1.0-O11019-1530155744-release-keys"
+  ],
+  "/data/android_rom/dumps/intex/aqua_freedom.git": [
+    "remotes/origin/Aqua_Freedom-user-5.1-LMY47I-1453219789-release-keys"
+  ],
+  "/data/android_rom/dumps/intex/cloud_4g_star.git": [
+    "remotes/origin/full_Z110_INT_K11-user-5.0-LRX21M-1447949059-test-keys",
+    "remotes/origin/full_Z110_INT_K11-user-5.0-LRX21M-1439288600-test-keys"
+  ],
+  "/data/android_rom/dumps/intex/device.git": [
+    "remotes/origin/sp7731gea_hdrplus_dt-user-5.1-LMY47D-free-release-keys"
+  ],
+  "/data/android_rom/dumps/intex/intex_aqua_selfie.git": [
+    "remotes/origin/release-keys"
+  ],
+  "/data/android_rom/dumps/itel/itel-w4003.git": [
+    "remotes/origin/W4003-SA217-8.1-OP-V021-20190521"
+  ],
+  "/data/android_rom/dumps/itel/l6005.git": [
+    "remotes/origin/L6005-user-9-PPR1.180610.011-176-release-keys"
+  ],
+  "/data/android_rom/dumps/itel/w6002.git": [
+    "remotes/origin/W6002-user-9-PPR1.180610.011-521-release-keys"
+  ],
+  "/data/android_rom/dumps/jinga/neon.git": [
+    "remotes/origin/Neon-user-8.1.0-OPM2.171019.012-15122018200203-release-keys"
+  ],
+  "/data/android_rom/dumps/karbonn/karbonn_vue_1.git": [
+    "remotes/origin/Karbonn_Vue_1_V07"
+  ],
+  "/data/android_rom/dumps/karbonn/platinum_p9_pro.git": [
+    "remotes/origin/sp9832e_1h10_oversea-user-8.1.0-OPM2.171019.012-37515-release-keys"
+  ],
+  "/data/android_rom/dumps/kospet/prime.git": [
+    "remotes/origin/full_KW_C7S_TFT_LFLT-user-7.1.1-N6F26Q-1594010312-test-keys",
+    "remotes/origin/full_KW_C7S_TFT_LFLT-user-7.1.1-N6F26Q-1577184094-test-keys",
+    "remotes/origin/full_KW_C7S_TFT_LFLT-user-7.1.1-N6F26Q-1570711047-test-keys"
+  ],
+  "/data/android_rom/dumps/kyocera/s2_sprout.git": [
+    "remotes/origin/S2-user-9-5.120VE.29.a-5.120VE.29.a-release-keys"
+  ],
+  "/data/android_rom/dumps/leagoo/m10.git": [
+    "remotes/origin/full_bird6739tv1_bsp_1g-user-8.1.0-O11019-1545731738-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/7305f.git": [
+    "remotes/origin/full_mt8321_GO-user-9-PPR1.180610.011-eng.hoperu.20191025.095819-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/7305i.git": [
+    "remotes/origin/full_mt8321_GO-user-9-PPR1.180610.011-18-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/7305x.git": [
+    "remotes/origin/full_mt8765_GO-user-9-PPR1.180610.011-10-release-keys",
+    "remotes/origin/full_mt8765_P-user-9-PPR1.180610.011-2-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/a369i.git": [
+    "remotes/origin/lcsh72_we_jb3-user-4.2.2-JDQ39-174-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/a7010a48.git": [
+    "remotes/origin/k5fpr-user-6.0-MRA58K-A7010a48_S232_161227_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/a7700.git": [
+    "remotes/origin/hq6735m_65u_b1a_m-user-6.0-MRA58K-1512965089-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/achilles6_row_wifi.git": [
+    "remotes/origin/full_achilles6_row_wifi-user-9-PPR1.180610.011-TB-X606F_U-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/ak57.git": [
+    "remotes/origin/AK57-user-10-QP1A.190711.020-11.0.022_200518-release-keys",
+    "remotes/origin/AK57-user-10-QP1A.190711.020-11.5.263_200824-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/akita_row_call.git": [
+    "remotes/origin/full_akita_row_call-user-9-PPR1.180610.011-TB-8505X_U-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/anna_row_call.git": [
+    "remotes/origin/full_anna_row_call-user-9-PPR1.180610.011-TB-8505XS_-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/anna_row_wifi.git": [
+    "remotes/origin/full_anna_row_wifi-user-9-PPR1.180610.011-TB-8505FS_-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/cream.git": [
+    "remotes/origin/cream-user-9-PKQ1.190908.001-11.3.245_191210-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/elf-8605l.git": [
+    "remotes/origin/qssi-userdebug-10-QKQ1.200301.002-338-test-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/k5.git": [
+    "remotes/origin/k5-user-8.0.0-OPR1.170623.032-3.7.033_180413-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/k53.git": [
+    "remotes/origin/karatep-user-7.0-NRD90N-K53_S225_170811_ROW-release-keys",
+    "remotes/origin/karatep-user-6.0.1-MMB29M-K53_S123_170216_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/k9.git": [
+    "remotes/origin/full_lava6762_l01-user-8.1.0-O11019-1569500599-release-keys",
+    "remotes/origin/full_lava6762_l01-user-8.1.0-O11019-1551702904-release-keys",
+    "remotes/origin/full_lava6762_l01-user-8.1.0-O11019-1575368252-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/kraft-a6000.git": [
+    "remotes/origin/Kraft-A6000-user-5.0.2-LRX22G-A6000_S016_150815_8G_BG-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/p1a42.git": [
+    "remotes/origin/passion_row-user-6.0.1-MMB29M-P1a42_S288_160721_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/p1ma40.git": [
+    "remotes/origin/full_wt98735_c1-user-5.1-LMY47D-P1ma40_S_S010_160824_16G_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/p2a42.git": [
+    "remotes/origin/kuntao_row-user-7.0-NRD90N-P2a42_S251_171107_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/pb2-670m.git": [
+    "remotes/origin/full_lcsh8783_ttb_m-user-6.0-MRA58K-1508142122-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/sprout_plus.git": [
+    "remotes/origin/sprout_plus-user-9-PKQ1.190127.001-11.1.077_191008-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb-7504f.git": [
+    "remotes/origin/wt98997_wifirowCDP-userdebug-7.0-NRD90M-1530081198-release-keys",
+    "remotes/origin/wt98997_wifirow-user-7.0-NRD90M-1534993220-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb-8704v.git": [
+    "remotes/origin/msm8953_64-user-7.1.1-NMF26F-680-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb-8704x.git": [
+    "remotes/origin/msm8953_64-user-8.1.0-OPM1.171019.019-1029-release-keys",
+    "remotes/origin/msm8953_64-user-7.1.1-NMF26F-513-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb-x505f.git": [
+    "remotes/origin/msm8937_64-user-9-PKQ1.181218.001-255-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb-x505l.git": [
+    "remotes/origin/msm8937_64-user-9-PKQ1.181218.001-257-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb2-x30l.git": [
+    "remotes/origin/msm8909-user-6.0.1-LenovoTB2-X30L-TB2-X30L_S000103_170524_IN-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/tb3-850m.git": [
+    "remotes/origin/full_lcsh8735m_6_co-user-6.0-MRA58K-1482733536-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/vega.git": [
+    "remotes/origin/full_achilles6_row_call-userdebug-9-PPR1.180610.011-eng.wangmm-test-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/x104f1.git": [
+    "remotes/origin/hq_msm8909-user-8.1.0-OPM1.171019.026-1825-release-keys",
+    "remotes/origin/hq_msm8909-user-8.1.0-OPM1.171019.026-1775-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/x104x.git": [
+    "remotes/origin/hq_msm8909-user-8.1.0-OPM1.171019.026-1795-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/x605f.git": [
+    "remotes/origin/tab5_m10_row_wifi-user-9-PKQ1.190319.001-TB-X605F_U-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/x705l.git": [
+    "remotes/origin/tab5_p10_row_lte-user-9-PKQ1.190319.001-TB-X705L_U-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/yeti.git": [
+    "remotes/origin/yeti_10_row_lte-user-7.1.1-NMF26X-YB1-X90L_USR_S110085-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/yt-x703x.git": [
+    "remotes/origin/msm8952_64-user-7.1.1-NMF26F-eng.maojia.20180610.124234-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/yt-x705x.git": [
+    "remotes/origin/msm8937_64-user-9-PKQ1.181218.001-12-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/yt3-850m.git": [
+    "remotes/origin/msm8909-user-6-MMB29M-YT3-850M_S000124_170330_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/yt3-x50l.git": [
+    "remotes/origin/msm8909-user-6-MMB29M-YT3-X50L_S000129_171227_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/lenovo/yt3.git": [
+    "remotes/origin/YT3_10_row_lte_oth-user-6.0.1-MMB29M-YT3-X90X_USR_S200303_1706140050_WW17_BP_-release-keys"
+  ],
+  "/data/android_rom/dumps/lge/alphalm.git": [
+    "remotes/origin/alphalm_lao_com-user-9-PKQ1.181203.001-190911746d0fb-release-keys"
+  ],
+  "/data/android_rom/dumps/lge/alphaplus.git": [
+    "remotes/origin/alphaplus_lao_com-user-9-PKQ1.181203.001-190742236c291-release-keys"
+  ],
+  "/data/android_rom/dumps/lge/judyp.git": [
+    "remotes/origin/judyp_lao_com-user-8.0.0-OPR1.170623.032-181981635d682-release-keys"
+  ],
+  "/data/android_rom/dumps/mbiphone/s10.git": [
+    "remotes/origin/S10-user-8.1.0-MBI_S10_0029.20190202-02020913-release-keys"
+  ],
+  "/data/android_rom/dumps/meizu/15plus.git": [
+    "remotes/origin/Meizu_15Plus_CN-user-7.0-NRD90M-1523520245-release-keys"
+  ],
+  "/data/android_rom/dumps/meizu/16th.git": [
+    "remotes/origin/meizu_16th_CN-user-8.1.0-OPM1.171019.026-1554749207-release-keys",
+    "remotes/origin/meizu_16th_CN-user-8.1.0-OPM1.171019.026-1533779885-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191222.002-1587117718-release-keys",
+    "remotes/origin/meizu_16th_CN-user-8.1.0-OPM1.171019.026-1572332128-release-keys"
+  ],
+  "/data/android_rom/dumps/meizu/16thplus.git": [
+    "remotes/origin/meizu_16thPlus_CN-user-8.1.0-OPM1.171019.026-1572924246-release-keys",
+    "remotes/origin/meizu_16thPlus_CN-user-8.1.0-OPM1.171019.026-1533779901-release-keys"
+  ],
+  "/data/android_rom/dumps/meizu/16x.git": [
+    "remotes/origin/meizu_16X_CN-user-8.1.0-OPM1.171019.026-1572938190-release-keys"
+  ],
+  "/data/android_rom/dumps/meizu/m1822.git": [
+    "remotes/origin/meizu_M1822_CN-user-8.1.0-OPM1.171019.026-1574132388-release-keys"
+  ],
+  "/data/android_rom/dumps/meizu/m1852.git": [
+    "remotes/origin/meizu_M1852_CN-user-8.1.0-OPM1.171019.026-1575272080-release-keys"
+  ],
+  "/data/android_rom/dumps/micromax/ione.git": [
+    "remotes/origin/ione-user-9-PPR1.180610.011-171-release-keys"
+  ],
+  "/data/android_rom/dumps/micromax/n8305.git": [
+    "remotes/origin/N8305-user-9-PPR1.180610.011-192-release-keys"
+  ],
+  "/data/android_rom/dumps/minix/byt_t_crv2.git": [
+    "remotes/origin/byt_t_crv2_64-userdebug-4.4.4-KTU84P-eng.root.20150413.131247-release-keys"
+  ],
+  "/data/android_rom/dumps/mito/mito_a37_z1plus.git": [
+    "remotes/origin/Mito_A37_Z1plus_8085T_V04_20181215"
+  ],
+  "/data/android_rom/dumps/motorola/ali.git": [
+    "remotes/origin/8-OCN27.79-28-38-46-release-keys",
+    "remotes/origin/9-PPS29.55-37-7-445ae-release-keys",
+    "remotes/origin/9-PPSS29.118-15-11-2-76e712-release-keys",
+    "remotes/origin/user-9-PPS29.118-11-1-74f62-release-keys",
+    "remotes/origin/userdebug-9-PPS29.55-37-4-908b8-intcfg,test-keys",
+    "remotes/origin/user-9-PPSS29.55-37-4-5-27fab-release-keys",
+    "remotes/origin/user-9-PPS29.118-11-aa435-release-keys",
+    "remotes/origin/user-9-PPS29.55-37-4-908b8-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/astro.git": [
+    "remotes/origin/astro_retail-user-10-QPL30.62-23-2-f7942-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/blackjack_64.git": [
+    "remotes/origin/blackjack_64-user-9-POD29.349-2-f03c3-release-keys",
+    "remotes/origin/blackjack_64-user-9-POD29.345-25-e7523-release-keys",
+    "remotes/origin/blackjack_64-user-9-POD29.347-3-5e13b-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/burton.git": [
+    "remotes/origin/msi-user-10-QP1A.191005.002-98771-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/cedric.git": [
+    "remotes/origin/userdebug-8.1.0-OPQ28.85-8-afdf-intcfg,test-keys",
+    "remotes/origin/userdebug-6.0.1-MPP24.10-51-intcfg,test-keys",
+    "remotes/origin/user-8.1.0-OPP28.85-19-4-2-3447de-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/chef.git": [
+    "remotes/origin/user-8.1.0-OCT28.67-54-e07c-release-keys",
+    "remotes/origin/userdebug-8.1.0-OCT28.72-eng.liufeng23.180702.135304-intcfg,test-keys"
+  ],
+  "/data/android_rom/dumps/motorola/chef_sprout.git": [
+    "remotes/origin/user-10-QPTS30.61-18-10-530d8-release-keys",
+    "remotes/origin/8.1.0-OPT28.53-db60-user-release-keys",
+    "remotes/origin/9-PPTS29.74-41-5-8-9a9d1-release-keys",
+    "remotes/origin/user-10-QPTS30.61-18-4-7dcb5-",
+    "remotes/origin/9-PPT29.74-25-64be-release-keys",
+    "remotes/origin/10-QPTS30.61-18-2-a03ba-release-keys",
+    "remotes/origin/10-QPT30.61-18-18a03-release-keys",
+    "remotes/origin/user-10-QPTS30.61-18-16-1-1e9b49-release-keys",
+    "remotes/origin/user-9-PPTS29.74-41-5-3-2b2ba-release-keys",
+    "remotes/origin/10-QPT30.61-2-c64f6-release-keys",
+    "remotes/origin/10-QPT30.52-2-28ac7-release-keys",
+    "remotes/origin/9-PPTS29.74-41-4-release-keys",
+    "remotes/origin/user-10-QPTS30.61-18-12-65302-release-keys",
+    "remotes/origin/user-8.1.0-OPT28.81-45-2544-release-keys",
+    "remotes/origin/user-10-QPT30.61-18-16-4306fb-release-keys",
+    "remotes/origin/user-9-PPTS29.74-41-5-2-5bf8c9-release-keys",
+    "remotes/origin/9-PPTS29.74-41-5-7-914c1-release-keys",
+    "remotes/origin/user-9-PPT29.74-41-5-301ff-release-keys",
+    "remotes/origin/user-10-QPTS30.61-18-8-7ba08-release-keys",
+    "remotes/origin/10-QPT30.61-14-23e2f-release-keys",
+    "remotes/origin/user-9-PPTS29.74-41-5-7-914c1-release-keys",
+    "remotes/origin/user-10-QPTS30.61-18-13-8c055-release-keys",
+    "remotes/origin/user-10-QPTS30.61-18-14-88d69-release-keys",
+    "remotes/origin/10-QPTS30.61-18-3-9514c-release-keys",
+    "remotes/origin/user-9-PPTS29.74-41-3-45809c-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/clark.git": [
+    "remotes/origin/clark_retus-user-7.0-NPHS25.200-23-1-1-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/evert.git": [
+    "remotes/origin/9-PPWS29.116-20-13-83de62-release-keys",
+    "remotes/origin/user-9-PPWS29.116-16-8-b96ac-release-keys",
+    "remotes/origin/9-PPWS29.116-16-11-5a67c-release-keys",
+    "remotes/origin/evert_n-user-8.0.0-OPW27.113-45-53-release-keys",
+    "remotes/origin/user-9-PPWS29.116-11-6-9c4de2-release-keys",
+    "remotes/origin/9-PPWS29.116-16-15-8deca-release-keys",
+    "remotes/origin/user-9-PPWS29.116-20-8-376fc-release-keys",
+    "remotes/origin/9-PPWS29.116-20-11-c93a-release-keys",
+    "remotes/origin/9-PPWS29.116-16-18-7f66b-release-keys",
+    "remotes/origin/9-PPWS29.116-11-20-de2af-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/fiji.git": [
+    "remotes/origin/fiji-user-9-POB29.97-7bdff-release-keys",
+    "remotes/origin/fiji-user-9-POB29.288-18-4ed0e-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/ginna.git": [
+    "remotes/origin/ginna_retail-user-10-QPG30.82-95-b8e00-release-keys",
+    "remotes/origin/ginna_retail-userdebug-10-QPG30.1-e414d-intcfg,test-keys",
+    "remotes/origin/userdebug-10-QPG30.1-d1ad4-test-keys",
+    "remotes/origin/ginna_vzw-user-10-QPG30.82-23-1-f5162-release-keys",
+    "remotes/origin/ginna_retail-userdebug-10-QPG30.1-2b841-intcfg,test-keys",
+    "remotes/origin/ginna_retail-user-10-QPG30.82-62-737bf-release-keys",
+    "remotes/origin/ginna_retail-user-10-QPG30.82-105-80737-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/lake.git": [
+    "remotes/origin/user-9-PPW29.98-111-bc251-release-keys",
+    "remotes/origin/10-QPW30.61-11-165c7-release-keys",
+    "remotes/origin/10-QPW30.61-21-cb81e-release-keys",
+    "remotes/origin/9-PCWS29.83-56-5-86af0-release-keys",
+    "remotes/origin/user-10-QPWS30.61-21-18-3-323d8-release-keys",
+    "remotes/origin/10-QPW30.61-18-d18ed-release-keys",
+    "remotes/origin/9-PPWS29.98-111-9-d601-release-keys",
+    "remotes/origin/10-QPW30.61-5-c7316-release-keys",
+    "remotes/origin/user-10-QPWS30.61-21-3-0f1d7-release-keys",
+    "remotes/origin/user-10-QPWS30.61-25-4-46c74-release-keys",
+    "remotes/origin/9-PPWS29.98-111-3-44e84-release-keys",
+    "remotes/origin/user-9-PPW29.98-107-34744-release-keys",
+    "remotes/origin/user-9-PCW29.83-56-49edb-release-keys",
+    "remotes/origin/user-9-PPWS29.98-66-1-1-86c5e-release-keys",
+    "remotes/origin/user-10-QPW30.61-25-1b19f-release-keys",
+    "remotes/origin/user-10-QPWS30.61-21-11-e25a6-release-keys",
+    "remotes/origin/user-9-PCW29.27-73-6b55-release-keys",
+    "remotes/origin/userdebug-9-PPWS29.98-111-9-d601-intcfg,test-keys",
+    "remotes/origin/user-10-QPWS30.61-21-14-a5a6c-release-keys",
+    "remotes/origin/user-9-PCWS29.83-56-12-ec5de-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/liber.git": [
+    "remotes/origin/liber_retail-user-10-QPI30.73-16-5-4-874f7-release-keys",
+    "remotes/origin/liber_retail-user-10-QPI30.73-16-5-2-5ed06-release-keys",
+    "remotes/origin/liber_retail-user-10-QPIS30.73-23-1-3-992d4d6-release-keys",
+    "remotes/origin/liber_retail-user-10-QPI30.73-28-7b8e5-release-keys",
+    "remotes/origin/liber_retail-userdebug-10-QPI30.36-a7706-intcfg,test-keys",
+    "remotes/origin/liber_retail-user-10-QPI30.73-33-f59be-release-keys",
+    "remotes/origin/liber_retail-user-10-QPI30.73-16-5-5d3cd-release-keys",
+    "remotes/origin/liber_retail-user-10-QPIS30.73-16-5-3-b7f1b-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/lux_uds.git": [
+    "remotes/origin/lux_retail_ds-user-7.1.1-NPD26.48-24-1-1-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/nairo.git": [
+    "remotes/origin/msi-user-10-QP1A.191005.002-b843f-release-keys",
+    "remotes/origin/msi-user-10-QP1A.191005.002-d3e0b-release-keys",
+    "remotes/origin/msi-user-10-QP1A.191005.002-264b33-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/ocean_32.git": [
+    "remotes/origin/userdebug-9-PPO29.32-e79d-intcfg,test-keys"
+  ],
+  "/data/android_rom/dumps/motorola/olson.git": [
+    "remotes/origin/user-9-PPV29.266-50-a80bd-release-keys",
+    "remotes/origin/user-10-QPVS30.106-27-4-762c9-release-keys",
+    "remotes/origin/9-PPV29.266-32-d2552f-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/panell_d.git": [
+    "remotes/origin/panell_21_d-user-7.0-NRD90M.03.045-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/panell_dl.git": [
+    "remotes/origin/panell_23_dl-user-7.0-NRD90M.08.005-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/rav.git": [
+    "remotes/origin/rav_retail-user-10-QPJ30.53-16-3-406d2-release-keys",
+    "remotes/origin/rav_retail-user-10-QPJ30.53-16-23451-release-keys",
+    "remotes/origin/rav_retus-user-10-QPJS30.131-43-2-dac6a-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/sofiap.git": [
+    "remotes/origin/sofiap_retail-user-10-QPR30.80-58-9ce6f-release-keys",
+    "remotes/origin/sofiap_retail-user-10-QPR30.80-116-e1e10-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/sofiar.git": [
+    "remotes/origin/sofiar_retail-user-10-QPES30.79-124-2-42d236-release-keys",
+    "remotes/origin/sofiar_reteu-user-10-QPE30.79-25-59f4f-release-keys",
+    "remotes/origin/sofiar_retail-user-10-QPE30.79-41-2dbb6-release-keys",
+    "remotes/origin/sofiar_retail-user-10-QPE30.79-75-33390-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/surnia_cdma.git": [
+    "remotes/origin/surnia_verizon-user-5.1-LPIS23.29-17.5-7-3-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/taido_row.git": [
+    "remotes/origin/taido_row-user-6.0-MRA58K-XT1706_S152_190315_ROW-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/troika.git": [
+    "remotes/origin/9-PSB29.105-27-fd362-release-keys"
+  ],
+  "/data/android_rom/dumps/motorola/victara.git": [
+    "remotes/origin/victara_acg_lte-user-5.1-LPES23.32-52.3-2-2-release-keys",
+    "remotes/origin/victara_usc-user-5.1-LPES23.32-21.7-3-4-4-release-keys",
+    "remotes/origin/victara_verizon-user-5.1-LPES23.32-25-5-5-3-release-keys",
+    "remotes/origin/victara_att-user-5.1-LPES23.32-21.9-8-5-release-keys",
+    "remotes/origin/victara_tmo-user-6.0-MPES24.49-18-7-7-release-keys",
+    "remotes/origin/victara_lra-user-5.1-LPES23.32-52.5-5-3-release-keys"
+  ],
+  "/data/android_rom/dumps/multilaser/ml-ti-ms40g.git": [
+    "remotes/origin/MS40G-user-8.1.0-V4_20180717-release-keys",
+    "remotes/origin/MS40G-user-8.1.0-V15_20191014-release-keys"
+  ],
+  "/data/android_rom/dumps/neffos/c7s.git": [
+    "remotes/origin/TP7051A-user-9-PPR1.180610.011-178-release-keys"
+  ],
+  "/data/android_rom/dumps/neffos/x20_pro.git": [
+    "remotes/origin/TP9131A-user-9-PPR1.180610.011-3118-release-keys"
+  ],
+  "/data/android_rom/dumps/nextbit/ether.git": [
+    "remotes/origin/ether-user-6.0.1-MMB29M-00WW_1_350-release-keys",
+    "remotes/origin/ether-user-7.1.1-Robin_Nougat_108-00WW_Jenkins_108-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/a1n_sprout.git": [
+    "remotes/origin/A1N_00WW_FIH-user-10-QKQ1.190828.002-00WW_5_120-",
+    "remotes/origin/A1N_00WW_FIH-user-10-QKQ1.190828.002-00WW_5_120-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/ant.git": [
+    "remotes/origin/Antman_00WW-user-10-QP1A.190711.020-00WW_2_10A-release-keys",
+    "remotes/origin/Antman_00WW-user-10-QP1A.190711.020-00WW_2_140-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/avenger.git": [
+    "remotes/origin/A1N_00WW_FIH-user-10-QKQ1.190828.002-00WW_5_100-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/b2n.git": [
+    "remotes/origin/unknown_00CN-user-8.0.0-OPR1.170623.026-00CN_1_110-dev-keys"
+  ],
+  "/data/android_rom/dumps/nokia/b2n_sprout.git": [
+    "remotes/origin/Onyx_00WW-user-9-PPR1.180610.011-00WW_3_54E-release-keys",
+    "remotes/origin/B2N_00WW_FIH-user-10-QKQ1.190828.002-00WW_4_10C-release-keys",
+    "remotes/origin/Onyx_00WW-user-9-PKQ1.180712.001-00WW_3_150-release-keys",
+    "remotes/origin/B2N_00WW_FIH-user-10-QKQ1.190828.002-00WW_4_15D-release-keys",
+    "remotes/origin/Onyx_00WW-user-P-PKQ1.180413.001-00WW_3_050-release-keys",
+    "remotes/origin/Onyx_00WW-user-9-PPR1.180610.011-00WW_3_54H-release-keys",
+    "remotes/origin/B2N_00WW_FIH-user-10-QKQ1.190828.002-00WW_4_16B-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/cap_sprout.git": [
+    "remotes/origin/qssi-user-10-QKQ1.200114.002-18-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.200114.002-12-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/daredevil.git": [
+    "remotes/origin/m690-user-9-PKQ1.190118.001-11-release-keys",
+    "remotes/origin/m690-user-9-PKQ1.190118.001-90-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/ddv_sprout.git": [
+    "remotes/origin/m690-user-9-PKQ1.190118.001-187-release-keys",
+    "remotes/origin/m690-user-10-QKQ1.191014.001-00WW_2_270-release-keys",
+    "remotes/origin/m690-user-10-QKQ1.191014.001-00WW_2_340-release-keys",
+    "remotes/origin/m690-user-10-QKQ1.191014.001-00WW_2_390-release-keys",
+    "remotes/origin/m690-user-10-QKQ1.191014.001-00WW_2_250-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/dpl_sprout.git": [
+    "remotes/origin/T89626AA2-user-10-QKQ1.191008.001-00WW_2_270-release-keys",
+    "remotes/origin/T89626AA2-user-10-QKQ1.191008.001-00WW_2_310-release-keys",
+    "remotes/origin/T89626-user-9-PKQ1.190202.001-eng.cibuil.20190712.041153-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/drx.git": [
+    "remotes/origin/T89572AA1-user-10-QKQ1.191008.001-00WW_1_130-release-keys",
+    "remotes/origin/T89572AA1-user-10-QKQ1.191008.001-00WW_1_070-release-keys",
+    "remotes/origin/T89572AA1-user-10-QKQ1.191008.001-00WW_1_180-release-keys",
+    "remotes/origin/T89572AA1-user-10-QKQ1.191008.001-00WW_1_160-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/dynamo.git": [
+    "remotes/origin/Dynamo_00WW-user-8.1.0-OPR1.170623.026-00WW_1_16K-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/frt.git": [
+    "remotes/origin/Frontier_00WW-user-8.1.0-O11019-00WW_1_550-release-keys",
+    "remotes/origin/Frontier_00WW-user-10-QP1A.190711.020-00WW_3_090-release-keys",
+    "remotes/origin/Frontier_00WW-user-10-QP1A.190711.020-00WW_3_110-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/irm_sprout.git": [
+    "remotes/origin/full_T99621AA2-user-10-QP1A.190711.020-p1k61v164bspP56-release-keys",
+    "remotes/origin/full_T99621AA2-user-10-QP1A.190711.020-p1k61v164bspP22-release-keys",
+    "remotes/origin/full_T99621AA2-user-10-QP1A.190711.020-p1k61v164bspP47-release-keys",
+    "remotes/origin/full_T99621AA2-user-10-QP1A.190711.020-p1k61v164bspP37-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/ironman.git": [
+    "remotes/origin/full_T99621AA1-user-9-PPR1.180610.011-eng.cibuil.20191219.043332-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/onyx.git": [
+    "remotes/origin/B2N_00WW_FIH-user-10-QKQ1.190828.002-00WW_4_10C-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/pda.git": [
+    "remotes/origin/Panda_00WW-user-10-QP1A.190711.020-00WW_3_20A-release-keys",
+    "remotes/origin/Panda_00WW-user-10-QP1A.190711.020-00WW_3_11A-release-keys",
+    "remotes/origin/Panda_00WW-user-10-QP1A.190711.020-00WW_3_110-release-keys",
+    "remotes/origin/Panda_00WW-user-10-QP1A.190711.020-00WW_3_260-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/rku.git": [
+    "remotes/origin/k150-user-9-PPR1.180610.011-00WW_1_120-release-keys",
+    "remotes/origin/k150-user-9-PPR1.180610.011-00WW_1_070-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/roo.git": [
+    "remotes/origin/Rooster_00WW-user-10-QP1A.190711.020-00WW_3_15H-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/roon_sprout.git": [
+    "remotes/origin/Rooster_00WW-user-10-QP1A.190711.020-00WW_4_120-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/sld_sprout.git": [
+    "remotes/origin/m690-user-10-QKQ1.191014.001-00WW_2_360-release-keys",
+    "remotes/origin/m690-user-10-QKQ1.191014.001-00WW_2_290-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/starlord.git": [
+    "remotes/origin/m690-user-9-PKQ1.190118.001-76-release-keys",
+    "remotes/origin/m690-user-9-PKQ1.190118.001-6-release-keys"
+  ],
+  "/data/android_rom/dumps/nokia/wasp.git": [
+    "remotes/origin/full_wasp-user-10-QP1A.190711.020-1645-release-keys",
+    "remotes/origin/full_wasp-user-9-PPR1.180610.011-4210-release-keys"
+  ],
+  "/data/android_rom/dumps/nomi/nomi_c070014l.git": [
+    "remotes/origin/Nomi_C070014L-user-8.1.0-O11019-1533822455-release-keys"
+  ],
+  "/data/android_rom/dumps/nook/st18c7bnn.git": [
+    "remotes/origin/st18c7bnn-user-8.1.0-O11019-1540971846-release-keys"
+  ],
+  "/data/android_rom/dumps/nubia/nx651j.git": [
+    "remotes/origin/qssi_NX651J-user-10-QKQ1.200202.002-eng.nubia.20200314.021749-release-keys",
+    "remotes/origin/qssi_NX651J-user-10-QKQ1.200202.002-nubia.20200416.011400-release-keys"
+  ],
+  "/data/android_rom/dumps/nubia/nx659j-eea.git": [
+    "remotes/origin/qssi_NX659J-user-10-QKQ1.200127.002-nubia.20200815.072211-release-keys",
+    "remotes/origin/qssi_NX659J-user-10-QKQ1.200127.002-nubia.20200420.192802-release-keys",
+    "remotes/origin/qssi_NX659J-user-10-QKQ1.200127.002-nubia.20200609.150541-release-keys",
+    "remotes/origin/qssi_NX659J-user-10-QKQ1.200127.002-nubia.20200507.154722-release-keys"
+  ],
+  "/data/android_rom/dumps/nvidia/darcy.git": [
+    "remotes/origin/darcy-user-9-PPR1.180610.011-4086637_1697.8089-release-keys"
+  ],
+  "/data/android_rom/dumps/nvidia/roth.git": [
+    "remotes/origin/thor_gms-user-5.1-LMY47N-01.00.32208_722.2550-release-keys"
+  ],
+  "/data/android_rom/dumps/nvidia/shieldtablet.git": [
+    "remotes/origin/sb_na_wf-user-7.0-NRD90M-1928188_1065.2559-release-keys",
+    "remotes/origin/wx_un_do-user-7.0-NRD90M-1928188_904.2811-release-keys"
+  ],
+  "/data/android_rom/dumps/nvidia/sif.git": [
+    "remotes/origin/sif-user-9-PPR1.180610.011-4199485_1739.5219-release-keys"
+  ],
+  "/data/android_rom/dumps/oneplus/nord.git": [
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2009260350-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2010231937-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2007170006-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2009010217-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2007312126-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2010231934-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2010231954-release-keys",
+    "remotes/origin/Nord-user-10-QKQ1.200412.002-2008050157-release-keys"
+  ],
+  "/data/android_rom/dumps/oneplus/oneplus7pro.git": [
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190611.002-1907122146-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1910071200-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1910032300-release-keys",
+    "remotes/origin/OnePlus7Pro-user-9-PKQ1.190110.001-1906160616-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2007030000-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1911262300-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1911070200-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1909110008-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2009072018-release-keys",
+    "remotes/origin/OnePlus7Pro-user-9-PKQ1.190110.001-1907122210-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2002021900-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1908301047-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2001210100-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2009281532-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2010191009-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1909010630-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2004291455-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2010111713-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2003061858-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1910170200-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1912110100-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2007291605-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1909060730-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1911140100-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1912141900-release-keys",
+    "remotes/origin/OnePlus7Pro-user-9-PKQ1.190110.001-1906032330-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2005132200-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2003130756-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2011052232-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1912260100-release-keys",
+    "remotes/origin/OnePlus7Pro-user-9-PKQ1.190110.001-1907281556-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2003131900-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-2005122138-release-keys",
+    "remotes/origin/OnePlus7Pro-user-10-QKQ1.190716.003-1910280100-release-keys"
+  ],
+  "/data/android_rom/dumps/oneplus/oneplus7protmo.git": [
+    "remotes/origin/OnePlus7ProTMO-user-10-QKQ1.190716.003-1912011427-release-keys",
+    "remotes/origin/OnePlus7ProTMO-user-10-QKQ1.190716.003-2010092151-release-keys",
+    "remotes/origin/OnePlus7ProTMO-user-10-QKQ1.190716.003-2004271445-release-keys"
+  ],
+  "/data/android_rom/dumps/oneplus/oneplus8.git": [
+    "remotes/origin/qssi-user-11-RKQ1.200630.002-2008062305-release-keys",
+    "remotes/origin/qssi-user-11-RP1A.201005.001-2008301830-release-keys",
+    "remotes/origin/qssi-user-11-RKQ1.200512.002-2007080123-release-keys",
+    "remotes/origin/qssi-user-11-RKQ1.200507.003-2006111730-release-keys",
+    "remotes/origin/qssi-user-11-RP1A.201005.001-2009051300-release-keys",
+    "remotes/origin/qssi-user-11-RP1A.201005.001-2011111111-release-keys"
+  ],
+  "/data/android_rom/dumps/onn/mid8011.git": [
+    "remotes/origin/full_mid8011_mq-user-10-QP1A.190711.020-mp1V7-release-keys",
+    "remotes/origin/full_mid8011_mq-user-10-QP1A.190711.020-mp1V9332-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/a1603.git": [
+    "remotes/origin/full_oppo6582_15093-user-5.1-LMY47I-1490702528-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/a37fw.git": [
+    "remotes/origin/msm8916_64-user-5.1.1-LMY47V-eng.root.20190711.032745-release-keys",
+    "remotes/origin/msm8916_64-user-5.1.1-LMY47V-eng.root.20161014.182551-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/op4a77.git": [
+    "remotes/origin/qssi-user-11-RKQ1.200507.003-1584699103-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/op4a79.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191222.002--release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/op4a7a.git": [
+    "remotes/origin/qssi-user-11-RKQ1.200507.003-1584699103-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/op4ba1l1.git": [
+    "remotes/origin/qssi-user-11-RKQ1.200507.003-1584699103-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/op4ba2l1.git": [
+    "remotes/origin/qssi-user-11-RKQ1.200507.003-1584699103-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/op4c73.git": [
+    "remotes/origin/qssi-user-10-QKQ1.200114.002--release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/paft00.git": [
+    "remotes/origin/sdm845-user-8.1.0-OPM1.171019.026-eng.root.20180801.012954-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/rmx1801.git": [
+    "remotes/origin/sdm660_64-user-10-QKQ1.191014.001-eng.root.20200817.131150-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1.191014.001-eng.root.20201016.161857-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1.181121.001-eng.root.20190602.025203-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1.181121.001-eng.root.20191228.034411-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1.181121.001-eng.root.20200512.010506-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1.191014.001-eng.root.20200629.165622-release-keys",
+    "remotes/origin/sdm660_64-user-10-QKQ1.191014.001-eng.root.20200514.023540-release-keys",
+    "remotes/origin/sdm660_64-user-9-PKQ1.181121.001-eng.root.20191107.030734-release-keys"
+  ],
+  "/data/android_rom/dumps/oppo/rmx2061.git": [
+    "remotes/origin/atoll-user-10-QKQ1.191222.002--release-keys"
+  ],
+  "/data/android_rom/dumps/oukitel/c17_pro.git": [
+    "remotes/origin/C17_Pro_EEA-user-9-P00610-1566960731-release-keys"
+  ],
+  "/data/android_rom/dumps/planet/cosmo_communicator.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-PPR1.180610.011-1594031892-release-keys"
+  ],
+  "/data/android_rom/dumps/poco/gram.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.2.0.QJPINXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V12.0.1.0.QJPINXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.3.0.QJPINXM-release-keys"
+  ],
+  "/data/android_rom/dumps/poco/phoenixin.git": [
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V12.0.1.0.QGHINXM-release-keys",
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V11.0.4.0.QGHINXM-release-keys",
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V11.0.6.0.QGHINXM-release-keys",
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V11.0.11.0.QGHINXM-release-keys",
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V11.0.10.0.QGHINXM-release-keys",
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V12.0.2.0.QGHINXM-release-keys",
+    "remotes/origin/phoenixin-user-10-QKQ1.190825.002-V11.0.7.0.QGHINXM-release-keys"
+  ],
+  "/data/android_rom/dumps/qin/s9863a1h10.git": [
+    "remotes/origin/s9863a1h10_Natv-user-9-PPR1.180610.011-99-release-keys",
+    "remotes/origin/s9863a1h10_Natv-user-9-PPR1.180610.011-120-release-keys"
+  ],
+  "/data/android_rom/dumps/qmobile/q_infinity_d.git": [
+    "remotes/origin/full_k200_1g-user-8.1.0-O11019-1525339343-release-keys"
+  ],
+  "/data/android_rom/dumps/r50a/r50a.git": [
+    "remotes/origin/full_hexing6580_we_m-user-6.0-MRA58K-1471951936-test-keys"
+  ],
+  "/data/android_rom/dumps/razer/bolt.git": [
+    "remotes/origin/bolt-user-9-P-MR2-RC001-ATT-191014-3262-release-keys",
+    "remotes/origin/bolt-user-9-P-SMR1-RC008-ATT-190626-3239-release-keys"
+  ],
+  "/data/android_rom/dumps/razer/pearlyn.git": [
+    "remotes/origin/pearlyn-user-5.1.1-L-LMY47V-rzs-us-sf-bld2-07FO-01.12.PM-52-release-keys",
+    "remotes/origin/pearlyn-user-6.0.1-M-MMB29M-rzs-us-sf-bld2-19HP-08.02.AM-144-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1823.git": [
+    "remotes/origin/full_oppo6771_18601-user-9-PPR1.180610.011-eng.root.20200314.140254-release-keys",
+    "remotes/origin/full_oppo6771_18601-user-9-PPR1.180610.011-eng.root.20200113.215852-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1831.git": [
+    "remotes/origin/full_oppo6771_18611-user-8.1.0-O11019-1547749849-release-keys",
+    "remotes/origin/full_oppo6771_18611-user-9-PPR1.180610.011-eng.root.20200509.060659-release-keys",
+    "remotes/origin/full_oppo6771_18611-user-9-PPR1.180610.011-eng.root.20200321.061214-release-keys",
+    "remotes/origin/full_oppo6771_18611-user-9-PPR1.180610.011-eng.root.20200722.215443-release-keys",
+    "remotes/origin/full_oppo6771_18611-user-9-PPR1.180610.011-eng.root.20191129.130521-release-keys",
+    "remotes/origin/full_oppo6771_18611-user-9-PPR1.180610.011-eng.root.20190818.054900-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1851t.git": [
+    "remotes/origin/sdm710-user-10-QKQ1.190918.001--release-keys",
+    "remotes/origin/sdm710-user-9-PKQ1.190101.001-eng.root.20191214.085001-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1919.git": [
+    "remotes/origin/trinket-user-9-PKQ1.190616.001-eng.root.20200218.231356-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1931l1.git": [
+    "remotes/origin/msmnile-user-10-QKQ1.191021.002--release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1991.git": [
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20191225.172533-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1991cn.git": [
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20191225.172533-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200617.225455-release-keys",
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20191113.003431-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200926.102759-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200716.002633-release-keys",
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20191226.143855-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1992.git": [
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20191217.175352-release-keys",
+    "remotes/origin/sm6150-user-10-_11_C.06-eng.root.20200418.155602-release-keys-Sat-Apr-18-16-03-35-CST-2020",
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20200118.175901-release-keys",
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20200222.000349-release-keys",
+    "remotes/origin/sm6150-user-9-PKQ1.190630.001-eng.root.20200715.114424-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx1992l1.git": [
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20201012.094803-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200518.233658-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200617.225734-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200617.225947-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200907.215416-release-keys",
+    "remotes/origin/sm6150-user-10-QKQ1.191201.002-eng.root.20200723.192038-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx2020.git": [
+    "remotes/origin/full_oppo6769-user-10-QP1A.190711.020-68b77aba7cb33275-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx2030.git": [
+    "remotes/origin/trinket-user-9-PKQ1.190616.001-eng.root.20200108.003107-release-keys",
+    "remotes/origin/trinket-user-9-PKQ1.190616.001-eng.root.20200515.044412-release-keys",
+    "remotes/origin/trinket-user-9-PKQ1.190616.001-eng.root.20200222.163606-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx2051cn.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191117.002-eng.root.20200120.112752-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191117.002-eng.root.20200108.001858-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191117.002-eng.root.20200111.044700-release-keys",
+    "remotes/origin/qssi-user-10-RMX2051_11_A.09-release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx2061.git": [
+    "remotes/origin/atoll-user-10-RMX2061_11_A.11-release-keys",
+    "remotes/origin/atoll-user-10-QKQ1.191222.002--release-keys"
+  ],
+  "/data/android_rom/dumps/realme/rmx2076l1.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191222.002--release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/curtana.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V12.0.2.0.QJWMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V12.0.1.0.QJWINXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.10.0.QJWMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.4.0.QJWINXM-release-keys",
+    "remotes/origin/qssi-user-11-RKQ1.200826.002-V12.0.1.0.RJWINXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.1.0.QJWMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.9.0.QJWMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/dandelion.git": [
+    "remotes/origin/dandelion-user-10-QP1A.190711.020-V12.0.3.0.QCDMIXM-release-keys",
+    "remotes/origin/dandelion-user-10-QP1A.190711.020-V12.0.4.0.QCDEUXM-release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/excalibur.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.4.0.QJXINXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.1.0.QJXINXM-release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/joyeuse.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.5.0.QJZMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.4.0.QJZMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191215.002-V11.0.7.0.QJZMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/merlinnfc.git": [
+    "remotes/origin/merlin-user-10-QP1A.190711.020-V11.0.2.0.QJOEUXM-release-keys",
+    "remotes/origin/merlin-user-10-QP1A.190711.020-V11.0.2.0.QJOTRXM-release-keys",
+    "remotes/origin/merlin-user-10-QP1A.190711.020-V12.0.4.0.QJOMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/olivewood.git": [
+    "remotes/origin/olivewood-user-9-PKQ1.190319.001-V11.0.4.0.PCQINXM-release-keys"
+  ],
+  "/data/android_rom/dumps/redmi/picasso.git": [
+    "remotes/origin/qssi-user-10-QKQ1.191222.002-20.5.28-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191117.002-V11.0.3.0.QGICNXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191117.002-V11.0.9.0.QGICNXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191222.002-V11.1.27.0.QGICMXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191222.002-V11.1.25.0.QGICNXM-release-keys",
+    "remotes/origin/qssi-user-11-RKQ1.200710.002-20.9.8-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191117.002-20.1.13-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.191222.002-20.4.27-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a10.git": [
+    "remotes/origin/a10xx-user-9-PPR1.180610.011-A105FNXXU2ASK5-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a10s.git": [
+    "remotes/origin/a10sxx-user-9-PPR1.180610.011-A107FXXU5ATA8-release-keys",
+    "remotes/origin/a10sxx-user-9-PPR1.180610.011-A107FXXU5ATA9-release-keys",
+    "remotes/origin/a10sxx-user-9-PPR1.180610.011-A107FXXU4ASL1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a20e.git": [
+    "remotes/origin/a20exx-user-9-PPR1.180610.011-A202FXXS2ASL1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a30s.git": [
+    "remotes/origin/a30sxx-user-9-PPR1.180610.011-A307FNXXU2ASL1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a5xelte.git": [
+    "remotes/origin/a5xeltexx-user-7.0-NRD90M-A510FXXS8CSF6-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a60q.git": [
+    "remotes/origin/a60qzh-user-9-PPR1.180610.011-A6060ZHU1ASL1-release-keys",
+    "remotes/origin/a60qzc-user-10-QP1A.190711.020-A6060ZCU1BTD3-release-keys",
+    "remotes/origin/a60qzh-user-9-PPR1.180610.011-A6060ZHU1ASH3-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a70s.git": [
+    "remotes/origin/a70sdd-user-9-PPR1.180610.011-A707FDDU1ASI6-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/a9y18qlte.git": [
+    "remotes/origin/a9y18qltexx-user-9-PPR1.180610.011-A920FXXU3BSLA-release-keys",
+    "remotes/origin/a9y18qltexx-user-8.0.0-R16NW-FA80_A920FXXU3ATA1-release-keys",
+    "remotes/origin/a9y18qltexx-user-9-PPR1.180610.011-A920FXXS2BSL6-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/beyond0q.git": [
+    "remotes/origin/beyond0qltesq-user-10-QP1A.190711.020-G970USQU2CSKP-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/d1.git": [
+    "remotes/origin/d1xx-user-10-QP1A.190711.020-N970FXXU1BSL7-release-keys",
+    "remotes/origin/d1xx-user-9-PPR1.180610.011-N970FXXU1ASJ2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/d2s.git": [
+    "remotes/origin/d2sxx-user-10-QP1A.190711.020-N975FXXU1BSL7-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/d2x.git": [
+    "remotes/origin/d2xxx-user-10-QP1A.190711.020-N976BXXU1BTA1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/gta2slte.git": [
+    "remotes/origin/gta2sltedx-user-9-PPR1.180610.011-T385DXU3CSL2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/gta3xl.git": [
+    "remotes/origin/gta3xlinu-user-9-PPR1.180610.011-T515XXU2ASH4-release-keys",
+    "remotes/origin/gta3xlinu-user-9-PPR1.180610.011-T515XXU3ASL1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/hero2qlteue.git": [
+    "remotes/origin/hero2qlteue-user-8.0.0-R16NW-G935UUESBCTA3-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/j3xproltechn.git": [
+    "remotes/origin/j3xproltezc-user-5.1.1-LMY47X-J3110ZCS1ARG2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/j4lte.git": [
+    "remotes/origin/j4ltejx-user-9-PPR1.180610.011-J400FXXU4BSJ3-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/m0.git": [
+    "remotes/origin/m0xx-user-4.3-JSS15J-I9300XXUGNJ2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/m20lte.git": [
+    "remotes/origin/m20ltedd-user-10-QP1A.190711.020-M205FDDU3CSL5-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/m40.git": [
+    "remotes/origin/m40dd-user-9-PPR1.180610.011-M405FDDS2ASL2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/on7xreflte.git": [
+    "remotes/origin/on7xrefltedd-user-9-PPR1.180610.011-G611FDDU1CSJ1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/phoenix.git": [
+    "remotes/origin/S88661AA1-user-8.1.0-OPM1.171019.026-G6200ZCU0ARK1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/r3q.git": [
+    "remotes/origin/r3qxx-user-9-PPR1.180610.011-A908BXXU2ASK5-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/r5q.git": [
+    "remotes/origin/r5qnaxx-user-10-QP1A.190711.020-G770FXXU1ASLF-release-keys",
+    "remotes/origin/r5qnaxx-user-10-QP1A.190711.020-G770FXXU2BTD2-release-keys",
+    "remotes/origin/r5qnaxx-user-10-QP1A.190711.020-G770FXXS2BTE2-release-keys",
+    "remotes/origin/r5qnaxx-user-10-QP1A.190711.020-G770FXXU2ATB2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/star2qltecs.git": [
+    "remotes/origin/star2qltecs-user-9-PPR1.180610.011-G965WVLS7CSK1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/starlte.git": [
+    "remotes/origin/starltexx-user-9-PPR1.180610.011-G960FXXS7CTA1-release-keys",
+    "remotes/origin/starltexx-user-10-QP1A.190711.020-G960FXXU8DTC5-release-keys",
+    "remotes/origin/starltexx-user-10-QP1A.190711.020-G960FXXU7DTAA-release-keys",
+    "remotes/origin/starltexx-user-10-QP1A.190711.020-G960FXXSBETH2-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/winner.git": [
+    "remotes/origin/winnerltexx-user-9-PPR1.180610.011-F900FXXS2ASKC-release-keys",
+    "remotes/origin/winnerlteue-user-9-PPR1.180610.011-F900U1UES2ASK1-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/z3q.git": [
+    "remotes/origin/graceltexx-user-9.0-MMB29K-G9700FXXU1APFO-release-keys",
+    "remotes/origin/z3quew-user-10-QP1A.190711.020-G988U1UEU1ATCH-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/z3s.git": [
+    "remotes/origin/z3sxxx-user-10-QP1A.190711.020-G988BXXU1ATB4-release-keys"
+  ],
+  "/data/android_rom/dumps/samsung/zenlte.git": [
+    "remotes/origin/zenltexx-user-5.1.1-LMY47X-FA51_G928FXXU5ARH1-release-keys"
+  ],
+  "/data/android_rom/dumps/sharp/hd1.git": [
+    "remotes/origin/FS8024_00CN-user-8.0.0-OPR1.170623.027-00CN_0_060-release-keys"
+  ],
+  "/data/android_rom/dumps/sonim/xp8800.git": [
+    "remotes/origin/XP8812-user-8.1.0-8A.0.5-11-8.1.0-10.54.00-29-release-keys",
+    "remotes/origin/XP8812-userdebug-8.1.0-8A.0.5-11-8.1.0-10.54.00-29-test-keys"
+  ],
+  "/data/android_rom/dumps/sony/akari.git": [
+    "remotes/origin/akari-user-9-TAMA2-2.0.1-ASSIST-190913-1220-1-dev-keys",
+    "remotes/origin/akari-user-9-TAMA2-2.0.1-190723-0047-1-dev-keys",
+    "remotes/origin/akari-user-9-TAMA2-2.0.1-191021-1837-1-dev-keys",
+    "remotes/origin/akari-user-8.0.0-OPR6.170623.013-1-dev-keys"
+  ],
+  "/data/android_rom/dumps/sony/aurora.git": [
+    "remotes/origin/aurora-user-9-TAMA2-2.0.1-191021-1837-1-dev-keys",
+    "remotes/origin/aurora-user-9-TAMA2-2.0.1-ASSIST-190913-1220-1-dev-keys",
+    "remotes/origin/aurora-user-9-TAMA2-2.0.1-190912-1841-1-dev-keys",
+    "remotes/origin/aurora-user-9-TAMA2-2.0.1-190614-0634-1-dev-keys",
+    "remotes/origin/aurora-user-8.0.0-OPR6.170623.013-1-dev-keys"
+  ],
+  "/data/android_rom/dumps/sony/h8166.git": [
+    "remotes/origin/aurora_dsds-user-10-52.1.A.0.532-052001A000053204197952262-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/h8266.git": [
+    "remotes/origin/akari_dsds-user-10-52.1.A.0.532-052001A000053202006556692-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/h8324.git": [
+    "remotes/origin/apollo_dsds-user-10-52.1.A.0.532-052001A000053202006556692-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/h8416.git": [
+    "remotes/origin/akatsuki-user-10-52.1.A.0.532-052001A000053202006556692-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/h9436.git": [
+    "remotes/origin/akatsuki_dsds-user-10-52.1.A.0.532-052001A000053202006556692-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/i4113.git": [
+    "remotes/origin/kirin_dsds-user-10-53.1.A.2.2-053001A00020000200894138764-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/i4213.git": [
+    "remotes/origin/mermaid_dsds-user-10-53.1.A.2.2-053001A00020000201259374257-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/j8210.git": [
+    "remotes/origin/J8210-user-9-55.0.A.11.25-3446636912-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/maple_dsds.git": [
+    "remotes/origin/maple_dsds-user-9-YOSHINO-2.2.0-190725-0908-1-dev-keys"
+  ],
+  "/data/android_rom/dumps/sony/nile.git": [
+    "remotes/origin/nile-user-8.0.0-OPR1.170623.027-31-dev-keys"
+  ],
+  "/data/android_rom/dumps/sony/xq-at51.git": [
+    "remotes/origin/qssi-user-10-58.0.A.3.31-058000A003003102854466984-release-keys"
+  ],
+  "/data/android_rom/dumps/sony/xq-au51.git": [
+    "remotes/origin/qssi-user-10-59.0.A.5.2-059000A005000202956232951-release-keys"
+  ],
+  "/data/android_rom/dumps/sprd/sp7731e_1h10.git": [
+    "remotes/origin/sp7731e_1h10_native-user-9-PPR1.180610.011-13324-release-keys"
+  ],
+  "/data/android_rom/dumps/sprd/v800.git": [
+    "remotes/origin/v800-user-9-PPR1.180610.011-24-release-keys"
+  ],
+  "/data/android_rom/dumps/stream/everest.git": [
+    "remotes/origin/full_k50v1_64-user-8.1.0-O11019-1543055299-release-keys"
+  ],
+  "/data/android_rom/dumps/surface/duo_emulator.git": [
+    "remotes/origin/duo_emulator-user-10-duo_emulator-public-preview-2020.624.2-test-keys"
+  ],
+  "/data/android_rom/dumps/surface/eos_emulator.git": [
+    "remotes/origin/eos_emulator-user-10-emu-q-pub-user-2020.319.2-test-keys",
+    "remotes/origin/eos_emulator-userdebug-10-emu-q-pub-userdebug-2020.113.2-test-keys",
+    "remotes/origin/10",
+    "remotes/origin/eos_emulator-userdebug-10-emu-q-pub-userdebug-2020.117.2-test-keys",
+    "remotes/origin/eos_emulator-user-10-emu-q-pub-user-2020.429.3-test-keys"
+  ],
+  "/data/android_rom/dumps/symphony/i72.git": [
+    "remotes/origin/i72-user-8.1.0-OPM2.171019.012-140-release-keys"
+  ],
+  "/data/android_rom/dumps/symphony/v128.git": [
+    "remotes/origin/V128-user-8.1.0-O21019-1548226727-release-keys"
+  ],
+  "/data/android_rom/dumps/tecno/tecno-bb4k.git": [
+    "remotes/origin/full_bb4k_h6114-user-9-PPR1.180610.011-57802-release-keys"
+  ],
+  "/data/android_rom/dumps/tecno/tecno-cc9.git": [
+    "remotes/origin/full_cc9_h626-user-9-PPR1.180610.011-3753-release-keys"
+  ],
+  "/data/android_rom/dumps/tecno/tecno-kc2.git": [
+    "remotes/origin/full_kc2_h6113-user-9-PPR1.180610.011-44623-release-keys"
+  ],
+  "/data/android_rom/dumps/tecno/tecno-lb8.git": [
+    "remotes/origin/full_lb8_h6110-user-9-PPR1.180610.011-33787-release-keys"
+  ],
+  "/data/android_rom/dumps/tecno/tecno-lb8a.git": [
+    "remotes/origin/full_lb8a_h6113-user-9-PPR1.180610.011-58925-release-keys"
+  ],
+  "/data/android_rom/dumps/tecno/tecno-lc6a.git": [
+    "remotes/origin/full_lc6_h617-user-9-PPR1.180610.011-53116-release-keys"
+  ],
+  "/data/android_rom/dumps/teracube/teracube_one.git": [
+    "remotes/origin/full_v7101o-user-9-PPR1.180610.011-20200610-release-keys",
+    "remotes/origin/full_v7101o-user-9-PPR1.180610.011-20191028-release-keys"
+  ],
+  "/data/android_rom/dumps/things/mt8167s_som.git": [
+    "remotes/origin/iot_mt8167s_som-user-8.1.0-OIM6.190107.007.A5-5341849-release-keys"
+  ],
+  "/data/android_rom/dumps/ulefone/armor_6e.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-PPR1.180610.011-eng.releas.20190919.182639-release-keys"
+  ],
+  "/data/android_rom/dumps/ulefone/armor_7.git": [
+    "remotes/origin/full_k79v1_64-user-9-PPR1.180610.011-1567770737-release-keys",
+    "remotes/origin/full_k79v1_64-user-9-PPR1.180610.011-1568174536-release-keys"
+  ],
+  "/data/android_rom/dumps/ulefone/power_6.git": [
+    "remotes/origin/full_k65v1_64_bsp-user-9-PPR1.180610.011-eng.releas.20190922.011138-release-keys"
+  ],
+  "/data/android_rom/dumps/ulefone/ulefone_s11.git": [
+    "remotes/origin/full_k80hd_bsp_fwv_512m-user-9-PPR1.180610.011-1565753768-release-keys"
+  ],
+  "/data/android_rom/dumps/umidigi/f2.git": [
+    "remotes/origin/full_px556_kw-user-10-QP1A.190711.020-1574406670-release-keys",
+    "remotes/origin/full_px556_kw-user-10-QP1A.190711.020-1585833944-release-keys"
+  ],
+  "/data/android_rom/dumps/unihertz/titan.git": [
+    "remotes/origin/Titan_EEA-user-9-PPR1.180610.011-root.20191205.185324-release-keys"
+  ],
+  "/data/android_rom/dumps/unknown/generic_a15.git": [
+    "remotes/origin/generic_a15-eng-8.0.0-OPR6.170623.010-eng.root.20180530.022443-test-keys",
+    "remotes/origin/generic_a15-user-9-PPR1.180610.011-eng.root.20191113.124341-test-keys"
+  ],
+  "/data/android_rom/dumps/unknown/generic_a53.git": [
+    "remotes/origin/generic_a53-user-8.0.0-OPR6.170623.013-eng.jenkin.20191129.201635-test-keys"
+  ],
+  "/data/android_rom/dumps/unknown/unknown.git": [
+    "remotes/origin/Unknown-user-7.1.1-NMF26O-00WW_2_15H-release-keys"
+  ],
+  "/data/android_rom/dumps/verizon/zeroltevzw.git": [
+    "remotes/origin/zeroltevzw-user-7.0-NRD90M-G925VVRU4DRE1-release-keys"
+  ],
+  "/data/android_rom/dumps/vertex/grip.git": [
+    "remotes/origin/Impress_Grip-user-7.1.2-HW1.R1.V09-22-release-keys"
+  ],
+  "/data/android_rom/dumps/vestel/pardus.git": [
+    "remotes/origin/full_k62v1_64_bsp-user-9-VT1060-1560329181-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1718.git": [
+    "remotes/origin/msm8953_64-user-8.1.0-OPM1.171019.026-eng.compil.20190929.183333-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1723.git": [
+    "remotes/origin/msm8953_64-user-9-PKQ1.190118.001-compiler09272117-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1727.git": [
+    "remotes/origin/msm8953_64-user-9-PKQ1.190118.001-compiler11050938-release-keys",
+    "remotes/origin/msm8953_64-user-9-PKQ1.190118.001-compiler12312047-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1806.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-PPR1.180610.011-compiler01061539-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1819.git": [
+    "remotes/origin/full_k71v1_64_bsp-user-9-P00610-compiler01022009-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1901.git": [
+    "remotes/origin/full_k62v1_64_bsp-user-9-PPR1.180610.011-compiler01061950-release-keys",
+    "remotes/origin/full_k62v1_64_bsp-user-9-PPR1.180610.011-compiler12011624-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1906.git": [
+    "remotes/origin/msm8937_64-user-9-PKQ1.190616.001-compiler02292007-release-keys",
+    "remotes/origin/msm8937_64-user-9-PKQ1.190616.001-compiler02142116-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1915.git": [
+    "remotes/origin/full_k68v1_64-user-9-PPR1.180610.011-compiler12172121-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1919.git": [
+    "remotes/origin/sm6150-user-9-PKQ1.190302.001-compiler02111801-release-keys",
+    "remotes/origin/sm6150-user-9-PKQ1.190302.001-compiler01092239-release-keys",
+    "remotes/origin/sm6150-user-9-PKQ1.190302.001-compiler12092108-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/1920n.git": [
+    "remotes/origin/trinket-user-9-PKQ1.190626.001-compiler03142339-release-keys",
+    "remotes/origin/trinket-user-9-PKQ1.190626.001-compiler01211737-release-keys",
+    "remotes/origin/trinket-user-9-PKQ1.190626.001-compiler12282158-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/kona.git": [
+    "remotes/origin/qssi-user-11-RP1A.200709.001-eng.compil.20200910.162016-release-keys",
+    "remotes/origin/kona-user-10-QP1A.190711.020-compiler03051044-",
+    "remotes/origin/kona-user-10-QP1A.190711.020-compiler08032333-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/lito.git": [
+    "remotes/origin/lito-user-10-QP1A.190711.020-compiler08312210-release-keys",
+    "remotes/origin/lito-user-10-QP1A.190711.020-compiler07122118-release-keys",
+    "remotes/origin/lito-user-10-QP1A.190711.020-compiler03091527-"
+  ],
+  "/data/android_rom/dumps/vivo/pd1836.git": [
+    "remotes/origin/sdm710-user-9-PKQ1.181030.001-compiler04110119-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/pd1916.git": [
+    "remotes/origin/msmnile-user-9-PKQ1.190714.001-compiler01041614-release-keys",
+    "remotes/origin/msmnile-user-9-PKQ1.190714.001-compiler03101635-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/pd1932.git": [
+    "remotes/origin/sdm710-user-9-PKQ1.181030.001-compiler03042053-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/pd1938.git": [
+    "remotes/origin/full_erd9630-user-9-PPR1.180610.011-eng.compil.20200222.000205-release-keys"
+  ],
+  "/data/android_rom/dumps/vivo/pd1955.git": [
+    "remotes/origin/aosp_arm64-user-11-RP1A.200504.003-eng.hechen.20200612.144436-release-keys"
+  ],
+  "/data/android_rom/dumps/voto/voto_v2.git": [
+    "remotes/origin/VOTO_V2_V1.0_20171101"
+  ],
+  "/data/android_rom/dumps/vsmart/casuarina.git": [
+    "remotes/origin/casuarina_open-user-9-PKQ1.190601.001-V430A_OPEN_U_M5_20200410-release-keys",
+    "remotes/origin/casuarina_rus-user-10-QKQ1.200311.002-V430E_RUS_U_B2_201013-release-keys",
+    "remotes/origin/casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425-release-keys",
+    "remotes/origin/casuarina_open-user-10-QKQ1.191008.001-V430A_OPN_U_B5_200408-",
+    "remotes/origin/casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B6_200505-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/clover.git": [
+    "remotes/origin/clover_open-user-9-PPR1.180610.011-V230A_OPEN_U_M2_20200226-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/coconut.git": [
+    "remotes/origin/coconut_open-user-9-PPR1.180610.011-V530A_OPEN_U_M2_20200106-release-keys",
+    "remotes/origin/coconut_open-user-10-QP1A.190711.020-V530A_OPN_U_B5_200521-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/pq4001.git": [
+    "remotes/origin/jeice8940_vin-user-9-PKQ1.190414.001-64-release-keys",
+    "remotes/origin/jeice8940_vin-user-8.1.0-OPM1.171019.026-1665-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/pq4002.git": [
+    "remotes/origin/towa_vin-user-9-PKQ1.190414.001-112-release-keys",
+    "remotes/origin/towa_vin-user-8.1.0-OPM1.171019.026-452-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/pq6001.git": [
+    "remotes/origin/active1_vin-user-9-PKQ1.190118.001-62-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/pq6002.git": [
+    "remotes/origin/zero6pro_vin-user-9-PKQ1.190118.001-69-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/sugarcane.git": [
+    "remotes/origin/sugarcane_open-user-9-PKQ1.190601.001-V330A_OPN_U_A3_200417-release-keys",
+    "remotes/origin/sugarcane_open-user-10-QKQ1.200311.002-V330A_OPN_U_B8_201025-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/v220a.git": [
+    "remotes/origin/V220A_open-user-8.1.0-O11019-V220A_OPEN_U_M5_20200206-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/v320a.git": [
+    "remotes/origin/V320A_open-user-10-QKQ1.200311.002-V320A_OPN_U_B10_201025-release-keys",
+    "remotes/origin/V320A_open-user-9-PKQ1.190601.001-V320A_OPEN_U_M7_20200411-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/v420a.git": [
+    "remotes/origin/V420A_open-user-10-QKQ1.191008.001-V420A_OPN_U_B5_200406-",
+    "remotes/origin/V420A_open-user-9-PKQ1.190601.001-V420A_OPEN_U_M6_20200410-release-keys",
+    "remotes/origin/V420A_open-user-9-PKQ1.190601.001-V420A_OPEN_U_M6_20200305-release-keys",
+    "remotes/origin/V420A_rus-user-9-PKQ1.190601.001-V420A_RUS_U_M3_201015-release-keys"
+  ],
+  "/data/android_rom/dumps/vsmart/v620a.git": [
+    "remotes/origin/V620A_open-user-9-PKQ1.190302.001-V620A_OPEN_U_M7_20200515-release-keys",
+    "remotes/origin/V620A_open-user-9-PKQ1.190302.001-V620A_OPEN_U_M6_20200327-release-keys",
+    "remotes/origin/qssi_V620A_open-user-10-QKQ1.191215.002-V620A_OPN_U_B7_200407-",
+    "remotes/origin/V620A_open-user-10-QKQ1.191215.002-V620A_OPN_U_B7_200504-release-keys",
+    "remotes/origin/V620A_open-user-10-QKQ1.191215.002-V620A_OPN_U_B9_200528-release-keys",
+    "remotes/origin/qssi_V620A_open-user-10-QKQ1.191215.002-V620A_OPN_U_B7_200417-",
+    "remotes/origin/qssi_V620A_open-user-10-QKQ1.191215.002-V620A_OPN_U_B7_200404-",
+    "remotes/origin/V620A_open-user-9-PKQ1.190302.001-V620A_OPEN_U_M5_20200213-release-keys",
+    "remotes/origin/V620A_open-user-9-PKQ1.190302.001-V620A_OPEN_U_M4_20200113-release-keys",
+    "remotes/origin/qssi_V620A_open-user-10-QKQ1.191215.002-V620A_OPEN_U_B7_200425-release-keys",
+    "remotes/origin/V620A_open-user-9-PKQ1.190302.001-V620A_OPEN_U_M8_20200526-release-keys"
+  ],
+  "/data/android_rom/dumps/walton/primo_nh4.git": [
+    "remotes/origin/PRIMO_NH4-user-8.1.0-O11019-1559717774-release-keys"
+  ],
+  "/data/android_rom/dumps/walton/primo_s7.git": [
+    "remotes/origin/full_p311-user-9-PPR1.180610.011-12-release-keys"
+  ],
+  "/data/android_rom/dumps/we/f1.git": [
+    "remotes/origin/F1-user-8.1.0-O11019-1538132684-release-keys"
+  ],
+  "/data/android_rom/dumps/we/we_r4.git": [
+    "remotes/origin/full_t861be_v4_8e_xlj_h25b_we_o-user-8.1.0-O11019-1526457068-release-keys"
+  ],
+  "/data/android_rom/dumps/wiko/w-k200.git": [
+    "remotes/origin/full_k200_1g-user-8.1.0-O11019-1535015911-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/cepheus.git": [
+    "remotes/origin/cepheus-user-9-PKQ1.181121.001-9.6.27-release-keys",
+    "remotes/origin/cepheus-user-10-QKQ1.190825.002-V12.0.1.0.QFAEUXM-release-keys",
+    "remotes/origin/cepheus-user-10-QKQ1.190825.002-V12.0.5.0.QFACNXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/jason.git": [
+    "remotes/origin/jason-user-9-PKQ1.181007.001-20.6.18-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/land.git": [
+    "remotes/origin/land-user-6.0.1-MMB29M-V10.2.2.0.MALMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/laurel_sprout.git": [
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.9.0.PFQMIXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.13.0.PFQMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.6.0.QFQEUXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.12.0.PFQMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.17.0.QFQMIXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.3.0.PFQMIXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.5.0.PFQEUXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.1.0.QFQEUXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.20.0.QFQMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.7.0.QFQMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.3.0.QFQEUXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.15.0.QFQMIXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.4.0.PFQEUXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.2.0.QFQEUXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.15.0.PFQEUXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.11.0.QFQMIXM-",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.6.0.PFQMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.8.0.QFQMIXM-release-keys",
+    "remotes/origin/qssi-user-10-QKQ1.190910.002-V11.0.14.0.QFQMIXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.14.0.PFQMIXM-release-keys",
+    "remotes/origin/laurel_sprout-user-9-PKQ1.190416.001-V10.3.4.0.PFQMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/lavender.git": [
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.3.0.PFGEUXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.3.0.PFGCNXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.1.21-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V10.3.4.0.PFGEUXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.6.0.PFGINXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-9.7.11-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-V12.0.1.0.QFGCNXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-9.9.3-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.3.19-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.3.0.PFGMIXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V10.3.7.0.PFGINXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.7.20-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.5.0.PFGMIXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.3.18-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V10.3.6.0.PFGMIXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-V11.0.1.0.QFGCNXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-9.9.24-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V10.2.11.0.PFGINXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.4.0.PFGMIXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.4.0.PFGEUXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.2.0.PFGCNXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.5.26-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V10.3.10.0.PFGMIXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-V12.0.2.0.QFGEUXM-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.3.9-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.3.11-release-keys",
+    "remotes/origin/lavender-user-10-QKQ1.190910.002-20.1.7-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-V11.0.4.0.PFGCNXM-release-keys",
+    "remotes/origin/lavender-user-9-PKQ1.180904.001-9.10.15-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/markw.git": [
+    "remotes/origin/markw-user-6.0.1-MMB29M-V10.2.2.0.MBEMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/nitrogen.git": [
+    "remotes/origin/nitrogen-user-10-QKQ1.190910.002-20.3.5-release-keys",
+    "remotes/origin/nitrogen-user-9-PKQ1.181007.001-V10.3.2.0.PEDCNXM-release-keys",
+    "remotes/origin/nitrogen-user-9-PKQ1.181007.001-V11.0.2.0.PEDCNXM-release-keys",
+    "remotes/origin/nitrogen-user-10-QKQ1.190910.002-V11.0.2.0.QEDCNXM-release-keys",
+    "remotes/origin/nitrogen-user-9-PKQ1.181007.001-V11.0.6.0.PEDMIXM-release-keys",
+    "remotes/origin/nitrogen-user-9-PKQ1.181007.001-9.6.27-release-keys",
+    "remotes/origin/nitrogen-user-10-QKQ1.190910.002-9.12.4-release-keys",
+    "remotes/origin/nitrogen-user-10-QKQ1.190910.002-20.7.16-release-keys",
+    "remotes/origin/nitrogen-user-9-PKQ1.181007.001-V11.0.7.0.PEDMIXM-release-keys",
+    "remotes/origin/nitrogen-user-9-PKQ1.181007.001-9.9.24-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/platina.git": [
+    "remotes/origin/platina-user-9-PKQ1.181007.001-V11.0.2.0.PDTCNXM-release-keys",
+    "remotes/origin/platina-user-9-PKQ1.181007.001-9.7.11-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-V12.0.3.0.QDTMIXM-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-20.6.11-release-keys",
+    "remotes/origin/platina-user-9-PKQ1.181007.001-V10.3.5.0.PDTMIXM-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-9.12.4-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-20.6.17-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-V11.0.3.0.QDTMIXM-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-20.7.20-release-keys",
+    "remotes/origin/platina-user-9-PKQ1.181007.001-9.9.24-release-keys",
+    "remotes/origin/platina-user-8.1.0-OPM1.171019.019-9.1.24-release-keys",
+    "remotes/origin/platina-user-9-PKQ1.181007.001-V11.0.7.0.PDTMIXM-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-V11.0.1.0.QDTMIXM-release-keys",
+    "remotes/origin/platina-user-10-QKQ1.190910.002-V11.0.1.0.QDTCNXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/raphael.git": [
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-20.7.9-release-keys",
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-V12.0.4.0.QFKCNXM-release-keys",
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-20.10.21-release-keys",
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-V12.0.5.0.QFKCNXM-release-keys",
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-V12.0.1.0.QFKMIXM-release-keys",
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-V12.0.2.0.QFKCNXM-release-keys",
+    "remotes/origin/raphael-user-10-QKQ1.190825.002-20.7.16-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/raphaelin.git": [
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V11.0.3.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V12.0.3.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V11.0.4.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V11.0.1.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-9-PKQ1.181121.001-V10.3.3.0.PFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190716.003-V10.4.7.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190716.003-V10.4.8.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V12.0.1.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V11.0.6.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V12.0.0.9.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-10-QKQ1.190825.002-V12.0.2.0.QFKINXM-release-keys",
+    "remotes/origin/raphaelin-user-9-PKQ1.181121.001-V10.3.5.0.PFKINXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/sagit.git": [
+    "remotes/origin/sagit-user-8.0.0-OPR1.170623.027-V10.3.1.0.OCACNXM-release-keys",
+    "remotes/origin/sagit-user-9-PKQ1.190118.001-V10.4.1.0.PCAMIXM-release-keys",
+    "remotes/origin/sagit-user-9-PKQ1.190118.001-9.9.24-release-keys",
+    "remotes/origin/sagit-user-9-PKQ1.190118.001-V11.0.3.0.PCAMIXM-release-keys",
+    "remotes/origin/sagit-user-9-PKQ1.190118.001-V10.4.2.0.PCACNXM-release-keys",
+    "remotes/origin/sagit-user-8.0.0-OPR1.170623.027-8.3.22-release-keys",
+    "remotes/origin/sagit-user-9-PKQ1.190118.001-9.6.17-release-keys",
+    "remotes/origin/sagit-user-9-PKQ1.190118.001-9.9.9-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/sakura.git": [
+    "remotes/origin/sakura-user-8.1.0-OPM1.171019.019-8.9.6-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/sakura_india.git": [
+    "remotes/origin/sakura_india-user-9-PKQ1.180917.001-V11.0.3.0.PDMMIXM-release-keys",
+    "remotes/origin/sakura_india-user-8.1.0-OPM1.171019.019-V9.6.4.0.ODMMIFD-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/tissot.git": [
+    "remotes/origin/tissot-user-8.1.0-OPM1.171019.026-V9.6.5.0.ODHMIFE-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/toco.git": [
+    "remotes/origin/toco-user-10-QKQ1.190825.002-V11.0.1.0.QFNMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/tulip.git": [
+    "remotes/origin/tulip-user-9-PKQ1.180904.001-V10.3.6.0.PEKMIXM-release-keys",
+    "remotes/origin/tulip-user-9-PKQ1.180904.001-V10.3.5.0.PEKMIXM-release-keys",
+    "remotes/origin/tulip-user-9-PKQ1.180904.001-9.6.27-release-keys",
+    "remotes/origin/tulip-user-9-PKQ1.180904.001-V11.0.4.0.PEKMIXM-release-keys",
+    "remotes/origin/tulip-user-9-PKQ1.180904.001-V11.0.5.0.PEKMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/vince_global.git": [
+    "remotes/origin/vince-user-8.1.0-OPM1.171019.019-V11.0.2.0.OEGMIXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/violet.git": [
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V11.0.4.0.PFHCNXM-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.3.4-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V11.0.3.0.PFHCNXM-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V10.3.13.0.PFHINXM-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.4.27-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V11.0.9.0.PFHINXM-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.4.1-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-V11.0.1.0.QFHCNXM-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-9.7.11-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V10.3.9.0.PFHCNXM-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-9.8.12-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.5.11-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V11.0.6.0.PFHINXM-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.7.16-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V11.0.8.0.PFHINXM-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-9.9.24-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.8.4-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-9.7.4-release-keys",
+    "remotes/origin/violet-user-10-QKQ1.190915.002-20.3.19-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V10.3.12.0.PFHINXM-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V10.3.7.0.PFHINXM-release-keys",
+    "remotes/origin/violet-user-9-PKQ1.181203.001-V11.0.5.0.PFHINXM-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/wayne.git": [
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-V10.3.4.0.PDCCNXM-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-V10.3.3.0.PDCCNXM-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-V10.3.6.0.PDCCNXM-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-9.6.20-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-V11.0.2.0.PDCCNXM-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-V11.0.5.0.PDCCNXM-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-20.6.18-release-keys",
+    "remotes/origin/wayne-user-9-PKQ1.180904.001-9.9.24-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomi/whyred.git": [
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.8.9-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-V11.0.2.0.PEIMIXM-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.9.24-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-V10.3.2.0.PEIMIXM-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.6.27-release-keys",
+    "remotes/origin/whyred-user-7.1.1-NGI77B-V9.2.13.0.NEIMIEK-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.7.11-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.8.26-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-V10.3.1.0.PEIMIXM-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-20.3.12-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-20.6.18-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-V10.3.4.0.PEICNXM-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.8.8-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-9.9.3-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-V10.3.5.0.PEICNXM-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-V11.0.3.0.PEIMIXM-release-keys",
+    "remotes/origin/whyred-user-9-PKQ1.180904.001-20.4.27-release-keys"
+  ],
+  "/data/android_rom/dumps/xiaomimijia/babel.git": [
+    "remotes/origin/Mitranslator-user-8.1.0-O11019-1570874214-release-keys"
+  ],
+  "/data/android_rom/dumps/zte/msm8909w.git": [
+    "remotes/origin/ZW20-user-8.1.0-OPM1.171019.011-148-release-keys"
+  ],
+  "/data/android_rom/dumps/zte/p725a12.git": [
+    "remotes/origin/lito-user-10-QKQ1.200415.002-20200522.150951-release-keys"
+  ]
+}
