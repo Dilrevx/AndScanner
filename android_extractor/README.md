@@ -5,7 +5,7 @@ The firmware unpacking tool
 1. Please refer to the README_old.md file in this folder.  
 2. For best results, ensure the version of Python’s protobuf is 3.20.0. Higher versions may cause failures.
 
-## ext_rom.py脚本使用说明
+## Instructions for Using the ext_rom.py
 ```
 python3|python ext_rom.py <rom_path> <rom_ext>
 # <rom_path>  
