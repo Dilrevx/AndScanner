@@ -1,1 +1,1 @@
-cd android_extractor/ && uv run ext_rom.py /data/lhq/android-roms/google/comet-ad1a.240530.030-factory-77dca584.zip /data/lhq/android-roms/google/unpacked/
+cd android_extractor/ && uv run ext_rom.py /data/lhq/android-roms/google/roms/felix-td3a.230203.070.a1-factory-d935f019.zip /data/lhq/android-roms/google/unpacked/felix-td3a.230203.070.a1-factory-d935f019

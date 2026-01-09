@@ -1,41 +1,43 @@
 import csv
+import hashlib
 import json
+import logging
 import os
 import time
-import hashlib
 import zipfile
-import logging
-
-from analysis.TestEngine import TestEngine
 from concurrent.futures.thread import ThreadPoolExecutor
 
+from analysis.TestEngine import TestEngine
 
-def runBasicTest(uuid,targetFirmware):
-    #uuid = "0027C159EF6B441B"
+
+def runBasicTest(uuid, targetFirmware):
+    # uuid = "0027C159EF6B441B"
     engine = TestEngine(targetFirmware)
     # engine.loadAllBasicTests(allBasicTests)
     result = engine.executeBasicTestByUUID(uuid)
     print(uuid, result)
-        
+
+
 def runVulnLogic(firmware):
     engine = TestEngine(firmware)
     reports = engine.runAllVulnLogicTest()
     print(reports)
-    
-def testSingleVuln(cve,firmware):
+
+
+def testSingleVuln(cve, firmware):
     engine = TestEngine(firmware)
     # engine.loadAllBasicTests(allBasicTests)
     vulnObject = engine.getVulnLogicByCVE(cve)
     print(vulnObject)
-    
+
     isVulnerable = engine.runVulnLogicTest(vulnObject["testVulnerable"])
     isFixed = engine.runVulnLogicTest(vulnObject["testFixed"])
     isNotAffected = engine.runVulnLogicTest(vulnObject["testNotAffected"])
     print(isFixed)
     print(isVulnerable)
     print(isNotAffected)
-    
-    print(engine.testWorker([cve,vulnObject]))
+
+    print(engine.testWorker([cve, vulnObject]))
     print(engine._basicTestResultCache)
 
 
@@ -58,83 +60,80 @@ def loadBuildProperties(filePath):
     return buildProperties
 
 
-def md5_check(filename,hash_factory=hashlib.md5,chunk_num_blocks=128):
-    h=hash_factory()
-    with open(filename,'rb') as f:
-        for chunk in iter(lambda:f.read(chunk_num_blocks*h.block_size),b''):
+def md5_check(filename, hash_factory=hashlib.md5, chunk_num_blocks=128):
+    h = hash_factory()
+    with open(filename, "rb") as f:
+        for chunk in iter(lambda: f.read(chunk_num_blocks * h.block_size), b""):
             h.update(chunk)
-    return h.hexdigest()    
+    return h.hexdigest()
 
 
-def brand_cve_check(rom_name,root_path,rom_path,rom_check_path):
-    model_name=rom_name
-    
-    logger=logging.getLogger(model_name)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(message)s')
-    hd = logging.FileHandler('./logs/'+model_name+'.log', 'a+', encoding='utf-8')
+def brand_cve_check(rom_name, root_path, rom_path, rom_check_path):
+    model_name = rom_name
+
+    logger = logging.getLogger(model_name)
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(message)s")
+    hd = logging.FileHandler("./logs/" + model_name + ".log", "a+", encoding="utf-8")
     hd.setFormatter(formatter)
     logger.addHandler(hd)
     logger.setLevel(logging.DEBUG)
-    logger.debug("Model Name:"+model_name)
-    logger.debug("Model Path:"+rom_path)
-    logger.debug("Root Path:"+root_path)
-    
-    
-    prop_path=rom_check_path+'/system/build.prop'
-    prop_path=os.path.abspath(prop_path)
-    check_path=rom_check_path
-    if os.path.isfile(prop_path)==False:
+    logger.debug("Model Name:" + model_name)
+    logger.debug("Model Path:" + rom_path)
+    logger.debug("Root Path:" + root_path)
+
+    prop_path = rom_check_path + "/system/build.prop"
+    prop_path = os.path.abspath(prop_path)
+    check_path = rom_check_path
+    if os.path.isfile(prop_path) == False:
         print("Can not find build.prop")
         logger.debug("Can not find build.prop")
         return 0
-    logger.debug("Check Path:"+check_path)
-    logger.debug("Prop Path:"+prop_path)
-    
+    logger.debug("Check Path:" + check_path)
+    logger.debug("Prop Path:" + prop_path)
 
+    prop_dict = loadBuildProperties(prop_path)
 
-    prop_dict=loadBuildProperties(prop_path)
+    if "ro.system.build.fingerprint" in prop_dict.keys():
+        prop_fingerprint = prop_dict.get("ro.system.build.fingerprint")
+    if "ro.build.fingerprint" in prop_dict.keys():
+        prop_fingerprint = prop_dict.get("ro.build.fingerprint")
 
-    if 'ro.system.build.fingerprint' in prop_dict.keys():
-        prop_fingerprint=prop_dict.get('ro.system.build.fingerprint')
-    if 'ro.build.fingerprint' in prop_dict.keys():
-        prop_fingerprint=prop_dict.get('ro.build.fingerprint')
-    
-    if 'ro.system.build.version.incremental' in prop_dict.keys():
-        prop_version=prop_dict.get('ro.system.build.version.incremental')
-    if 'ro.build.version.release' in prop_dict.keys():
-        prop_version=prop_dict.get('ro.build.version.release')
+    if "ro.system.build.version.incremental" in prop_dict.keys():
+        prop_version = prop_dict.get("ro.system.build.version.incremental")
+    if "ro.build.version.release" in prop_dict.keys():
+        prop_version = prop_dict.get("ro.build.version.release")
 
-    build_date_utc=int(prop_dict.get('ro.build.date.utc'))
+    build_date_utc = int(prop_dict.get("ro.build.date.utc"))
     timeArray = time.localtime(build_date_utc)
     build_date = time.strftime("%Y%m%d%H%M%S", timeArray)
 
-    if 'ro.huawei.build.version.security_patch' in prop_dict.keys():
-        patch_date=prop_dict.get('ro.huawei.build.version.security_patch')
+    if "ro.huawei.build.version.security_patch" in prop_dict.keys():
+        patch_date = prop_dict.get("ro.huawei.build.version.security_patch")
     else:
-        patch_date=prop_dict.get('ro.build.version.security_patch')
+        patch_date = prop_dict.get("ro.build.version.security_patch")
 
-    patch_date=patch_date[0:4]+patch_date[5:7]+patch_date[8:10]+'000000'
+    patch_date = patch_date[0:4] + patch_date[5:7] + patch_date[8:10] + "000000"
     timeArray = time.strptime(patch_date, "%Y%m%d%H%M%S")
     patch_date_utc = int(time.mktime(timeArray))
 
-    delay=(build_date_utc-patch_date_utc)
-    if delay<0:
-        delay=0
+    delay = build_date_utc - patch_date_utc
+    if delay < 0:
+        delay = 0
     else:
-        delay=delay//(60*60*24*30)
+        delay = delay // (60 * 60 * 24 * 30)
 
-    if 'ro.system.build.version.sdk' in prop_dict.keys():
-        api_level=prop_dict.get('ro.system.build.version.sdk')
-    if 'ro.build.version.sdk' in prop_dict.keys():
-        api_level=prop_dict.get('ro.build.version.sdk')
+    if "ro.system.build.version.sdk" in prop_dict.keys():
+        api_level = prop_dict.get("ro.system.build.version.sdk")
+    if "ro.build.version.sdk" in prop_dict.keys():
+        api_level = prop_dict.get("ro.build.version.sdk")
 
-    if 'ro.fota.oem' not in prop_dict.keys():
-        if 'ro.product.system.brand' in prop_dict.keys():
-            vendor=prop_dict.get('ro.product.system.brand')
-        elif 'ro.product.brand' in prop_dict.keys():
-            vendor=prop_dict.get('ro.product.brand')
+    if "ro.fota.oem" not in prop_dict.keys():
+        if "ro.product.system.brand" in prop_dict.keys():
+            vendor = prop_dict.get("ro.product.system.brand")
+        elif "ro.product.brand" in prop_dict.keys():
+            vendor = prop_dict.get("ro.product.brand")
     else:
-        vendor=prop_dict.get('ro.fota.oem')
+        vendor = prop_dict.get("ro.fota.oem")
 
     print()
     print(model_name)
@@ -154,117 +153,152 @@ def brand_cve_check(rom_name,root_path,rom_path,rom_check_path):
     print(delay)
     print()
 
-    logger.debug("api_level:"+str(api_level))
-    logger.debug("vendor:"+vendor)
-    logger.debug("prop_fingerprint:"+prop_fingerprint)
-    logger.debug("prop_version:"+prop_version)
-    
-    logger.debug("build_date_utc:"+str(build_date_utc))
-    logger.debug("build_date:"+str(build_date))
-    logger.debug("patch_date_utc:"+str(patch_date_utc))
-    logger.debug("patch_date:"+str(patch_date))
-    logger.debug("delay:"+str(delay))
+    logger.debug("api_level:" + str(api_level))
+    logger.debug("vendor:" + vendor)
+    logger.debug("prop_fingerprint:" + prop_fingerprint)
+    logger.debug("prop_version:" + prop_version)
+
+    logger.debug("build_date_utc:" + str(build_date_utc))
+    logger.debug("build_date:" + str(build_date))
+    logger.debug("patch_date_utc:" + str(patch_date_utc))
+    logger.debug("patch_date:" + str(patch_date))
+    logger.debug("delay:" + str(delay))
     logger.debug("================")
-    
-    
-    #Merge system_ext
-    if os.path.isdir(check_path+'/system/system_ext/')==False \
-       or os.path.islink(check_path+'/system/system_ext/') \
-       or len(os.listdir(check_path+'/system/system_ext/'))==0:
-        print('system_ext_need_merge')
-        logger.debug('system_ext_need_merge')
-        
-        ordera='rm -r '+check_path+'/system/system_ext'
-        orderb='rm '+check_path+'/system/system_ext'
-        order1='mkdir '+check_path+'/system/system_ext'
-        ext_path=check_path.replace('/system','/system_ext')
-        order2='cp -r '+ext_path+'/* '+check_path+'/system/system_ext/'
-        
-        logger.debug('Merge order:'+order2)
+
+    # Merge system_ext
+    if (
+        os.path.isdir(check_path + "/system/system_ext/") == False
+        or os.path.islink(check_path + "/system/system_ext/")
+        or len(os.listdir(check_path + "/system/system_ext/")) == 0
+    ):
+        print("system_ext_need_merge")
+        logger.debug("system_ext_need_merge")
+
+        ordera = "rm -r " + check_path + "/system/system_ext"
+        orderb = "rm " + check_path + "/system/system_ext"
+        order1 = "mkdir " + check_path + "/system/system_ext"
+        ext_path = check_path.replace("/system", "/system_ext")
+        order2 = "cp -r " + ext_path + "/* " + check_path + "/system/system_ext/"
+
+        logger.debug("Merge order:" + order2)
         try:
             os.system(ordera)
             os.system(orderb)
-            os.system(order1) 
+            os.system(order1)
             os.system(order2)
-            if len(os.listdir(check_path+'/system/system_ext/'))!=0:
-                logger.debug(model_name+' merge success')
+            if len(os.listdir(check_path + "/system/system_ext/")) != 0:
+                logger.debug(model_name + " merge success")
             else:
-                logger.debug(model_name+' still has problem')
+                logger.debug(model_name + " still has problem")
         except:
-            print('merge failed')
-            logger.debug('Merge failed')
+            print("merge failed")
+            logger.debug("Merge failed")
     else:
         logger.debug("system_ext don't need merge")
         logger.debug("================")
 
-
-    #Repair apk
-#    all_files=open('assets/new_official_check_files.json','r')
-    all_files=open('assets/checklist_2303_offical.json','r')
-    all_files_dic=json.load(all_files)
+    # Repair apk
+    #    all_files=open('assets/new_official_check_files.json','r')
+    all_files = open("assets/checklist_2303_offical.json", "r")
+    all_files_dic = json.load(all_files)
     all_files.close()
-    
-    all_files_real=all_files_dic[api_level]
-    need_repaire=False
+
+    all_files_real = all_files_dic[api_level]
+    need_repaire = False
     for apk_0 in all_files_real:
-        apk_real_path=check_path+apk_0
-        if os.path.isfile(apk_real_path) and apk_0.endswith('.apk'):
-            r=os.popen('zip '+apk_real_path).read()
-            if r.find('Zip file structure invalid')!=-1:
-                need_repaire=True
+        apk_real_path = check_path + apk_0
+        if os.path.isfile(apk_real_path) and apk_0.endswith(".apk"):
+            r = os.popen("zip " + apk_real_path).read()
+            if r.find("Zip file structure invalid") != -1:
+                need_repaire = True
                 print(r)
-                logger.debug('Find apk needs repair:'+apk_0)
-                
+                logger.debug("Find apk needs repair:" + apk_0)
+
                 try:
-                    os.system('cp '+apk_real_path+' '+apk_real_path+'.backup')
-                    os.system('7za x '+apk_real_path+' -o'+apk_real_path+'.temp')
-                    os.system('7za a -r -tzip '+apk_real_path+'.temp.apk '+apk_real_path+'.temp')
-                    os.system('rm -rf '+apk_real_path+'.temp')
-                    os.system('mv '+apk_real_path+' '+apk_real_path+'.origin')
-                    os.system('mv '+apk_real_path+'.temp.apk '+apk_real_path)
+                    os.system("cp " + apk_real_path + " " + apk_real_path + ".backup")
+                    os.system(
+                        "7za x " + apk_real_path + " -o" + apk_real_path + ".temp"
+                    )
+                    os.system(
+                        "7za a -r -tzip "
+                        + apk_real_path
+                        + ".temp.apk "
+                        + apk_real_path
+                        + ".temp"
+                    )
+                    os.system("rm -rf " + apk_real_path + ".temp")
+                    os.system("mv " + apk_real_path + " " + apk_real_path + ".origin")
+                    os.system("mv " + apk_real_path + ".temp.apk " + apk_real_path)
                 except:
-                    logger.debug('Repair failed'+apk_0)
-   
-    r=os.popen('find '+check_path+' -name "*.backup"').read()
-    logger.debug('Repaired Apks:'+str(need_repaire))
-    logger.debug('Repaired Apks'+r)
-    
+                    logger.debug("Repair failed" + apk_0)
 
-    if api_level=='30' or api_level=='31' or api_level=='28':
-        print('OK')
+    r = os.popen("find " + check_path + ' -name "*.backup"').read()
+    logger.debug("Repaired Apks:" + str(need_repaire))
+    logger.debug("Repaired Apks" + r)
 
-        print('========CVE check=======')
+    if api_level == "30" or api_level == "31" or api_level == "28":
+        print("OK")
+
+        print("========CVE check=======")
         engine = TestEngine(check_path)
         reports = engine.runAllVulnLogicTest()
         print(reports)
-        json_file=open('./result/'+model_name+'.cve.json',"a+",encoding='utf-8')
-        json_file.write(json.dumps(reports,indent = 4,ensure_ascii= False))
+        json_file = open("./result/" + model_name + ".cve.json", "a+", encoding="utf-8")
+        json_file.write(json.dumps(reports, indent=4, ensure_ascii=False))
         json_file.close()
-        #reports=json.load(open('./'+model_name+'.cve.json',"a+",encoding='utf-8'))
+        # reports=json.load(open('./'+model_name+'.cve.json',"a+",encoding='utf-8'))
 
-        sev_json=open('assets/vuln_level.json','r',encoding='utf-8')
-        sev_dict=json.load(sev_json)
+        sev_json = open("assets/vuln_level.json", "r", encoding="utf-8")
+        sev_dict = json.load(sev_json)
         sev_json.close()
-        temp_dic={'low':0,'moderate':0,'high':0,'critical':0}
+        temp_dic = {"low": 0, "moderate": 0, "high": 0, "critical": 0}
         for r in reports:
-            if r=='Summary':
+            if r == "Summary":
                 continue
-            if reports[r]=='F':
-                temp_dic[sev_dict[r]]+=1
-        print(reports['Summary']['Patched'],reports['Summary']['Missing'],reports['Summary']['Claimed'],
-              reports['Summary']['Inconclusive'],reports['Summary']['NotAffected'],
-              temp_dic['low'],temp_dic['moderate'],temp_dic['high'],temp_dic['critical'])
+            if reports[r] == "F":
+                temp_dic[sev_dict[r]] += 1
+        print(
+            reports["Summary"]["Patched"],
+            reports["Summary"]["Missing"],
+            reports["Summary"]["Claimed"],
+            reports["Summary"]["Inconclusive"],
+            reports["Summary"]["NotAffected"],
+            temp_dic["low"],
+            temp_dic["moderate"],
+            temp_dic["high"],
+            temp_dic["critical"],
+        )
 
-        csv_file=open('result.csv','a+',encoding='utf-8',newline='')
-        csv_writer=csv.writer(csv_file)
-        csv_writer.writerow([model_name,root_path,rom_path,check_path,api_level,vendor,prop_fingerprint,
-                      prop_version,build_date_utc,build_date,patch_date_utc,patch_date,delay,
-                      reports['Summary']['Patched'],reports['Summary']['Missing'],reports['Summary']['Claimed'],
-                      reports['Summary']['Inconclusive'],reports['Summary']['NotAffected'],
-                      temp_dic['low'],temp_dic['moderate'],temp_dic['high'],temp_dic['critical']])
+        csv_file = open("result.csv", "a+", encoding="utf-8", newline="")
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(
+            [
+                model_name,
+                root_path,
+                rom_path,
+                check_path,
+                api_level,
+                vendor,
+                prop_fingerprint,
+                prop_version,
+                build_date_utc,
+                build_date,
+                patch_date_utc,
+                patch_date,
+                delay,
+                reports["Summary"]["Patched"],
+                reports["Summary"]["Missing"],
+                reports["Summary"]["Claimed"],
+                reports["Summary"]["Inconclusive"],
+                reports["Summary"]["NotAffected"],
+                temp_dic["low"],
+                temp_dic["moderate"],
+                temp_dic["high"],
+                temp_dic["critical"],
+            ]
+        )
         csv_file.close()
-        
-       
+
         """
         #Collect apks if necessary
         print('========APK deal=======')
@@ -297,27 +331,42 @@ def brand_cve_check(rom_name,root_path,rom_path,rom_check_path):
         print(len(apk_dic[model_name])) 
 
         """
-        print('=======Done======')
+        print("=======Done======")
         return 1
     else:
         print("API not match")
         return 0
 
 
-def mult_deal(rom_name,root_path,rom_path,count):
+def mult_deal(rom_name, root_path, rom_path, count):
     try:
-        os.system('unzip '+rom_path+' -d ./temp_'+str(count))
-        temp1=os.listdir('./temp_'+str(count))
-        rom_check_path='./temp_'+str(count)+'/'+temp1[0]+'/system/'
-        rom_check_path=os.path.abspath(rom_check_path)
+        os.system("unzip " + rom_path + " -d ./temp_" + str(count))
+        temp1 = os.listdir("./temp_" + str(count))
+        rom_check_path = "./temp_" + str(count) + "/" + temp1[0] + "/system/"
+        rom_check_path = os.path.abspath(rom_check_path)
         print(rom_check_path)
-        brand_cve_check(rom_name,root_path,rom_path,rom_check_path)
-        os.system('rm -rf ./temp_'+str(count))
+        brand_cve_check(rom_name, root_path, rom_path, rom_check_path)
+        os.system("rm -rf ./temp_" + str(count))
     except:
-        print('deal error')
-    
-if __name__ == '__main__':
-    root_path='../oneplus/'
-    rom_path='../oneplus/oneplus3/'
-    rom_check_path='../oneplus/oneplus3/'
-    brand_cve_check('oneplus3', root_path, rom_path, rom_check_path)
+        print("deal error")
+
+
+import typer
+
+
+def main(
+    rom_name: str = typer.Argument(..., help="The name of the ROM to check."),
+    root_path: str = typer.Argument(..., help="The root path of the ROMs."),
+    rom_path: str = typer.Argument(..., help="The path to the specific ROM."),
+    rom_check_path: str = typer.Argument(..., help="The path to check within the ROM."),
+):
+    brand_cve_check(rom_name, root_path, rom_path, rom_check_path)
+
+
+if __name__ == "__main__":
+    # root_path = "../oneplus/"
+    # rom_path = "../oneplus/oneplus3/"
+    # rom_check_path = "../oneplus/oneplus3/"
+    # brand_cve_check("oneplus3", root_path, rom_path, rom_check_path)
+
+    typer.run(main)
